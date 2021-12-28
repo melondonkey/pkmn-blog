@@ -1,18 +1,23 @@
 ---
-title: "Welcome to Pokemon Analysis"
+title: "Welcome to Pokemon Data Analysis, Statistics, and Probability"
 description: |
-  Welcome to our new blog, Pokemon Analysis. We hope you enjoy 
-  reading what we have to say!
+  What can data teach us about Pokemon?
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: melondonkey
 date: 12-28-2021
 output:
   distill::distill_article:
     self_contained: false
 ---
+
+This blog is about statistics, probability, and data analysis in Pokemon.  I'll publish when I have something to say.  
+
+A little about me:
+
+ * I'm not that good at Pokemon.  Getting into VGC but only in the last month or so.  I've played casually off and on for many years but I barely know the type chart.
+ 
+ * I don't believe data analysis has all the answers.  It may not even be all that useful for expert players.  I've seen lots of bad data analysis on Pokemon that reinforces my belief that data science is a puerile discipline.  However, I do think data analysis can help beginners like me climb the learning curve faster.    
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
