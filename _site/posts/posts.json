@@ -11,9 +11,9 @@
     ],
     "date": "2021-12-28",
     "categories": [],
-    "contents": "\nThis blog is about statistics, probability, and data analysis in Pokemon. I’ll publish when I have something to say.\nA little about me:\nI’m not that good at Pokemon. Getting into VGC but only in the last month or so. I’ve played casually off and on for many years but I barely know the type chart.\nI don’t believe data analysis has all the answers. It may not even be all that useful for expert players. I’ve seen lots of bad data analysis on Pokemon that reinforces my belief that data science is a puerile discipline. However, I do think data analysis can help beginners like me climb the learning curve faster.\n\n\n\n",
+    "contents": "\nThis blog is about statistics, probability, and data analysis in Pokemon. I’ll publish when I have something to say.\nA little about me:\nI’m not that good at Pokemon. Getting into VGC but only in the last month or so. I’ve played casually off and on for many years but I barely know the type chart. I do not care at all about PoGo or the TCG or the anime. I like all the video games and have no hot takes.\nI don’t believe data analysis has all the answers. It may not even be all that useful for expert players. I’ve seen lots of bad data analysis on Pokemon that reinforces my belief that data science is a puerile discipline. I’ll probably do my fair share of that as well. However, I do think data analysis can help beginners like me climb the learning curve faster.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-12-28T14:01:34-05:00",
-    "input_file": "welcome.knit.md"
+    "last_modified": "2021-12-28T14:04:41-05:00",
+    "input_file": {}
   }
 ]

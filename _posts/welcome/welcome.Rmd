@@ -14,9 +14,9 @@ This blog is about statistics, probability, and data analysis in Pokemon.  I'll 
 
 A little about me:
 
- * I'm not that good at Pokemon.  Getting into VGC but only in the last month or so.  I've played casually off and on for many years but I barely know the type chart.
+ * I'm not that good at Pokemon.  Getting into VGC but only in the last month or so.  I've played casually off and on for many years but I barely know the type chart. I do not care at all about PoGo or the TCG or the anime.  I like all the video games and have no hot takes.  
  
- * I don't believe data analysis has all the answers.  It may not even be all that useful for expert players.  I've seen lots of bad data analysis on Pokemon that reinforces my belief that data science is a puerile discipline.  However, I do think data analysis can help beginners like me climb the learning curve faster.    
+ * I don't believe data analysis has all the answers.  It may not even be all that useful for expert players.  I've seen lots of bad data analysis on Pokemon that reinforces my belief that data science is a puerile discipline.  I'll probably do my fair share of that as well.  However, I do think data analysis can help beginners like me climb the learning curve faster.    
 
 
 ```{r setup, include=FALSE}
