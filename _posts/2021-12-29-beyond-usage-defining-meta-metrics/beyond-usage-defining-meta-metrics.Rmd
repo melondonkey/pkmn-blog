@@ -1,0 +1,62 @@
+---
+title: "VGC11 Offensive Power Rankings: Coverage Move Types"
+description: |
+  Let's measure coverage effectiveness for each type and evaluate the current VGC11 meta.
+author:
+  - name: melondonkey
+    url: {https://pokemon-data-analysis.netlify.app}
+date: 2021-12-29
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Offensive Power Rankings:  Which move type is most effective into the meta? 
+
+This is probably a simple question to answer for experienced players via intuition, so why even bother with data?  
+
+To answer this question, we need a data definition of the meta.  We will use two:
+
+1.  All functional Pokemon in the meta.  This will serve as a good baseline and in the absence of data such as usage statistics can be a good starting point.  Functional is the key word here as we will only consider fully evolved Pokemon and common eviolite mons such as Porygon2, Dusclops, etc.
+
+2.  Usage-adjusted Pokemon.  We will also compute statistics using usage statistics as weights.  As a simple example, imagine taking the average HP of every functional Pokemon (it's 82).  However, weighted averages give more weight based on usage, so it is sum(HP*usage)/sum(usage).  No insight here but this principle will be important.
+
+Let's dive in and look at our current meta: VGC 2021 Season 11, per Pikalytics:
+
+
+So what move typings provide the most effective coverage into this meta?  For this I joined the types to these mons and aggregate by type combinations.  Now we create a dataset of every possible attack type (barring Flying Press) combined with every monotype and dual type and average the effectiveness over the attacks.  This gives us our average attack effectiveness. 
+
+```{r}
+library(readr)
+library(dplyr)
+library(DT)
+
+df <- readr::read_csv(here::here('offensive-power-rankings_vgc11.csv'))
+
+colnames(df) <- c('Attack Type', 'avg_effectiveness', 'meta_wgt_effectiveness')
+df %>%
+  mutate(
+    diff = round(meta_wgt_effectiveness - avg_effectiveness,2),
+    avg_effectiveness = round(avg_effectiveness, 2),
+    meta_wgt_effectiveness = round(meta_wgt_effectiveness, 2)) %>%
+  arrange(-meta_wgt_effectiveness) %>%
+  rename(`Simple Average Effectiveness`= avg_effectiveness,
+         `Meta-Weighted Effectiveness` = meta_wgt_effectiveness,
+         `Meta Skew` = diff) %>%
+  
+  datatable(options = list(pageLength=18))
+
+```
+
+What conclusions can we draw from this:
+
+* Ground, Rock, and Ice provide the best offensive coverage in general and the current meta has not warped this principle
+* Fire, Steel, and Psychic drop significantly from their expected positions when we adjust our metrics for the current meta
+
+
+We can also use these principles to evaluate whether physical or special moves are better into the meta but to be honest my findings were uninteresting here as the weighted average Defense vs Special Defense split was pretty much 50/50.  I may create a dashboard needle to monitor this over time, though.  
