@@ -18,16 +18,26 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Offensive Power Rankings:  Which move type is most effective into the meta? 
 
-This is probably a simple question to answer for experienced players via intuition, so why even bother with data?  
+### Why Do It?
 
-To answer this question, we need a data definition of the meta.  We will use two:
+This is probably a simple question to answer for experienced players via intuition, so why even bother with data? 
+
+* Beginners can quickly develop an intuition for the game that would take longer by experience alone
+* We can monitor and quantify changes in the meta over time.  
+* It's fun
+
+### How to Do It
+
+To quantify coverage effectiveness into the meta, we need a data definition of the meta.  We will use two:
 
 1.  All functional Pokemon in the meta.  This will serve as a good baseline and in the absence of data such as usage statistics can be a good starting point.  Functional is the key word here as we will only consider fully evolved Pokemon and common eviolite mons such as Porygon2, Dusclops, etc.
 
 2.  Usage-adjusted Pokemon.  We will also compute statistics using usage statistics as weights.  As a simple example, imagine taking the average HP of every functional Pokemon (it's 82).  However, weighted averages give more weight based on usage, so it is sum(HP*usage)/sum(usage).  No insight here but this principle will be important.
 
-Let's dive in and look at our current meta: VGC 2021 Season 11, per Pikalytics:
 
+### Doing It
+
+Let's dive in and look at our current meta: VGC 2021 Season 11, per Pikalytics:
 
 So what move typings provide the most effective coverage into this meta?  For this I joined the types to these mons and aggregate by type combinations.  Now we create a dataset of every possible attack type (barring Flying Press) combined with every monotype and dual type and average the effectiveness over the attacks.  This gives us our average attack effectiveness. 
 

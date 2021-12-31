@@ -113,7 +113,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["VGC11 Offensive Power Rankings: Coverage Move Types"]},{"type":"character","attributes":{},"value":["Let's measure coverage effectiveness for each type and evaluate the current VGC11 meta."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["melondonkey"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["2021-12-29"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["VGC11 Offensive Power Rankings: Coverage Move Types"]},{"type":"character","attributes":{},"value":["Let's measure coverage effectiveness for each type and evaluate the current VGC11 meta."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["melondonkey"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["https://pokemon-data-analysis.netlify.app"]}},"value":[{"type":"NULL"}]}]}]},{"type":"character","attributes":{},"value":["2021-12-29"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2074,7 +2074,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"VGC11 Offensive Power Rankings: Coverage Move Types","description":"Let's measure coverage effectiveness for each type and evaluate the current VGC11 meta.","authors":[{"author":"melondonkey","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-12-29T00:00:00.000-05:00","citationText":"melondonkey, 2021"}
+{"title":"VGC11 Offensive Power Rankings: Coverage Move Types","description":"Let's measure coverage effectiveness for each type and evaluate the current VGC11 meta.","authors":[{"author":"melondonkey","authorURL":{"https://pokemon-data-analysis.netlify.app":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-12-29T00:00:00.000-05:00","citationText":"melondonkey, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2111,23 +2111,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="d-article">
 <h2 id="offensive-power-rankings-which-move-type-is-most-effective-into-the-meta">Offensive Power Rankings: Which move type is most effective into the meta?</h2>
-<p>This is probably a simple question to answer for experts, so why even bother with data? I can think of a few reason</p>
-<p>To answer this question, we need a data definition of the meta. We will use two:</p>
+<h3 id="why-do-it">Why Do It?</h3>
+<p>This is probably a simple question to answer for experienced players via intuition, so why even bother with data?</p>
+<ul>
+<li>Beginners can quickly develop an intuition for the game that would take longer by experience alone</li>
+<li>We can monitor and quantify changes in the meta over time.<br />
+</li>
+<li>It’s fun</li>
+</ul>
+<h3 id="how-to-do-it">How to Do It</h3>
+<p>To quantify coverage effectiveness into the meta, we need a data definition of the meta. We will use two:</p>
 <ol type="1">
 <li><p>All functional Pokemon in the meta. This will serve as a good baseline and in the absence of data such as usage statistics can be a good starting point. Functional is the key word here as we will only consider fully evolved Pokemon and common eviolite mons such as Porygon2, Dusclops, etc.</p></li>
 <li><p>Usage-adjusted Pokemon. We will also compute statistics using usage statistics as weights. As a simple example, imagine taking the average HP of every functional Pokemon (it’s 82). However, weighted averages give more weight based on usage, so it is sum(HP*usage)/sum(usage). No insight here but this principle will be important.</p></li>
 </ol>
+<h3 id="doing-it">Doing It</h3>
 <p>Let’s dive in and look at our current meta: VGC 2021 Season 11, per Pikalytics:</p>
 <p>So what move typings provide the most effective coverage into this meta? For this I joined the types to these mons and aggregate by type combinations. Now we create a dataset of every possible attack type (barring Flying Press) combined with every monotype and dual type and average the effectiveness over the attacks. This gives us our average attack effectiveness.</p>
 <div class="layout-chunk" data-layout="l-body">
-<div id="htmlwidget-3bcf3ed174490c7e2509" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3bcf3ed174490c7e2509">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18"],["Ground","Rock","Ice","Water","Fairy","Fighting","Fire","Flying","Ghost","Poison","Electric","Grass","Dark","Steel","Bug","Normal","Dragon","Psychic"],[1.32,1.27,1.21,1.15,1.15,1.14,1.21,1.15,1.04,0.89,0.94,0.93,1.05,1.1,0.93,0.8,0.94,0.99],[1.27,1.21,1.2,1.19,1.14,1.09,1.08,1.08,0.95,0.93,0.92,0.92,0.91,0.89,0.88,0.88,0.85,0.78],[-0.06,-0.06,-0,0.04,-0.01,-0.06,-0.13,-0.07,-0.09,0.04,-0.02,-0.01,-0.13,-0.21,-0.06,0.08,-0.09,-0.21]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Attack Type<\/th>\n      <th>Simple Average Effectiveness<\/th>\n      <th>Meta-Weighted Effectiveness<\/th>\n      <th>Meta Skew<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":18,"columnDefs":[{"className":"dt-right","targets":[2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,18,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-99bac1111f532597742c" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-99bac1111f532597742c">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18"],["Ground","Rock","Ice","Water","Fairy","Fighting","Fire","Flying","Ghost","Poison","Electric","Grass","Dark","Steel","Bug","Normal","Dragon","Psychic"],[1.32,1.27,1.21,1.15,1.15,1.14,1.21,1.15,1.04,0.89,0.94,0.93,1.05,1.1,0.93,0.8,0.94,0.99],[1.27,1.21,1.2,1.19,1.14,1.09,1.08,1.08,0.95,0.93,0.92,0.92,0.91,0.89,0.88,0.88,0.85,0.78],[-0.06,-0.06,-0,0.04,-0.01,-0.06,-0.13,-0.07,-0.09,0.04,-0.02,-0.01,-0.13,-0.21,-0.06,0.08,-0.09,-0.21]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Attack Type<\/th>\n      <th>Simple Average Effectiveness<\/th>\n      <th>Meta-Weighted Effectiveness<\/th>\n      <th>Meta Skew<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":18,"columnDefs":[{"className":"dt-right","targets":[2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,18,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 </div>
 <p>What conclusions can we draw from this:</p>
 <ul>
-<li>Ground, Rock, and Ice provide the best offensive coverage</li>
-<li>Fire, Steel, and Psychic drop significantly when we adjust our metrics for the current meta, though Fire is by no means bad</li>
+<li>Ground, Rock, and Ice provide the best offensive coverage in general and the current meta has not warped this principle</li>
+<li>Fire, Steel, and Psychic drop significantly from their expected positions when we adjust our metrics for the current meta</li>
 </ul>
+<p>We can also use these principles to evaluate whether physical or special moves are better into the meta but to be honest my findings were uninteresting here as the weighted average Defense vs Special Defense split was pretty much 50/50. I may create a dashboard needle to monitor this over time, though.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
