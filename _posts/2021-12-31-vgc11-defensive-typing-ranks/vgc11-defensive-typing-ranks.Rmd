@@ -67,18 +67,13 @@ pics %>%
   group_by(type) %>%
   summarize(Pokemon = paste0(picture, collapse = " ")) %>%
   left_join(defensive_rankings, by='type') %>%
-  select(type, wgt_avg_resistance, avg_resistance,skew, Pokemon, num_4x,
-         num_weaknesses, num_resists, num_doub_resist) %>%
+  select(type, wgt_avg_resistance, avg_resistance,skew, Pokemon) %>%
   arrange(wgt_avg_resistance) %>%
   rename(
     Type= type,
     `Meta-Weighted Resistance`=wgt_avg_resistance,
     `Average Resistance` = avg_resistance,
-    `Meta Skew` = skew, 
-    `No. 4x Weaknesses` = num_4x,
-    `Number of Weaknesses` = num_weaknesses,
-    `Number of Resists` = num_resists,
-    `Number of .25 Resists` = num_doub_resist
+    `Meta Skew` = skew
   ) %>%
   formattable() %>%
   as.datatable(escape=FALSE,
