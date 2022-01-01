@@ -46,6 +46,31 @@ We do a sumproduct over the defensive typing combination by sum(weight*Resistanc
 
 Note that I only used the moves of Pokemon with greater than 5% usage in the meta right now.  I had to hand-curate the data and it was kind of a pain, so I'll be more inclusive when I get this process streamlined.  
 
+So let's examine the weights and make sure there's nothing crazy (I had a typo earlier that made mud shot 50x more important than Behemoth Blade):
+
+```{r, echo=FALSE}
+library(readr)
+library(DT)
+library(dplyr)
+
+weights <- read_csv(here::here('move-weights.csv'))
+
+weights %>%
+  mutate(
+    weight = round(wgt/sum(wgt),4)
+  ) %>%
+  select(Move, weight) %>%
+  
+  arrange(-weight) %>%
+  datatable()
+
+```
+
+So these are the most dominant moves i the meta combining the strength of the Pokemon that use them and the other factors we mentioned.
+
+So which Pokemon are best equipped to deal with these threats?
+
+
 ### Results
 
 Here's the result, sorted by best defensive typing for the meta.  Keep in mind, we're evaluating the defensive typing, so the defense stat of a Pokemon is not taken into account and will have to be done by the user.  I would like to eventually work towards a Pokemon-level defensive ranking but small steps. 
