@@ -18,12 +18,12 @@ As last time we discussed coverage rankings for offensive moves, it is only natu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8DQyRktcG00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Amazingly, wolfey approximates what the data tells us about type resistances through his own intuition and reasoning on the types.  Mortals can approximate his results by looking at the average resistance for each type combination, which can be done in the table below.  But before we get to that, let's talk about fitting the meta into this.
+Amazingly, wolfey approximates what the data tells us about type resistances through his own intuition and reasoning on the types.  Mortals can approximate his results by looking at the average resistance for each type combination, which we'll do later.  We won't get all the nuances he does, but as we'll see it's a good rough guide.  But before we get to that, let's talk about fitting the meta into this and move beyond asking what is good in general to what is good right now?
 
 
 ### Factoring in the Meta
 
-This approximation makes for a good starting place.  It will also have a certain gravity to it so that if the meta ever gets off balance, we could probably expect it to return to its "natural" equilibrium.  
+Using a simple average resistance approximation makes for a good starting place.  It will also have a certain gravity to it so that if the meta ever gets off balance, we could probably expect it to return to its "natural" equilibrium.  We simply enumerate all the possible combinations of offensive typing vs single and dual defensive typings and compute the average resistance for each defensive combination.  
 
 But how can we look deeper into the defensive typings in the current meta? Let's look at all the factors we need to consider:
 
