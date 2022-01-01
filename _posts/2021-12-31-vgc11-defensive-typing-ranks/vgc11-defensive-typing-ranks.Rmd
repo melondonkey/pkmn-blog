@@ -88,7 +88,6 @@ Perhaps the most interesting result from this is that we can quantify just how m
 
 * Sort by **Meta-Weighted Resistance** to get the currently best defensive typings.  It's electric/flying!  Maybe Zapdos deserves some more love
 
-* Reverse sort this and look how much the meta has punished Coalossal.  Everyone hates you, Coalossal!  
 
 * Sort and Reverse Sort by **Average Resistance** to see why Fairy/Steel was so good in the first place and why Aurorus is truly terrible
 
@@ -97,6 +96,11 @@ Perhaps the most interesting result from this is that we can quantify just how m
 
 However, the most interesting part to me is the **Meta Skew**, which is derived simply by subtracting the average resistance from the weighted average resistance.  High positive values indicate the meta has evolved to make them much less viable than they would be normally.  This is true for Stakataka, Coalossal, Heatran, and others.  
 
-On the flip side, the high negative values indicate the meta has opened up to allow better than average viability for other Pokemon.  Salamence, Rayquaaza, Hawlucha, the fire/flying types may have openings.  Whether these Pokemon have the other factors needed to work themselves into the meta remains to be seen.  
+On the flip side, the high negative values indicate the meta has opened up to allow better than average viability for other Pokemon.  Whether these Pokemon have the other factors needed to work themselves into the meta remains to be seen.  
 
 I'm not good enough to know how good these Pokemon are in general, but if you're looking for an opening in the meta, hopefully negative skew can help you!
+
+
+## EDITS
+
+An early version of this post had Coalossal as worst Meta-Weighted typing, but this was due to a data entry error on my part that gave Mud Shot waaay too much weight.  
