@@ -1,0 +1,437 @@
+Name,Image,type
+Venusaur,https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png,Grass/Poison
+Charizard,https://img.pokemondb.net/sprites/sword-shield/icon/charizard.png,Fire/Flying
+Blastoise,https://img.pokemondb.net/sprites/sword-shield/icon/blastoise.png,Water
+Partner Pikachu,https://img.pokemondb.net/sprites/sword-shield/icon/pikachu-lets-go.png,Electric
+Raichu,https://img.pokemondb.net/sprites/sword-shield/icon/raichu.png,Electric
+Alolan Raichu,https://img.pokemondb.net/sprites/sword-shield/icon/raichu-alolan.png,Electric/Psychic
+Sandslash,https://img.pokemondb.net/sprites/sword-shield/icon/sandslash.png,Ground
+Alolan Sandslash,https://img.pokemondb.net/sprites/sword-shield/icon/sandslash-alolan.png,Ice/Steel
+Nidoqueen,https://img.pokemondb.net/sprites/sword-shield/icon/nidoqueen.png,Ground/Poison
+Nidoking,https://img.pokemondb.net/sprites/sword-shield/icon/nidoking.png,Ground/Poison
+Clefable,https://img.pokemondb.net/sprites/sword-shield/icon/clefable.png,Fairy
+Ninetales,https://img.pokemondb.net/sprites/sword-shield/icon/ninetales.png,Fire
+Alolan Ninetales,https://img.pokemondb.net/sprites/sword-shield/icon/ninetales-alolan.png,Fairy/Ice
+Wigglytuff,https://img.pokemondb.net/sprites/sword-shield/icon/wigglytuff.png,Fairy/Normal
+Golbat,https://img.pokemondb.net/sprites/sword-shield/icon/golbat.png,Flying/Poison
+Vileplume,https://img.pokemondb.net/sprites/sword-shield/icon/vileplume.png,Grass/Poison
+Dugtrio,https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio.png,Ground
+Alolan Dugtrio,https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio-alolan.png,Ground/Steel
+Persian,https://img.pokemondb.net/sprites/sword-shield/icon/persian.png,Normal
+Alolan Persian,https://img.pokemondb.net/sprites/sword-shield/icon/persian-alolan.png,Dark
+Golduck,https://img.pokemondb.net/sprites/sword-shield/icon/golduck.png,Water
+Arcanine,https://img.pokemondb.net/sprites/sword-shield/icon/arcanine.png,Fire
+Poliwrath,https://img.pokemondb.net/sprites/sword-shield/icon/poliwrath.png,Fighting/Water
+Alakazam,https://img.pokemondb.net/sprites/sword-shield/icon/alakazam.png,Psychic
+Machamp,https://img.pokemondb.net/sprites/sword-shield/icon/machamp.png,Fighting
+Tentacruel,https://img.pokemondb.net/sprites/sword-shield/icon/tentacruel.png,Poison/Water
+Rapidash,https://img.pokemondb.net/sprites/sword-shield/icon/rapidash.png,Fire
+Galarian Rapidash,https://img.pokemondb.net/sprites/sword-shield/icon/rapidash-galarian.png,Fairy/Psychic
+Slowbro,https://img.pokemondb.net/sprites/sword-shield/icon/slowbro.png,Psychic/Water
+Galarian Slowbro,https://img.pokemondb.net/sprites/sword-shield/icon/slowbro-galarian.png,Poison/Psychic
+Magneton,https://img.pokemondb.net/sprites/sword-shield/icon/magneton.png,Electric/Steel
+Cloyster,https://img.pokemondb.net/sprites/sword-shield/icon/cloyster.png,Ice/Water
+Gengar,https://img.pokemondb.net/sprites/sword-shield/icon/gengar.png,Ghost/Poison
+Kingler,https://img.pokemondb.net/sprites/sword-shield/icon/kingler.png,Water
+Exeggutor,https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png,Grass/Psychic
+Alolan Exeggutor,https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor-alolan.png,Dragon/Grass
+Marowak,https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png,Ground
+Alolan Marowak,https://img.pokemondb.net/sprites/sword-shield/icon/marowak-alolan.png,Fire/Ghost
+Hitmonlee,https://img.pokemondb.net/sprites/sword-shield/icon/hitmonlee.png,Fighting
+Hitmonchan,https://img.pokemondb.net/sprites/sword-shield/icon/hitmonchan.png,Fighting
+Weezing,https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png,Poison
+Galarian Weezing,https://img.pokemondb.net/sprites/sword-shield/icon/weezing-galarian.png,Fairy/Poison
+Rhydon,https://img.pokemondb.net/sprites/sword-shield/icon/rhydon.png,Ground/Rock
+Chansey,https://img.pokemondb.net/sprites/sword-shield/icon/chansey.png,Normal
+Tangela,https://img.pokemondb.net/sprites/sword-shield/icon/tangela.png,Grass
+Kangaskhan,https://img.pokemondb.net/sprites/sword-shield/icon/kangaskhan.png,Normal
+Seadra,https://img.pokemondb.net/sprites/sword-shield/icon/seadra.png,Water
+Seaking,https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png,Water
+Starmie,https://img.pokemondb.net/sprites/sword-shield/icon/starmie.png,Psychic/Water
+Mr. Mime,https://img.pokemondb.net/sprites/sword-shield/icon/mr-mime.png,Fairy/Psychic
+Galarian Mr. Mime,https://img.pokemondb.net/sprites/sword-shield/icon/mr-mime-galarian.png,Ice/Psychic
+Scyther,https://img.pokemondb.net/sprites/sword-shield/icon/scyther.png,Bug/Flying
+Jynx,https://img.pokemondb.net/sprites/sword-shield/icon/jynx.png,Ice/Psychic
+Electabuzz,https://img.pokemondb.net/sprites/sword-shield/icon/electabuzz.png,Electric
+Magmar,https://img.pokemondb.net/sprites/sword-shield/icon/magmar.png,Fire
+Pinsir,https://img.pokemondb.net/sprites/sword-shield/icon/pinsir.png,Bug
+Tauros,https://img.pokemondb.net/sprites/sword-shield/icon/tauros.png,Normal
+Gyarados,https://img.pokemondb.net/sprites/sword-shield/icon/gyarados.png,Flying/Water
+Lapras,https://img.pokemondb.net/sprites/sword-shield/icon/lapras.png,Ice/Water
+Partner Eevee,https://img.pokemondb.net/sprites/sword-shield/icon/eevee-lets-go.png,Normal
+Vaporeon,https://img.pokemondb.net/sprites/sword-shield/icon/vaporeon.png,Water
+Jolteon,https://img.pokemondb.net/sprites/sword-shield/icon/jolteon.png,Electric
+Flareon,https://img.pokemondb.net/sprites/sword-shield/icon/flareon.png,Fire
+Omastar,https://img.pokemondb.net/sprites/sword-shield/icon/omastar.png,Rock/Water
+Kabutops,https://img.pokemondb.net/sprites/sword-shield/icon/kabutops.png,Rock/Water
+Aerodactyl,https://img.pokemondb.net/sprites/sword-shield/icon/aerodactyl.png,Flying/Rock
+Snorlax,https://img.pokemondb.net/sprites/sword-shield/icon/snorlax.png,Normal
+Articuno,https://img.pokemondb.net/sprites/sword-shield/icon/articuno.png,Flying/Ice
+Galarian Articuno,https://img.pokemondb.net/sprites/sword-shield/icon/articuno-galarian.png,Flying/Psychic
+Zapdos,https://img.pokemondb.net/sprites/sword-shield/icon/zapdos.png,Electric/Flying
+Galarian Zapdos,https://img.pokemondb.net/sprites/sword-shield/icon/zapdos-galarian.png,Fighting/Flying
+Moltres,https://img.pokemondb.net/sprites/sword-shield/icon/moltres.png,Fire/Flying
+Galarian Moltres,https://img.pokemondb.net/sprites/sword-shield/icon/moltres-galarian.png,Dark/Flying
+Dragonair,https://img.pokemondb.net/sprites/sword-shield/icon/dragonair.png,Dragon
+Dragonite,https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png,Dragon/Flying
+Mewtwo,https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,Psychic
+Noctowl,https://img.pokemondb.net/sprites/sword-shield/icon/noctowl.png,Flying/Normal
+Crobat,https://img.pokemondb.net/sprites/sword-shield/icon/crobat.png,Flying/Poison
+Lanturn,https://img.pokemondb.net/sprites/sword-shield/icon/lanturn.png,Electric/Water
+Togetic,https://img.pokemondb.net/sprites/sword-shield/icon/togetic.png,Fairy/Flying
+Xatu,https://img.pokemondb.net/sprites/sword-shield/icon/xatu.png,Flying/Psychic
+Bellossom,https://img.pokemondb.net/sprites/sword-shield/icon/bellossom.png,Grass
+Azumarill,https://img.pokemondb.net/sprites/sword-shield/icon/azumarill.png,Fairy/Water
+Politoed,https://img.pokemondb.net/sprites/sword-shield/icon/politoed.png,Water
+Quagsire,https://img.pokemondb.net/sprites/sword-shield/icon/quagsire.png,Ground/Water
+Espeon,https://img.pokemondb.net/sprites/sword-shield/icon/espeon.png,Psychic
+Umbreon,https://img.pokemondb.net/sprites/sword-shield/icon/umbreon.png,Dark
+Slowking,https://img.pokemondb.net/sprites/sword-shield/icon/slowking.png,Psychic/Water
+Galarian Slowking,https://img.pokemondb.net/sprites/sword-shield/icon/slowking-galarian.png,Poison/Psychic
+Dunsparce,https://img.pokemondb.net/sprites/sword-shield/icon/dunsparce.png,Normal
+Steelix,https://img.pokemondb.net/sprites/sword-shield/icon/steelix.png,Ground/Steel
+Qwilfish,https://img.pokemondb.net/sprites/sword-shield/icon/qwilfish.png,Poison/Water
+Scizor,https://img.pokemondb.net/sprites/sword-shield/icon/scizor.png,Bug/Steel
+Shuckle,https://img.pokemondb.net/sprites/sword-shield/icon/shuckle.png,Bug/Rock
+Heracross,https://img.pokemondb.net/sprites/sword-shield/icon/heracross.png,Bug/Fighting
+Sneasel,https://img.pokemondb.net/sprites/sword-shield/icon/sneasel.png,Dark/Ice
+Piloswine,https://img.pokemondb.net/sprites/sword-shield/icon/piloswine.png,Ground/Ice
+Galarian Corsola,https://img.pokemondb.net/sprites/sword-shield/icon/corsola-galarian.png,Ghost
+Octillery,https://img.pokemondb.net/sprites/sword-shield/icon/octillery.png,Water
+Mantine,https://img.pokemondb.net/sprites/sword-shield/icon/mantine.png,Flying/Water
+Skarmory,https://img.pokemondb.net/sprites/sword-shield/icon/skarmory.png,Flying/Steel
+Kingdra,https://img.pokemondb.net/sprites/sword-shield/icon/kingdra.png,Dragon/Water
+Porygon2,https://img.pokemondb.net/sprites/sword-shield/icon/porygon2.png,Normal
+Hitmontop,https://img.pokemondb.net/sprites/sword-shield/icon/hitmontop.png,Fighting
+Miltank,https://img.pokemondb.net/sprites/sword-shield/icon/miltank.png,Normal
+Blissey,https://img.pokemondb.net/sprites/sword-shield/icon/blissey.png,Normal
+Raikou,https://img.pokemondb.net/sprites/sword-shield/icon/raikou.png,Electric
+Entei,https://img.pokemondb.net/sprites/sword-shield/icon/entei.png,Fire
+Suicune,https://img.pokemondb.net/sprites/sword-shield/icon/suicune.png,Water
+Tyranitar,https://img.pokemondb.net/sprites/sword-shield/icon/tyranitar.png,Dark/Rock
+Lugia,https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,Flying/Psychic
+Ho-oh,https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,Fire/Flying
+Sceptile,https://img.pokemondb.net/sprites/sword-shield/icon/sceptile.png,Grass
+Blaziken,https://img.pokemondb.net/sprites/sword-shield/icon/blaziken.png,Fighting/Fire
+Swampert,https://img.pokemondb.net/sprites/sword-shield/icon/swampert.png,Ground/Water
+Linoone,https://img.pokemondb.net/sprites/sword-shield/icon/linoone.png,Normal
+Galarian Linoone,https://img.pokemondb.net/sprites/sword-shield/icon/linoone-galarian.png,Dark/Normal
+Ludicolo,https://img.pokemondb.net/sprites/sword-shield/icon/ludicolo.png,Grass/Water
+Shiftry,https://img.pokemondb.net/sprites/sword-shield/icon/shiftry.png,Dark/Grass
+Pelipper,https://img.pokemondb.net/sprites/sword-shield/icon/pelipper.png,Flying/Water
+Gardevoir,https://img.pokemondb.net/sprites/sword-shield/icon/gardevoir.png,Fairy/Psychic
+Ninjask,https://img.pokemondb.net/sprites/sword-shield/icon/ninjask.png,Bug/Flying
+Exploud,https://img.pokemondb.net/sprites/sword-shield/icon/exploud.png,Normal
+Lairon,https://img.pokemondb.net/sprites/sword-shield/icon/lairon.png,Rock/Steel
+Aggron,https://img.pokemondb.net/sprites/sword-shield/icon/aggron.png,Rock/Steel
+Manectric,https://img.pokemondb.net/sprites/sword-shield/icon/manectric.png,Electric
+Sharpedo,https://img.pokemondb.net/sprites/sword-shield/icon/sharpedo.png,Dark/Water
+Wailord,https://img.pokemondb.net/sprites/sword-shield/icon/wailord.png,Water
+Torkoal,https://img.pokemondb.net/sprites/sword-shield/icon/torkoal.png,Fire
+Flygon,https://img.pokemondb.net/sprites/sword-shield/icon/flygon.png,Dragon/Ground
+Altaria,https://img.pokemondb.net/sprites/sword-shield/icon/altaria.png,Dragon/Flying
+Lunatone,https://img.pokemondb.net/sprites/sword-shield/icon/lunatone.png,Psychic/Rock
+Solrock,https://img.pokemondb.net/sprites/sword-shield/icon/solrock.png,Psychic/Rock
+Whiscash,https://img.pokemondb.net/sprites/sword-shield/icon/whiscash.png,Ground/Water
+Crawdaunt,https://img.pokemondb.net/sprites/sword-shield/icon/crawdaunt.png,Dark/Water
+Claydol,https://img.pokemondb.net/sprites/sword-shield/icon/claydol.png,Ground/Psychic
+Cradily,https://img.pokemondb.net/sprites/sword-shield/icon/cradily.png,Grass/Rock
+Armaldo,https://img.pokemondb.net/sprites/sword-shield/icon/armaldo.png,Bug/Rock
+Milotic,https://img.pokemondb.net/sprites/sword-shield/icon/milotic.png,Water
+Dusclops,https://img.pokemondb.net/sprites/sword-shield/icon/dusclops.png,Ghost
+Absol,https://img.pokemondb.net/sprites/sword-shield/icon/absol.png,Dark
+Glalie,https://img.pokemondb.net/sprites/sword-shield/icon/glalie.png,Ice
+Walrein,https://img.pokemondb.net/sprites/sword-shield/icon/walrein.png,Ice/Water
+Relicanth,https://img.pokemondb.net/sprites/sword-shield/icon/relicanth.png,Rock/Water
+Shelgon,https://img.pokemondb.net/sprites/sword-shield/icon/shelgon.png,Dragon
+Salamence,https://img.pokemondb.net/sprites/sword-shield/icon/salamence.png,Dragon/Flying
+Metang,https://img.pokemondb.net/sprites/sword-shield/icon/metang.png,Psychic/Steel
+Metagross,https://img.pokemondb.net/sprites/sword-shield/icon/metagross.png,Psychic/Steel
+Regirock,https://img.pokemondb.net/sprites/sword-shield/icon/regirock.png,Rock
+Regice,https://img.pokemondb.net/sprites/sword-shield/icon/regice.png,Ice
+Registeel,https://img.pokemondb.net/sprites/sword-shield/icon/registeel.png,Steel
+Latias,https://img.pokemondb.net/sprites/sword-shield/icon/latias.png,Dragon/Psychic
+Latios,https://img.pokemondb.net/sprites/sword-shield/icon/latios.png,Dragon/Psychic
+Kyogre,https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,Water
+Groudon,https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,Ground
+Rayquaza,https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,Dragon/Flying
+Luxray,https://img.pokemondb.net/sprites/sword-shield/icon/luxray.png,Electric
+Roserade,https://img.pokemondb.net/sprites/sword-shield/icon/roserade.png,Grass/Poison
+Vespiquen,https://img.pokemondb.net/sprites/sword-shield/icon/vespiquen.png,Bug/Flying
+Cherrim,https://img.pokemondb.net/sprites/sword-shield/icon/cherrim.png,Grass
+Gastrodon,https://img.pokemondb.net/sprites/sword-shield/icon/gastrodon.png,Ground/Water
+Drifblim,https://img.pokemondb.net/sprites/sword-shield/icon/drifblim.png,Flying/Ghost
+Lopunny,https://img.pokemondb.net/sprites/sword-shield/icon/lopunny.png,Normal
+Skuntank,https://img.pokemondb.net/sprites/sword-shield/icon/skuntank.png,Dark/Poison
+Bronzong,https://img.pokemondb.net/sprites/sword-shield/icon/bronzong.png,Psychic/Steel
+Spiritomb,https://img.pokemondb.net/sprites/sword-shield/icon/spiritomb.png,Dark/Ghost
+Garchomp,https://img.pokemondb.net/sprites/sword-shield/icon/garchomp.png,Dragon/Ground
+Munchlax,https://img.pokemondb.net/sprites/sword-shield/icon/munchlax.png,Normal
+Lucario,https://img.pokemondb.net/sprites/sword-shield/icon/lucario.png,Fighting/Steel
+Hippowdon,https://img.pokemondb.net/sprites/sword-shield/icon/hippowdon.png,Ground
+Drapion,https://img.pokemondb.net/sprites/sword-shield/icon/drapion.png,Dark/Poison
+Toxicroak,https://img.pokemondb.net/sprites/sword-shield/icon/toxicroak.png,Fighting/Poison
+Abomasnow,https://img.pokemondb.net/sprites/sword-shield/icon/abomasnow.png,Grass/Ice
+Weavile,https://img.pokemondb.net/sprites/sword-shield/icon/weavile.png,Dark/Ice
+Magnezone,https://img.pokemondb.net/sprites/sword-shield/icon/magnezone.png,Electric/Steel
+Lickilicky,https://img.pokemondb.net/sprites/sword-shield/icon/lickilicky.png,Normal
+Rhyperior,https://img.pokemondb.net/sprites/sword-shield/icon/rhyperior.png,Ground/Rock
+Tangrowth,https://img.pokemondb.net/sprites/sword-shield/icon/tangrowth.png,Grass
+Electivire,https://img.pokemondb.net/sprites/sword-shield/icon/electivire.png,Electric
+Magmortar,https://img.pokemondb.net/sprites/sword-shield/icon/magmortar.png,Fire
+Togekiss,https://img.pokemondb.net/sprites/sword-shield/icon/togekiss.png,Fairy/Flying
+Leafeon,https://img.pokemondb.net/sprites/sword-shield/icon/leafeon.png,Grass
+Glaceon,https://img.pokemondb.net/sprites/sword-shield/icon/glaceon.png,Ice
+Mamoswine,https://img.pokemondb.net/sprites/sword-shield/icon/mamoswine.png,Ground/Ice
+Porygon-Z,https://img.pokemondb.net/sprites/sword-shield/icon/porygon-z.png,Normal
+Gallade,https://img.pokemondb.net/sprites/sword-shield/icon/gallade.png,Fighting/Psychic
+Dusknoir,https://img.pokemondb.net/sprites/sword-shield/icon/dusknoir.png,Ghost
+Froslass,https://img.pokemondb.net/sprites/sword-shield/icon/froslass.png,Ghost/Ice
+Rotom,https://img.pokemondb.net/sprites/sword-shield/icon/rotom.png,Electric/Ghost
+Heat Rotom,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-heat.png,Electric/Fire
+Wash Rotom,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-wash.png,Electric/Water
+Frost Rotom,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-frost.png,Electric/Ice
+Fan Rotom,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-fan.png,Electric/Flying
+Mow Rotom,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-mow.png,Electric/Grass
+Uxie,https://img.pokemondb.net/sprites/sword-shield/icon/uxie.png,Psychic
+Mesprit,https://img.pokemondb.net/sprites/sword-shield/icon/mesprit.png,Psychic
+Azelf,https://img.pokemondb.net/sprites/sword-shield/icon/azelf.png,Psychic
+Dialga,https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,Dragon/Steel
+Palkia,https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,Dragon/Water
+Heatran,https://img.pokemondb.net/sprites/sword-shield/icon/heatran.png,Fire/Steel
+Regigigas,https://img.pokemondb.net/sprites/sword-shield/icon/regigigas.png,Normal
+Giratina Altered Forme,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,Dragon/Ghost
+Giratina Origin Forme,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,Dragon/Ghost
+Cresselia,https://img.pokemondb.net/sprites/sword-shield/icon/cresselia.png,Psychic
+Stoutland,https://img.pokemondb.net/sprites/sword-shield/icon/stoutland.png,Normal
+Liepard,https://img.pokemondb.net/sprites/sword-shield/icon/liepard.png,Dark
+Musharna,https://img.pokemondb.net/sprites/sword-shield/icon/musharna.png,Psychic
+Unfezant,https://img.pokemondb.net/sprites/sword-shield/icon/unfezant.png,Flying/Normal
+Gigalith,https://img.pokemondb.net/sprites/sword-shield/icon/gigalith.png,Rock
+Swoobat,https://img.pokemondb.net/sprites/sword-shield/icon/swoobat.png,Flying/Psychic
+Excadrill,https://img.pokemondb.net/sprites/sword-shield/icon/excadrill.png,Ground/Steel
+Audino,https://img.pokemondb.net/sprites/sword-shield/icon/audino.png,Normal
+Conkeldurr,https://img.pokemondb.net/sprites/sword-shield/icon/conkeldurr.png,Fighting
+Seismitoad,https://img.pokemondb.net/sprites/sword-shield/icon/seismitoad.png,Ground/Water
+Throh,https://img.pokemondb.net/sprites/sword-shield/icon/throh.png,Fighting
+Sawk,https://img.pokemondb.net/sprites/sword-shield/icon/sawk.png,Fighting
+Scolipede,https://img.pokemondb.net/sprites/sword-shield/icon/scolipede.png,Bug/Poison
+Whimsicott,https://img.pokemondb.net/sprites/sword-shield/icon/whimsicott.png,Fairy/Grass
+Lilligant,https://img.pokemondb.net/sprites/sword-shield/icon/lilligant.png,Grass
+Basculin Red-Striped Form,https://img.pokemondb.net/sprites/sword-shield/icon/basculin-red-striped.png,Water
+Basculin Blue-Striped Form,https://img.pokemondb.net/sprites/sword-shield/icon/basculin-blue-striped.png,Water
+Krookodile,https://img.pokemondb.net/sprites/sword-shield/icon/krookodile.png,Dark/Ground
+Darmanitan Standard Mode,https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan-standard.png,Fire
+Darmanitan Zen Mode,https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan-zen.png,Fire/Psychic
+Darmanitan Galarian Standard Mode,https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan-galarian-standard.png,Ice
+Darmanitan Galarian Zen Mode,https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan-galarian-zen.png,Fire/Ice
+Maractus,https://img.pokemondb.net/sprites/sword-shield/icon/maractus.png,Grass
+Crustle,https://img.pokemondb.net/sprites/sword-shield/icon/crustle.png,Bug/Rock
+Scrafty,https://img.pokemondb.net/sprites/sword-shield/icon/scrafty.png,Dark/Fighting
+Sigilyph,https://img.pokemondb.net/sprites/sword-shield/icon/sigilyph.png,Flying/Psychic
+Cofagrigus,https://img.pokemondb.net/sprites/sword-shield/icon/cofagrigus.png,Ghost
+Carracosta,https://img.pokemondb.net/sprites/sword-shield/icon/carracosta.png,Rock/Water
+Archeops,https://img.pokemondb.net/sprites/sword-shield/icon/archeops.png,Flying/Rock
+Garbodor,https://img.pokemondb.net/sprites/sword-shield/icon/garbodor.png,Poison
+Zoroark,https://img.pokemondb.net/sprites/sword-shield/icon/zoroark.png,Dark
+Cinccino,https://img.pokemondb.net/sprites/sword-shield/icon/cinccino.png,Normal
+Gothitelle,https://img.pokemondb.net/sprites/sword-shield/icon/gothitelle.png,Psychic
+Duosion,https://img.pokemondb.net/sprites/sword-shield/icon/duosion.png,Psychic
+Reuniclus,https://img.pokemondb.net/sprites/sword-shield/icon/reuniclus.png,Psychic
+Vanilluxe,https://img.pokemondb.net/sprites/sword-shield/icon/vanilluxe.png,Ice
+Emolga,https://img.pokemondb.net/sprites/sword-shield/icon/emolga.png,Electric/Flying
+Escavalier,https://img.pokemondb.net/sprites/sword-shield/icon/escavalier.png,Bug/Steel
+Amoonguss,https://img.pokemondb.net/sprites/sword-shield/icon/amoonguss.png,Grass/Poison
+Jellicent,https://img.pokemondb.net/sprites/sword-shield/icon/jellicent.png,Ghost/Water
+Galvantula,https://img.pokemondb.net/sprites/sword-shield/icon/galvantula.png,Bug/Electric
+Ferrothorn,https://img.pokemondb.net/sprites/sword-shield/icon/ferrothorn.png,Grass/Steel
+Klang,https://img.pokemondb.net/sprites/sword-shield/icon/klang.png,Steel
+Klinklang,https://img.pokemondb.net/sprites/sword-shield/icon/klinklang.png,Steel
+Beheeyem,https://img.pokemondb.net/sprites/sword-shield/icon/beheeyem.png,Psychic
+Chandelure,https://img.pokemondb.net/sprites/sword-shield/icon/chandelure.png,Fire/Ghost
+Haxorus,https://img.pokemondb.net/sprites/sword-shield/icon/haxorus.png,Dragon
+Beartic,https://img.pokemondb.net/sprites/sword-shield/icon/beartic.png,Ice
+Cryogonal,https://img.pokemondb.net/sprites/sword-shield/icon/cryogonal.png,Ice
+Accelgor,https://img.pokemondb.net/sprites/sword-shield/icon/accelgor.png,Bug
+Stunfisk,https://img.pokemondb.net/sprites/sword-shield/icon/stunfisk.png,Electric/Ground
+Galarian Stunfisk,https://img.pokemondb.net/sprites/sword-shield/icon/stunfisk-galarian.png,Ground/Steel
+Mienshao,https://img.pokemondb.net/sprites/sword-shield/icon/mienshao.png,Fighting
+Druddigon,https://img.pokemondb.net/sprites/sword-shield/icon/druddigon.png,Dragon
+Golurk,https://img.pokemondb.net/sprites/sword-shield/icon/golurk.png,Ghost/Ground
+Bisharp,https://img.pokemondb.net/sprites/sword-shield/icon/bisharp.png,Dark/Steel
+Bouffalant,https://img.pokemondb.net/sprites/sword-shield/icon/bouffalant.png,Normal
+Braviary,https://img.pokemondb.net/sprites/sword-shield/icon/braviary.png,Flying/Normal
+Mandibuzz,https://img.pokemondb.net/sprites/sword-shield/icon/mandibuzz.png,Dark/Flying
+Heatmor,https://img.pokemondb.net/sprites/sword-shield/icon/heatmor.png,Fire
+Durant,https://img.pokemondb.net/sprites/sword-shield/icon/durant.png,Bug/Steel
+Zweilous,https://img.pokemondb.net/sprites/sword-shield/icon/zweilous.png,Dark/Dragon
+Hydreigon,https://img.pokemondb.net/sprites/sword-shield/icon/hydreigon.png,Dark/Dragon
+Volcarona,https://img.pokemondb.net/sprites/sword-shield/icon/volcarona.png,Bug/Fire
+Cobalion,https://img.pokemondb.net/sprites/sword-shield/icon/cobalion.png,Fighting/Steel
+Terrakion,https://img.pokemondb.net/sprites/sword-shield/icon/terrakion.png,Fighting/Rock
+Virizion,https://img.pokemondb.net/sprites/sword-shield/icon/virizion.png,Fighting/Grass
+Tornadus Incarnate Forme,https://img.pokemondb.net/sprites/sword-shield/icon/tornadus-incarnate.png,Flying
+Tornadus Therian Forme,https://img.pokemondb.net/sprites/sword-shield/icon/tornadus-therian.png,Flying
+Thundurus Incarnate Forme,https://img.pokemondb.net/sprites/sword-shield/icon/thundurus-incarnate.png,Electric/Flying
+Thundurus Therian Forme,https://img.pokemondb.net/sprites/sword-shield/icon/thundurus-therian.png,Electric/Flying
+Reshiram,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,Dragon/Fire
+Zekrom,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,Dragon/Electric
+Landorus Incarnate Forme,https://img.pokemondb.net/sprites/sword-shield/icon/landorus-incarnate.png,Flying/Ground
+Landorus Therian Forme,https://img.pokemondb.net/sprites/sword-shield/icon/landorus-therian.png,Flying/Ground
+Kyurem,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,Dragon/Ice
+Black Kyurem,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,Dragon/Ice
+White Kyurem,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,Dragon/Ice
+Diggersby,https://img.pokemondb.net/sprites/sword-shield/icon/diggersby.png,Ground/Normal
+Talonflame,https://img.pokemondb.net/sprites/sword-shield/icon/talonflame.png,Fire/Flying
+Pangoro,https://img.pokemondb.net/sprites/sword-shield/icon/pangoro.png,Dark/Fighting
+Meowstic Male,https://img.pokemondb.net/sprites/sword-shield/icon/meowstic-male.png,Psychic
+Meowstic Female,https://img.pokemondb.net/sprites/sword-shield/icon/meowstic-female.png,Psychic
+Doublade,https://img.pokemondb.net/sprites/sword-shield/icon/doublade.png,Ghost/Steel
+Aegislash Shield Forme,https://img.pokemondb.net/sprites/sword-shield/icon/aegislash-shield.png,Ghost/Steel
+Aegislash Blade Forme,https://img.pokemondb.net/sprites/sword-shield/icon/aegislash-blade.png,Ghost/Steel
+Aromatisse,https://img.pokemondb.net/sprites/sword-shield/icon/aromatisse.png,Fairy
+Slurpuff,https://img.pokemondb.net/sprites/sword-shield/icon/slurpuff.png,Fairy
+Malamar,https://img.pokemondb.net/sprites/sword-shield/icon/malamar.png,Dark/Psychic
+Barbaracle,https://img.pokemondb.net/sprites/sword-shield/icon/barbaracle.png,Rock/Water
+Dragalge,https://img.pokemondb.net/sprites/sword-shield/icon/dragalge.png,Dragon/Poison
+Clawitzer,https://img.pokemondb.net/sprites/sword-shield/icon/clawitzer.png,Water
+Heliolisk,https://img.pokemondb.net/sprites/sword-shield/icon/heliolisk.png,Electric/Normal
+Tyrantrum,https://img.pokemondb.net/sprites/sword-shield/icon/tyrantrum.png,Dragon/Rock
+Aurorus,https://img.pokemondb.net/sprites/sword-shield/icon/aurorus.png,Ice/Rock
+Sylveon,https://img.pokemondb.net/sprites/sword-shield/icon/sylveon.png,Fairy
+Hawlucha,https://img.pokemondb.net/sprites/sword-shield/icon/hawlucha.png,Fighting/Flying
+Dedenne,https://img.pokemondb.net/sprites/sword-shield/icon/dedenne.png,Electric/Fairy
+Carbink,https://img.pokemondb.net/sprites/sword-shield/icon/carbink.png,Fairy/Rock
+Sliggoo,https://img.pokemondb.net/sprites/sword-shield/icon/sliggoo.png,Dragon
+Goodra,https://img.pokemondb.net/sprites/sword-shield/icon/goodra.png,Dragon
+Klefki,https://img.pokemondb.net/sprites/sword-shield/icon/klefki.png,Fairy/Steel
+Trevenant,https://img.pokemondb.net/sprites/sword-shield/icon/trevenant.png,Ghost/Grass
+Gourgeist Average Size,https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist-average.png,Ghost/Grass
+Gourgeist Small Size,https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist-small.png,Ghost/Grass
+Gourgeist Large Size,https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist-large.png,Ghost/Grass
+Gourgeist Super Size,https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist-super.png,Ghost/Grass
+Avalugg,https://img.pokemondb.net/sprites/sword-shield/icon/avalugg.png,Ice
+Noivern,https://img.pokemondb.net/sprites/sword-shield/icon/noivern.png,Dragon/Flying
+Xerneas,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,Fairy
+Yveltal,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,Dark/Flying
+Zygarde 50% Forme,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,Dragon/Ground
+Zygarde 10% Forme,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-10.png,Dragon/Ground
+Zygarde Complete Forme,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-complete.png,Dragon/Ground
+Dartrix,https://img.pokemondb.net/sprites/sword-shield/icon/dartrix.png,Flying/Grass
+Decidueye,https://img.pokemondb.net/sprites/sword-shield/icon/decidueye.png,Ghost/Grass
+Torracat,https://img.pokemondb.net/sprites/sword-shield/icon/torracat.png,Fire
+Incineroar,https://img.pokemondb.net/sprites/sword-shield/icon/incineroar.png,Dark/Fire
+Brionne,https://img.pokemondb.net/sprites/sword-shield/icon/brionne.png,Water
+Primarina,https://img.pokemondb.net/sprites/sword-shield/icon/primarina.png,Fairy/Water
+Vikavolt,https://img.pokemondb.net/sprites/sword-shield/icon/vikavolt.png,Bug/Electric
+Ribombee,https://img.pokemondb.net/sprites/sword-shield/icon/ribombee.png,Bug/Fairy
+Lycanroc Midday Form,https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc-midday.png,Rock
+Lycanroc Midnight Form,https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc-midnight.png,Rock
+Lycanroc Dusk Form,https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc-dusk.png,Rock
+Wishiwashi School Form,https://img.pokemondb.net/sprites/sword-shield/icon/wishiwashi-school.png,Water
+Toxapex,https://img.pokemondb.net/sprites/sword-shield/icon/toxapex.png,Poison/Water
+Mudsdale,https://img.pokemondb.net/sprites/sword-shield/icon/mudsdale.png,Ground
+Araquanid,https://img.pokemondb.net/sprites/sword-shield/icon/araquanid.png,Bug/Water
+Lurantis,https://img.pokemondb.net/sprites/sword-shield/icon/lurantis.png,Grass
+Salazzle,https://img.pokemondb.net/sprites/sword-shield/icon/salazzle.png,Fire/Poison
+Bewear,https://img.pokemondb.net/sprites/sword-shield/icon/bewear.png,Fighting/Normal
+Tsareena,https://img.pokemondb.net/sprites/sword-shield/icon/tsareena.png,Grass
+Comfey,https://img.pokemondb.net/sprites/sword-shield/icon/comfey.png,Fairy
+Oranguru,https://img.pokemondb.net/sprites/sword-shield/icon/oranguru.png,Normal/Psychic
+Passimian,https://img.pokemondb.net/sprites/sword-shield/icon/passimian.png,Fighting
+Golisopod,https://img.pokemondb.net/sprites/sword-shield/icon/golisopod.png,Bug/Water
+Palossand,https://img.pokemondb.net/sprites/sword-shield/icon/palossand.png,Ghost/Ground
+Type: Null,https://img.pokemondb.net/sprites/sword-shield/icon/type-null.png,Normal
+Silvally,https://img.pokemondb.net/sprites/sword-shield/icon/silvally.png,Normal
+Turtonator,https://img.pokemondb.net/sprites/sword-shield/icon/turtonator.png,Dragon/Fire
+Togedemaru,https://img.pokemondb.net/sprites/sword-shield/icon/togedemaru.png,Electric/Steel
+Mimikyu,https://img.pokemondb.net/sprites/sword-shield/icon/mimikyu.png,Fairy/Ghost
+Drampa,https://img.pokemondb.net/sprites/sword-shield/icon/drampa.png,Dragon/Normal
+Dhelmise,https://img.pokemondb.net/sprites/sword-shield/icon/dhelmise.png,Ghost/Grass
+Hakamo-o,https://img.pokemondb.net/sprites/sword-shield/icon/hakamo-o.png,Dragon/Fighting
+Kommo-o,https://img.pokemondb.net/sprites/sword-shield/icon/kommo-o.png,Dragon/Fighting
+Tapu Koko,https://img.pokemondb.net/sprites/sword-shield/icon/tapu-koko.png,Electric/Fairy
+Tapu Lele,https://img.pokemondb.net/sprites/sword-shield/icon/tapu-lele.png,Fairy/Psychic
+Tapu Bulu,https://img.pokemondb.net/sprites/sword-shield/icon/tapu-bulu.png,Fairy/Grass
+Tapu Fini,https://img.pokemondb.net/sprites/sword-shield/icon/tapu-fini.png,Fairy/Water
+Solgaleo,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,Psychic/Steel
+Lunala,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,Ghost/Psychic
+Nihilego,https://img.pokemondb.net/sprites/sword-shield/icon/nihilego.png,Poison/Rock
+Buzzwole,https://img.pokemondb.net/sprites/sword-shield/icon/buzzwole.png,Bug/Fighting
+Pheromosa,https://img.pokemondb.net/sprites/sword-shield/icon/pheromosa.png,Bug/Fighting
+Xurkitree,https://img.pokemondb.net/sprites/sword-shield/icon/xurkitree.png,Electric
+Celesteela,https://img.pokemondb.net/sprites/sword-shield/icon/celesteela.png,Flying/Steel
+Kartana,https://img.pokemondb.net/sprites/sword-shield/icon/kartana.png,Grass/Steel
+Guzzlord,https://img.pokemondb.net/sprites/sword-shield/icon/guzzlord.png,Dark/Dragon
+Necrozma,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,Psychic
+Dusk Mane Necrozma,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,Psychic/Steel
+Dawn Wings Necrozma,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,Ghost/Psychic
+Poipole,https://img.pokemondb.net/sprites/sword-shield/icon/poipole.png,Poison
+Naganadel,https://img.pokemondb.net/sprites/sword-shield/icon/naganadel.png,Dragon/Poison
+Stakataka,https://img.pokemondb.net/sprites/sword-shield/icon/stakataka.png,Rock/Steel
+Blacephalon,https://img.pokemondb.net/sprites/sword-shield/icon/blacephalon.png,Fire/Ghost
+Thwackey,https://img.pokemondb.net/sprites/sword-shield/icon/thwackey.png,Grass
+Rillaboom,https://img.pokemondb.net/sprites/sword-shield/icon/rillaboom.png,Grass
+Raboot,https://img.pokemondb.net/sprites/sword-shield/icon/raboot.png,Fire
+Cinderace,https://img.pokemondb.net/sprites/sword-shield/icon/cinderace.png,Fire
+Drizzile,https://img.pokemondb.net/sprites/sword-shield/icon/drizzile.png,Water
+Inteleon,https://img.pokemondb.net/sprites/sword-shield/icon/inteleon.png,Water
+Greedent,https://img.pokemondb.net/sprites/sword-shield/icon/greedent.png,Normal
+Corviknight,https://img.pokemondb.net/sprites/sword-shield/icon/corviknight.png,Flying/Steel
+Orbeetle,https://img.pokemondb.net/sprites/sword-shield/icon/orbeetle.png,Bug/Psychic
+Thievul,https://img.pokemondb.net/sprites/sword-shield/icon/thievul.png,Dark
+Eldegoss,https://img.pokemondb.net/sprites/sword-shield/icon/eldegoss.png,Grass
+Dubwool,https://img.pokemondb.net/sprites/sword-shield/icon/dubwool.png,Normal
+Drednaw,https://img.pokemondb.net/sprites/sword-shield/icon/drednaw.png,Rock/Water
+Boltund,https://img.pokemondb.net/sprites/sword-shield/icon/boltund.png,Electric
+Coalossal,https://img.pokemondb.net/sprites/sword-shield/icon/coalossal.png,Fire/Rock
+Flapple,https://img.pokemondb.net/sprites/sword-shield/icon/flapple.png,Dragon/Grass
+Appletun,https://img.pokemondb.net/sprites/sword-shield/icon/appletun.png,Dragon/Grass
+Sandaconda,https://img.pokemondb.net/sprites/sword-shield/icon/sandaconda.png,Ground
+Cramorant,https://img.pokemondb.net/sprites/sword-shield/icon/cramorant.png,Flying/Water
+Barraskewda,https://img.pokemondb.net/sprites/sword-shield/icon/barraskewda.png,Water
+Toxtricity Low Key Form,https://img.pokemondb.net/sprites/sword-shield/icon/toxtricity-low-key.png,Electric/Poison
+Toxtricity Amped Form,https://img.pokemondb.net/sprites/sword-shield/icon/toxtricity-amped.png,Electric/Poison
+Centiskorch,https://img.pokemondb.net/sprites/sword-shield/icon/centiskorch.png,Bug/Fire
+Grapploct,https://img.pokemondb.net/sprites/sword-shield/icon/grapploct.png,Fighting
+Polteageist,https://img.pokemondb.net/sprites/sword-shield/icon/polteageist.png,Ghost
+Hatterene,https://img.pokemondb.net/sprites/sword-shield/icon/hatterene.png,Fairy/Psychic
+Grimmsnarl,https://img.pokemondb.net/sprites/sword-shield/icon/grimmsnarl.png,Dark/Fairy
+Obstagoon,https://img.pokemondb.net/sprites/sword-shield/icon/obstagoon.png,Dark/Normal
+Perrserker,https://img.pokemondb.net/sprites/sword-shield/icon/perrserker.png,Steel
+Cursola,https://img.pokemondb.net/sprites/sword-shield/icon/cursola.png,Ghost
+Sirfetch'd,https://img.pokemondb.net/sprites/sword-shield/icon/sirfetchd.png,Fighting
+Mr. Rime,https://img.pokemondb.net/sprites/sword-shield/icon/mr-rime.png,Ice/Psychic
+Runerigus,https://img.pokemondb.net/sprites/sword-shield/icon/runerigus.png,Ghost/Ground
+Alcremie,https://img.pokemondb.net/sprites/sword-shield/icon/alcremie.png,Fairy
+Falinks,https://img.pokemondb.net/sprites/sword-shield/icon/falinks.png,Fighting
+Pincurchin,https://img.pokemondb.net/sprites/sword-shield/icon/pincurchin.png,Electric
+Frosmoth,https://img.pokemondb.net/sprites/sword-shield/icon/frosmoth.png,Bug/Ice
+Stonjourner,https://img.pokemondb.net/sprites/sword-shield/icon/stonjourner.png,Rock
+Eiscue Ice Face,https://img.pokemondb.net/sprites/sword-shield/icon/eiscue-ice.png,Ice
+Eiscue Noice Face,https://img.pokemondb.net/sprites/sword-shield/icon/eiscue-noice.png,Ice
+Indeedee Male,https://img.pokemondb.net/sprites/sword-shield/icon/indeedee-male.png,Normal/Psychic
+Indeedee Female,https://img.pokemondb.net/sprites/sword-shield/icon/indeedee-female.png,Normal/Psychic
+Morpeko Full Belly Mode,https://img.pokemondb.net/sprites/sword-shield/icon/morpeko-full-belly.png,Dark/Electric
+Morpeko Hangry Mode,https://img.pokemondb.net/sprites/sword-shield/icon/morpeko-hangry.png,Dark/Electric
+Copperajah,https://img.pokemondb.net/sprites/sword-shield/icon/copperajah.png,Steel
+Dracozolt,https://img.pokemondb.net/sprites/sword-shield/icon/dracozolt.png,Dragon/Electric
+Arctozolt,https://img.pokemondb.net/sprites/sword-shield/icon/arctozolt.png,Electric/Ice
+Dracovish,https://img.pokemondb.net/sprites/sword-shield/icon/dracovish.png,Dragon/Water
+Arctovish,https://img.pokemondb.net/sprites/sword-shield/icon/arctovish.png,Ice/Water
+Duraludon,https://img.pokemondb.net/sprites/sword-shield/icon/duraludon.png,Dragon/Steel
+Dragapult,https://img.pokemondb.net/sprites/sword-shield/icon/dragapult.png,Dragon/Ghost
+Zacian Crowned Sword,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,Fairy/Steel
+Zacian Hero of Many Battles,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-hero.png,Fairy
+Zamazenta Crowned Shield,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,Fighting/Steel
+Zamazenta Hero of Many Battles,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-hero.png,Fighting
+Eternatus,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,Dragon/Poison
+Urshifu Single Strike Style,https://img.pokemondb.net/sprites/sword-shield/icon/urshifu-single-strike.png,Dark/Fighting
+Urshifu Rapid Strike Style,https://img.pokemondb.net/sprites/sword-shield/icon/urshifu-rapid-strike.png,Fighting/Water
+Regieleki,https://img.pokemondb.net/sprites/sword-shield/icon/regieleki.png,Electric
+Regidrago,https://img.pokemondb.net/sprites/sword-shield/icon/regidrago.png,Dragon
+Glastrier,https://img.pokemondb.net/sprites/sword-shield/icon/glastrier.png,Ice
+Spectrier,https://img.pokemondb.net/sprites/sword-shield/icon/spectrier.png,Ghost
+Calyrex,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex.png,Grass/Psychic
+Calyrex Ice Rider,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,Ice/Psychic
+Calyrex Shadow Rider,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,Ghost/Psychic
