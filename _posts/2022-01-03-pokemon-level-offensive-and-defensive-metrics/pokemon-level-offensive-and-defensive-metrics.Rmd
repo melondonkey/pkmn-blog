@@ -1,0 +1,67 @@
+---
+title: "Pokemon-Level Offensive and Defensive Metrics"
+description: |
+  A short description of the post.
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-01-03
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+In previous articles I laid some groundwork for evaluating types offensively and defensively using weights derived from the current meta.  There's really nothing that's stopping us from extending the logic further and doing this at the Pokemon level.  So let's get into it:
+
+### Reviewing the Damage Formula
+
+First, we need to understand the damage formula.  Here's a quick refresher.
+
+$$(((2*Level)/5 + 2) * Power * A/D)/50 + 2 )*STAB*Type*random*Critical*Targets*Weather*Badge*Burn*other $$
+I'm not accounting for some factors, but what I have now simplifies to:
+
+$$(22*Power*(A/D)/50 + 2) * STAB * Type *.925)$$
+
+
+### Defensive Rankings
+
+For defensive typing, we first derived which offensive moves we were expecting to defend against by combining Pokemon usage, move usage, STAB bonuses, relevant attack stat, and then the type modifier.  We just need to add a couple pieces to make this work at the Pokemon level:
+
+* Instead of meta-weighted type adjustment factor, we'll derive meta-weighted percentage of HP depleted
+* We will use the defending Pokemon's relevant defense stat as a denominator for the relevant attack stat and include it as part of the damage formula
+* Weight = Pokemon Usage * Move Usage
+* HP Depleted = (22* BasePower*(att/def)/50 + 2) * STAB * Type Modifier *.925
+    * Where att = Attack or Special Attack
+    * def = Matching defense stat
+    * Type Modifier in [0, .25, .5, 1, 2, 4]
+    * .925 representing the expecation of the random compoment (.85, 1). This is just a scalar on the damage and doesn't affect the rankings but I wanted to scale as closely to real damage as possible
+    * We then divide HP depleted by Base HP for the Percent HP depleted
+* Aggregate for each Pokemon it's weighted average defense against all moves in the meta
+* Voila!  We have our number.
+
+
+
+
+### Offensive Rankings
+
+For our offensive rankings, we use the same principles but need to make a few adaptations.
+
+First, we won't use specific moves for our offense.  I just don't have this data unfortunately for all Pokemon.  Since we're evaluating potential, there's also nothing the meta usage data can tell us about moves for this exercise.  Instead, we'll assume a STAB move of each type with base power 100 for each Pokemon and evaluate that attack against each Pokemon in the meta, always selecting the more damaging move in the case where a dual-type mon has two STAB attacks.  
+
+We'll do calculations for all Pokemon in the format and again use our usage data to provide weights on the defensive side of things.  So we're basically asking: how much offensive potential does this Pokemon have against the current meta? Our answer is returned to us in the same units previously, percentage of defender's HP depleted by best attack.  
+
+
+
+### Combined Power Rankings
+
+I'm kind of tired and getting lazy at this point.  I think a good way to combine these initially at least is to just convert them to percentiles and then take the average of the two percentiles.  I'll think in the coming days whether I like this metric or not.  
+
+
+
+### Next Steps
+
+Next time, we'll talk about the efficiency frontier and how to put these rankings together.  Eventually we're going to need to factor in Speed as well.  
+
+
