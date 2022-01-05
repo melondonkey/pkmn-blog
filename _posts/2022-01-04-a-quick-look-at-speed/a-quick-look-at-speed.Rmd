@@ -9,7 +9,7 @@ author:
 date: 2022-01-04
 output:
   distill::distill_article:
-    self_contained: false
+    self_contained: true
 ---
 
 I've posted a bit about offense and defense.  Speed is supposedly straightforward, but if you're like me, the numerous combinations of speed affected by EVs, natures, and trick room can make it pretty confusing to understand just how much you need.  
@@ -18,7 +18,7 @@ What I needed was a way to visualize all the potential combinations quickly, so 
 
 Hope this helps you get a handle on Speed!
 
-```{r, echo=FALSE}
-knitr::include_graphics(here::here('speed-plot2.png'))
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('speed-tiers.png'))
 ```
 
