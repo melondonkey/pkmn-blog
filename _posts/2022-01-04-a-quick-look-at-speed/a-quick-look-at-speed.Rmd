@@ -1,7 +1,7 @@
 ---
 title: "A Quick Look at Speed"
 description: |
-  A short description of the post.
+  Visualizing speed tiers. 
 author:
   - name: melondonkey
     url:

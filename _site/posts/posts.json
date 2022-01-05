@@ -2,7 +2,7 @@
   {
     "path": "posts/2022-01-04-a-quick-look-at-speed/",
     "title": "A Quick Look at Speed",
-    "description": "A short description of the post.",
+    "description": "Visualizing speed tiers.",
     "author": [
       {
         "name": "melondonkey",
@@ -15,7 +15,7 @@
     "categories": [],
     "contents": "\nI’ve posted a bit about offense and defense. Speed is supposedly straightforward, but if you’re like me, the numerous combinations of speed affected by EVs, natures, and trick room can make it pretty confusing to understand just how much you need.\nWhat I needed was a way to visualize all the potential combinations quickly, so I put together this graph of all the Pokemon in the meta. The position of the Pokemon represents the Speed stat at level 50. The first red line expands to where the Pokemon can max out with a full 252 EV investment. The blue line goes out to where that can go when getting the 1.1x nature bonus. I then added a dotted ine to represent where you can get under Tailwind with no investment, and then again with EV and Nature, respectively.\nHope this helps you get a handle on Speed!\n\n\n\n\n\n\n",
     "preview": "posts/2022-01-04-a-quick-look-at-speed/distill-preview.png",
-    "last_modified": "2022-01-04T19:13:04-05:00",
+    "last_modified": "2022-01-04T19:24:28-05:00",
     "input_file": {}
   },
   {
