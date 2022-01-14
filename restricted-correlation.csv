@@ -1,0 +1,388 @@
+Pokemon_1,Pokemon_2,Image.x,Image.y,correlation
+Mewtwo (Psychic),Lugia (Flying/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,0.5
+Mewtwo (Psychic),Ho-oh (Fire/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,-0.08
+Mewtwo (Psychic),Groudon (Ground),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,-0.03
+Mewtwo (Psychic),Rayquaza (Dragon/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,-0.07
+Mewtwo (Psychic),Dialga (Dragon/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,-0.08
+Mewtwo (Psychic),Giratina Altered Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,0.38
+Mewtwo (Psychic),Giratina Origin Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,0.38
+Mewtwo (Psychic),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,-0.13
+Mewtwo (Psychic),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,-0.02
+Mewtwo (Psychic),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,-0.22
+Mewtwo (Psychic),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,-0.22
+Mewtwo (Psychic),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,-0.22
+Mewtwo (Psychic),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.2
+Mewtwo (Psychic),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,-0.12
+Mewtwo (Psychic),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,-0.04
+Mewtwo (Psychic),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,0.52
+Mewtwo (Psychic),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.79
+Mewtwo (Psychic),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,1
+Mewtwo (Psychic),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,0.52
+Mewtwo (Psychic),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.79
+Mewtwo (Psychic),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.66
+Mewtwo (Psychic),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.11
+Mewtwo (Psychic),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.32
+Mewtwo (Psychic),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.17
+Mewtwo (Psychic),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.66
+Mewtwo (Psychic),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.79
+Lugia (Flying/Psychic),Ho-oh (Fire/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,0.58
+Lugia (Flying/Psychic),Groudon (Ground),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,-0.2
+Lugia (Flying/Psychic),Rayquaza (Dragon/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,0.56
+Lugia (Flying/Psychic),Dialga (Dragon/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,-0.29
+Lugia (Flying/Psychic),Giratina Altered Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,0.46
+Lugia (Flying/Psychic),Giratina Origin Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,0.46
+Lugia (Flying/Psychic),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,-0.02
+Lugia (Flying/Psychic),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,-0.09
+Lugia (Flying/Psychic),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,-0.07
+Lugia (Flying/Psychic),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,-0.07
+Lugia (Flying/Psychic),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,-0.07
+Lugia (Flying/Psychic),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.01
+Lugia (Flying/Psychic),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.55
+Lugia (Flying/Psychic),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.13
+Lugia (Flying/Psychic),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,0.12
+Lugia (Flying/Psychic),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.57
+Lugia (Flying/Psychic),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,0.5
+Lugia (Flying/Psychic),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,0.12
+Lugia (Flying/Psychic),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.57
+Lugia (Flying/Psychic),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.44
+Lugia (Flying/Psychic),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.23
+Lugia (Flying/Psychic),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.45
+Lugia (Flying/Psychic),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.04
+Lugia (Flying/Psychic),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.36
+Lugia (Flying/Psychic),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.57
+Ho-oh (Fire/Flying),Kyogre (Water),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,0.04
+Ho-oh (Fire/Flying),Groudon (Ground),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,-0.29
+Ho-oh (Fire/Flying),Rayquaza (Dragon/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,0.31
+Ho-oh (Fire/Flying),Dialga (Dragon/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,-0.33
+Ho-oh (Fire/Flying),Palkia (Dragon/Water),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,-0.09
+Ho-oh (Fire/Flying),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,0.37
+Ho-oh (Fire/Flying),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,-0.21
+Ho-oh (Fire/Flying),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,0.09
+Ho-oh (Fire/Flying),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,0.09
+Ho-oh (Fire/Flying),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,0.09
+Ho-oh (Fire/Flying),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,0.02
+Ho-oh (Fire/Flying),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.5
+Ho-oh (Fire/Flying),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,-0.21
+Ho-oh (Fire/Flying),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.2
+Ho-oh (Fire/Flying),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.02
+Ho-oh (Fire/Flying),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.08
+Ho-oh (Fire/Flying),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.2
+Ho-oh (Fire/Flying),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.02
+Ho-oh (Fire/Flying),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,-0.15
+Ho-oh (Fire/Flying),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.19
+Ho-oh (Fire/Flying),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.32
+Ho-oh (Fire/Flying),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.06
+Ho-oh (Fire/Flying),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.13
+Ho-oh (Fire/Flying),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.02
+Kyogre (Water),Groudon (Ground),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,-0.27
+Kyogre (Water),Rayquaza (Dragon/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,-0.27
+Kyogre (Water),Dialga (Dragon/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,-0.2
+Kyogre (Water),Palkia (Dragon/Water),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,0.31
+Kyogre (Water),Giratina Altered Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,-0.2
+Kyogre (Water),Giratina Origin Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,-0.2
+Kyogre (Water),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,-0.16
+Kyogre (Water),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,-0.24
+Kyogre (Water),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,-0.32
+Kyogre (Water),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,-0.32
+Kyogre (Water),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,-0.32
+Kyogre (Water),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.15
+Kyogre (Water),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,-0.37
+Kyogre (Water),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.11
+Kyogre (Water),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.11
+Kyogre (Water),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,-0.22
+Kyogre (Water),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.19
+Kyogre (Water),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.12
+Kyogre (Water),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.29
+Kyogre (Water),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.19
+Groudon (Ground),Rayquaza (Dragon/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,0.14
+Groudon (Ground),Dialga (Dragon/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,0.05
+Groudon (Ground),Palkia (Dragon/Water),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,-0.19
+Groudon (Ground),Giratina Altered Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,0.12
+Groudon (Ground),Giratina Origin Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,0.12
+Groudon (Ground),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,-0.16
+Groudon (Ground),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,0.14
+Groudon (Ground),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,-0.25
+Groudon (Ground),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,-0.25
+Groudon (Ground),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,-0.25
+Groudon (Ground),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.12
+Groudon (Ground),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,-0.19
+Groudon (Ground),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.59
+Groudon (Ground),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.03
+Groudon (Ground),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.01
+Groudon (Ground),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.03
+Groudon (Ground),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.03
+Groudon (Ground),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.01
+Groudon (Ground),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.06
+Groudon (Ground),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,0
+Groudon (Ground),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,0
+Groudon (Ground),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.09
+Groudon (Ground),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.27
+Groudon (Ground),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.01
+Rayquaza (Dragon/Flying),Dialga (Dragon/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,-0.06
+Rayquaza (Dragon/Flying),Palkia (Dragon/Water),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,0.4
+Rayquaza (Dragon/Flying),Giratina Altered Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,0.6
+Rayquaza (Dragon/Flying),Giratina Origin Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,0.6
+Rayquaza (Dragon/Flying),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,0.26
+Rayquaza (Dragon/Flying),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,0.53
+Rayquaza (Dragon/Flying),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,0.32
+Rayquaza (Dragon/Flying),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,0.32
+Rayquaza (Dragon/Flying),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,0.32
+Rayquaza (Dragon/Flying),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.06
+Rayquaza (Dragon/Flying),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.64
+Rayquaza (Dragon/Flying),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.78
+Rayquaza (Dragon/Flying),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.38
+Rayquaza (Dragon/Flying),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.01
+Rayquaza (Dragon/Flying),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.07
+Rayquaza (Dragon/Flying),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.38
+Rayquaza (Dragon/Flying),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.01
+Rayquaza (Dragon/Flying),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.53
+Rayquaza (Dragon/Flying),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.42
+Rayquaza (Dragon/Flying),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.39
+Rayquaza (Dragon/Flying),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.49
+Rayquaza (Dragon/Flying),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.25
+Rayquaza (Dragon/Flying),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.01
+Dialga (Dragon/Steel),Palkia (Dragon/Water),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,0.16
+Dialga (Dragon/Steel),Giratina Altered Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,0.18
+Dialga (Dragon/Steel),Giratina Origin Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,0.18
+Dialga (Dragon/Steel),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,0.38
+Dialga (Dragon/Steel),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,0.51
+Dialga (Dragon/Steel),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,0.33
+Dialga (Dragon/Steel),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,0.33
+Dialga (Dragon/Steel),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,0.33
+Dialga (Dragon/Steel),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.44
+Dialga (Dragon/Steel),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,-0.18
+Dialga (Dragon/Steel),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.23
+Dialga (Dragon/Steel),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,0.57
+Dialga (Dragon/Steel),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.09
+Dialga (Dragon/Steel),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.08
+Dialga (Dragon/Steel),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,0.57
+Dialga (Dragon/Steel),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.09
+Dialga (Dragon/Steel),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.13
+Dialga (Dragon/Steel),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,0.55
+Dialga (Dragon/Steel),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,0.75
+Dialga (Dragon/Steel),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.35
+Dialga (Dragon/Steel),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.04
+Dialga (Dragon/Steel),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.09
+Palkia (Dragon/Water),Giratina Altered Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,0.51
+Palkia (Dragon/Water),Giratina Origin Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,0.51
+Palkia (Dragon/Water),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,0.45
+Palkia (Dragon/Water),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,0.68
+Palkia (Dragon/Water),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,0.45
+Palkia (Dragon/Water),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,0.45
+Palkia (Dragon/Water),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,0.45
+Palkia (Dragon/Water),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.42
+Palkia (Dragon/Water),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.21
+Palkia (Dragon/Water),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.37
+Palkia (Dragon/Water),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.3
+Palkia (Dragon/Water),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.3
+Palkia (Dragon/Water),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.57
+Palkia (Dragon/Water),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.53
+Palkia (Dragon/Water),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.22
+Palkia (Dragon/Water),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.39
+Palkia (Dragon/Water),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.3
+Giratina Altered Forme (Dragon/Ghost),Giratina Origin Forme (Dragon/Ghost),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,1
+Giratina Altered Forme (Dragon/Ghost),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,0.35
+Giratina Altered Forme (Dragon/Ghost),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,0.59
+Giratina Altered Forme (Dragon/Ghost),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,0.27
+Giratina Altered Forme (Dragon/Ghost),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,0.27
+Giratina Altered Forme (Dragon/Ghost),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,0.27
+Giratina Altered Forme (Dragon/Ghost),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.22
+Giratina Altered Forme (Dragon/Ghost),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.1
+Giratina Altered Forme (Dragon/Ghost),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.58
+Giratina Altered Forme (Dragon/Ghost),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,0.16
+Giratina Altered Forme (Dragon/Ghost),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.63
+Giratina Altered Forme (Dragon/Ghost),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,0.38
+Giratina Altered Forme (Dragon/Ghost),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,0.16
+Giratina Altered Forme (Dragon/Ghost),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.63
+Giratina Altered Forme (Dragon/Ghost),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.78
+Giratina Altered Forme (Dragon/Ghost),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.2
+Giratina Altered Forme (Dragon/Ghost),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.19
+Giratina Altered Forme (Dragon/Ghost),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.57
+Giratina Altered Forme (Dragon/Ghost),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.08
+Giratina Altered Forme (Dragon/Ghost),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.63
+Giratina Origin Forme (Dragon/Ghost),Reshiram (Dragon/Fire),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,0.35
+Giratina Origin Forme (Dragon/Ghost),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,0.59
+Giratina Origin Forme (Dragon/Ghost),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,0.27
+Giratina Origin Forme (Dragon/Ghost),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,0.27
+Giratina Origin Forme (Dragon/Ghost),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,0.27
+Giratina Origin Forme (Dragon/Ghost),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.22
+Giratina Origin Forme (Dragon/Ghost),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.1
+Giratina Origin Forme (Dragon/Ghost),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.58
+Giratina Origin Forme (Dragon/Ghost),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,0.16
+Giratina Origin Forme (Dragon/Ghost),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.63
+Giratina Origin Forme (Dragon/Ghost),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,0.38
+Giratina Origin Forme (Dragon/Ghost),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,0.16
+Giratina Origin Forme (Dragon/Ghost),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.63
+Giratina Origin Forme (Dragon/Ghost),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.78
+Giratina Origin Forme (Dragon/Ghost),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.2
+Giratina Origin Forme (Dragon/Ghost),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.19
+Giratina Origin Forme (Dragon/Ghost),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.57
+Giratina Origin Forme (Dragon/Ghost),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.08
+Giratina Origin Forme (Dragon/Ghost),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.63
+Reshiram (Dragon/Fire),Zekrom (Dragon/Electric),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,0.64
+Reshiram (Dragon/Fire),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,0.43
+Reshiram (Dragon/Fire),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,0.43
+Reshiram (Dragon/Fire),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,0.43
+Reshiram (Dragon/Fire),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.29
+Reshiram (Dragon/Fire),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,-0.02
+Reshiram (Dragon/Fire),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.18
+Reshiram (Dragon/Fire),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.02
+Reshiram (Dragon/Fire),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.13
+Reshiram (Dragon/Fire),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.02
+Reshiram (Dragon/Fire),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.26
+Reshiram (Dragon/Fire),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.1
+Reshiram (Dragon/Fire),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.63
+Reshiram (Dragon/Fire),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.15
+Zekrom (Dragon/Electric),Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,0.41
+Zekrom (Dragon/Electric),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,0.41
+Zekrom (Dragon/Electric),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,0.41
+Zekrom (Dragon/Electric),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.32
+Zekrom (Dragon/Electric),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.08
+Zekrom (Dragon/Electric),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.7
+Zekrom (Dragon/Electric),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.03
+Zekrom (Dragon/Electric),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,-0.01
+Zekrom (Dragon/Electric),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.02
+Zekrom (Dragon/Electric),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.03
+Zekrom (Dragon/Electric),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,-0.01
+Zekrom (Dragon/Electric),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.63
+Zekrom (Dragon/Electric),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.14
+Zekrom (Dragon/Electric),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,0.02
+Zekrom (Dragon/Electric),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.72
+Zekrom (Dragon/Electric),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.31
+Zekrom (Dragon/Electric),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,-0.01
+Kyurem (Dragon/Ice),Black Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,1
+Kyurem (Dragon/Ice),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,1
+Kyurem (Dragon/Ice),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.09
+Kyurem (Dragon/Ice),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.28
+Kyurem (Dragon/Ice),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.19
+Kyurem (Dragon/Ice),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.23
+Kyurem (Dragon/Ice),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,-0.16
+Kyurem (Dragon/Ice),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.22
+Kyurem (Dragon/Ice),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.23
+Kyurem (Dragon/Ice),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,-0.16
+Kyurem (Dragon/Ice),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.28
+Kyurem (Dragon/Ice),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.16
+Kyurem (Dragon/Ice),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0
+Kyurem (Dragon/Ice),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.24
+Kyurem (Dragon/Ice),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.2
+Kyurem (Dragon/Ice),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,-0.16
+Black Kyurem (Dragon/Ice),White Kyurem (Dragon/Ice),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,1
+Black Kyurem (Dragon/Ice),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.09
+Black Kyurem (Dragon/Ice),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.28
+Black Kyurem (Dragon/Ice),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.19
+Black Kyurem (Dragon/Ice),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.23
+Black Kyurem (Dragon/Ice),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,-0.16
+Black Kyurem (Dragon/Ice),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.22
+Black Kyurem (Dragon/Ice),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.23
+Black Kyurem (Dragon/Ice),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,-0.16
+Black Kyurem (Dragon/Ice),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.28
+Black Kyurem (Dragon/Ice),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.16
+Black Kyurem (Dragon/Ice),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0
+Black Kyurem (Dragon/Ice),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.24
+Black Kyurem (Dragon/Ice),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.2
+Black Kyurem (Dragon/Ice),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,-0.16
+White Kyurem (Dragon/Ice),Xerneas (Fairy),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,-0.09
+White Kyurem (Dragon/Ice),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.28
+White Kyurem (Dragon/Ice),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.19
+White Kyurem (Dragon/Ice),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.23
+White Kyurem (Dragon/Ice),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,-0.16
+White Kyurem (Dragon/Ice),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.22
+White Kyurem (Dragon/Ice),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.23
+White Kyurem (Dragon/Ice),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,-0.16
+White Kyurem (Dragon/Ice),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.28
+White Kyurem (Dragon/Ice),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.16
+White Kyurem (Dragon/Ice),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0
+White Kyurem (Dragon/Ice),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.24
+White Kyurem (Dragon/Ice),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.2
+White Kyurem (Dragon/Ice),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,-0.16
+Xerneas (Fairy),Yveltal (Dark/Flying),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,0.05
+Xerneas (Fairy),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,-0.21
+Xerneas (Fairy),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.29
+Xerneas (Fairy),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,-0.16
+Xerneas (Fairy),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.2
+Xerneas (Fairy),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.29
+Xerneas (Fairy),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,-0.16
+Xerneas (Fairy),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,-0.33
+Xerneas (Fairy),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,0.11
+Xerneas (Fairy),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.2
+Xerneas (Fairy),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.21
+Xerneas (Fairy),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.03
+Xerneas (Fairy),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,-0.16
+Yveltal (Dark/Flying),Zygarde 50% Forme (Dragon/Ground),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,0.27
+Yveltal (Dark/Flying),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.35
+Yveltal (Dark/Flying),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,-0.22
+Yveltal (Dark/Flying),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.12
+Yveltal (Dark/Flying),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.35
+Yveltal (Dark/Flying),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,-0.22
+Yveltal (Dark/Flying),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.17
+Yveltal (Dark/Flying),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.23
+Yveltal (Dark/Flying),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.26
+Yveltal (Dark/Flying),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.18
+Yveltal (Dark/Flying),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.02
+Yveltal (Dark/Flying),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,-0.22
+Zygarde 50% Forme (Dragon/Ground),Solgaleo (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,-0.21
+Zygarde 50% Forme (Dragon/Ground),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,-0.01
+Zygarde 50% Forme (Dragon/Ground),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,-0.04
+Zygarde 50% Forme (Dragon/Ground),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,-0.21
+Zygarde 50% Forme (Dragon/Ground),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,-0.01
+Zygarde 50% Forme (Dragon/Ground),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.57
+Zygarde 50% Forme (Dragon/Ground),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.26
+Zygarde 50% Forme (Dragon/Ground),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.14
+Zygarde 50% Forme (Dragon/Ground),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.57
+Zygarde 50% Forme (Dragon/Ground),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.4
+Zygarde 50% Forme (Dragon/Ground),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,-0.01
+Solgaleo (Psychic/Steel),Lunala (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,0.63
+Solgaleo (Psychic/Steel),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,0.52
+Solgaleo (Psychic/Steel),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,1
+Solgaleo (Psychic/Steel),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.63
+Solgaleo (Psychic/Steel),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.13
+Solgaleo (Psychic/Steel),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,0.7
+Solgaleo (Psychic/Steel),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,0.57
+Solgaleo (Psychic/Steel),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.05
+Solgaleo (Psychic/Steel),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.51
+Solgaleo (Psychic/Steel),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.63
+Lunala (Ghost/Psychic),Necrozma (Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,0.79
+Lunala (Ghost/Psychic),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,0.63
+Lunala (Ghost/Psychic),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,1
+Lunala (Ghost/Psychic),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.53
+Lunala (Ghost/Psychic),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,0.05
+Lunala (Ghost/Psychic),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.1
+Lunala (Ghost/Psychic),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.02
+Lunala (Ghost/Psychic),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.54
+Lunala (Ghost/Psychic),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,1
+Necrozma (Psychic),Dusk Mane Necrozma (Psychic/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,0.52
+Necrozma (Psychic),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.79
+Necrozma (Psychic),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.66
+Necrozma (Psychic),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.11
+Necrozma (Psychic),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.32
+Necrozma (Psychic),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.17
+Necrozma (Psychic),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.66
+Necrozma (Psychic),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.79
+Dusk Mane Necrozma (Psychic/Steel),Dawn Wings Necrozma (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,0.63
+Dusk Mane Necrozma (Psychic/Steel),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.13
+Dusk Mane Necrozma (Psychic/Steel),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,0.7
+Dusk Mane Necrozma (Psychic/Steel),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,0.57
+Dusk Mane Necrozma (Psychic/Steel),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.05
+Dusk Mane Necrozma (Psychic/Steel),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.51
+Dusk Mane Necrozma (Psychic/Steel),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.63
+Dawn Wings Necrozma (Ghost/Psychic),Ultra Necrozma (Dragon/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,0.53
+Dawn Wings Necrozma (Ghost/Psychic),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,0.05
+Dawn Wings Necrozma (Ghost/Psychic),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.1
+Dawn Wings Necrozma (Ghost/Psychic),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.02
+Dawn Wings Necrozma (Ghost/Psychic),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.54
+Dawn Wings Necrozma (Ghost/Psychic),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,1
+Ultra Necrozma (Dragon/Psychic),Zacian Crowned Sword (Fairy/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,-0.4
+Ultra Necrozma (Dragon/Psychic),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,-0.39
+Ultra Necrozma (Dragon/Psychic),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.36
+Ultra Necrozma (Dragon/Psychic),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.24
+Ultra Necrozma (Dragon/Psychic),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-ultra.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.53
+Zacian Crowned Sword (Fairy/Steel),Zamazenta Crowned Shield (Fighting/Steel),https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,0.83
+Zacian Crowned Sword (Fairy/Steel),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,-0.03
+Zacian Crowned Sword (Fairy/Steel),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,0.21
+Zacian Crowned Sword (Fairy/Steel),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.05
+Zamazenta Crowned Shield (Fighting/Steel),Eternatus (Dragon/Poison),https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,0.05
+Zamazenta Crowned Shield (Fighting/Steel),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.1
+Zamazenta Crowned Shield (Fighting/Steel),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,-0.1
+Eternatus (Dragon/Poison),Calyrex Ice Rider (Ice/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,-0.37
+Eternatus (Dragon/Poison),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.02
+Calyrex Ice Rider (Ice/Psychic),Calyrex Shadow Rider (Ghost/Psychic),https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,0.54

@@ -1,0 +1,71 @@
+---
+title: "Assessing Typing Correlation in VGC12 Restricteds"
+description: |
+  A way to quantify typing
+author:
+  - name: melondonkey
+    url:
+      {https://pokemon-data-analysis.netlify.app}
+date: 2022-01-14
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+With Series 12 upon us many are already looking to the new meta to find the best pairing of restricted Pokemon.  Today I'm looking at a way to quantify the idea of typing correlation. 
+
+
+## Typing Correlation
+
+Let's start with the premise that we want our two restricteds not to be weak to the same things. Perhaps there are exceptions to this but we will not concern ourselves with those.  Let's call this tendency to be weak to the same things **typing correlation.**  If you remember from stats class, correlation is the tendency of things to move up or down together.  The **Pearson correlation coefficient** is a measure of this tendency, with -1 being the strongest negative relationship:  when one goes down, the other goes up.  Zero represents uncorrelated: the two move independently.  One represent perfect correlation:  when one goes up, the other does as well.  
+
+Imagine we create a spreadsheet with all the Pokemon we're looking at as rows and 18 columns representing that Pokemon's weakness to each of the types as one of (0,.25, .5, 1, 2, 4).  I'll use R to transpose this matrix and calculate the correlation coefficients.  Instead of a correlation matrix though, I've converted the data to pairs for easier searching and sorting.  
+
+
+### Table of Correlations
+
+I've initially sorted the table below by correlation with the most negatively correlated showing first.  These pairings represent Pokemon who complement each others' weaknesses very well.  One tends to resist things that are supereffective against the other. It doesn't mean these pairs will be good necessarily, just that their typings complement each other well.  
+
+The absolute value of the correlation coefficient is available for sorting as well.  This helps you find pairs that are close to zero.  If a pair is close to zero, it just means that the typings aren't really related at all.  
+
+The "bad" pairs are the ones where the weaknesses are highly correlated.  Unless you know what you're doing and why you're doing it, you're going to want to avoid pairs with high positive values (like Necrozma and Mewtwo--same typing so weak to all the same things). 
+
+You can also use the search bar to filter down to one you're interested in and see who pairs well.  I personally love Kyurem White and glad to see he is negatively correlated to Kyogre.  Maybe I'll give this Ky-squared team a try.    
+
+Can't wait to see which legendary pairs people come up with!  
+
+```{r, echo=FALSE}
+library(formattable)
+library(DT)
+library(readr)
+library(dplyr)
+
+restricteds <- read_csv(here::here('restricted-correlation.csv'))
+
+restricteds %>%
+  mutate(Image_1 = ifelse(!is.na(Image.x), 
+                          paste0("<img src=\"",Image.x, 
+                                 "\" height=\"30\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"","\"></img>"), 
+                          as.character(icon("question", lib = "font-awesome")))) %>%
+  mutate(Image_2 = ifelse(!is.na(Image.y), 
+                          paste0("<img src=\"",Image.y, 
+                                 "\" height=\"30\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"","\"></img>"), 
+                          as.character(icon("question", lib = "font-awesome")))) %>%
+  select(Image_1, Pokemon_1, Image_2, Pokemon_2,  correlation) %>%
+  mutate(abs_corr = abs(correlation)) %>%
+  arrange(correlation) %>%
+  rename(
+    `Image 1` = Image_1,
+    `Image 2` = Image_2,
+    `Pokemon 1`= Pokemon_1,
+    `Pokemon 2`= Pokemon_2,
+    `Correlation Coefficient` = correlation,
+    `Absolute Value` = abs_corr
+  ) %>%
+  formattable() %>%
+  as.datatable(escape=FALSE,
+               options=list(scrollX = TRUE))
+
+```
+
