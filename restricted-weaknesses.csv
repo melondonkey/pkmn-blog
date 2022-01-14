@@ -1,0 +1,30 @@
+Name,type,from_Bug,from_Dark,from_Dragon,from_Electric,from_Fairy,from_Fighting,from_Fire,from_Flying,from_Ghost,from_Grass,from_Ground,from_Ice,from_Normal,from_Poison,from_Psychic,from_Rock,from_Steel,from_Water
+Mewtwo,Psychic,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Lugia,Flying/Psychic,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+Ho-oh,Fire/Flying,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+Kyogre,Water,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Groudon,Ground,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Rayquaza,Dragon/Flying,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+Dialga,Dragon/Steel,0.5,1,1,0.5,1,2,1,0.5,1,0.25,2,1,0.5,0,0.5,0.5,0.5,0.5
+Palkia,Dragon/Water,1,1,2,1,2,1,0.25,1,1,1,1,1,1,1,1,1,0.5,0.25
+Giratina Altered Forme,Dragon/Ghost,0.5,2,2,0.5,2,0,0.5,1,2,0.5,1,2,0,0.5,1,1,1,0.5
+Giratina Origin Forme,Dragon/Ghost,0.5,2,2,0.5,2,0,0.5,1,2,0.5,1,2,0,0.5,1,1,1,0.5
+Reshiram,Dragon/Fire,0.5,1,2,0.5,1,1,0.25,1,1,0.25,2,1,1,1,1,2,0.5,1
+Zekrom,Dragon/Electric,1,1,2,0.25,2,1,0.5,0.5,1,0.5,2,2,1,1,1,1,0.5,0.5
+Kyurem,Dragon/Ice,1,1,2,0.5,2,2,1,1,1,0.5,1,1,1,1,1,2,2,0.5
+Black Kyurem,Dragon/Ice,1,1,2,0.5,2,2,1,1,1,0.5,1,1,1,1,1,2,2,0.5
+White Kyurem,Dragon/Ice,1,1,2,0.5,2,2,1,1,1,0.5,1,1,1,1,1,2,2,0.5
+Xerneas,Fairy,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Yveltal,Dark/Flying,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+Zygarde 50% Forme,Dragon/Ground,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+Solgaleo,Psychic/Steel,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Lunala,Ghost/Psychic,1,4,1,1,1,0,1,1,4,1,1,1,0,0.5,0.5,1,1,1
+Necrozma,Psychic,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Dusk Mane Necrozma,Psychic/Steel,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Dawn Wings Necrozma,Ghost/Psychic,1,4,1,1,1,0,1,1,4,1,1,1,0,0.5,0.5,1,1,1
+Ultra Necrozma,Dragon/Psychic,2,2,2,0.5,2,0.5,0.5,1,2,0.5,1,2,1,1,0.5,1,1,0.5
+Zacian Crowned Sword,Fairy/Steel,0.25,0.5,0,1,0.5,1,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,1,1
+Zamazenta Crowned Shield,Fighting/Steel,0.25,0.5,0.5,1,1,2,2,1,1,0.5,2,0.5,0.5,0,1,0.25,0.5,1
+Eternatus,Dragon/Poison,0.5,1,2,0.5,1,0.5,0.5,1,1,0.25,2,2,1,0.5,2,1,1,0.5
+Calyrex Ice Rider,Ice/Psychic,2,2,1,1,1,1,2,1,2,1,1,0.5,1,1,0.5,2,2,1
+Calyrex Shadow Rider,Ghost/Psychic,1,4,1,1,1,0,1,1,4,1,1,1,0,0.5,0.5,1,1,1

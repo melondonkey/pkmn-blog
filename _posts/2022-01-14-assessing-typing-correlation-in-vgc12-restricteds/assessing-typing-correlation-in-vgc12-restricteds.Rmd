@@ -22,6 +22,26 @@ Let's start with the premise that we want our two restricteds not to be weak to 
 
 Imagine we create a spreadsheet with all the Pokemon we're looking at as rows and 18 columns representing that Pokemon's weakness to each of the types as one of (0,.25, .5, 1, 2, 4).  I'll use R to transpose this matrix and calculate the correlation coefficients.  Instead of a correlation matrix though, I've converted the data to pairs for easier searching and sorting.  
 
+### Table of Weaknesses
+
+Here's the base table of weaknesses.  
+
+```{r, echo=FALSE}
+library(formattable)
+library(DT)
+library(readr)
+library(dplyr)
+
+weaknesses <- read_csv(here::here('restricted-weaknesses.csv'))
+
+weaknesses %>%
+  
+  formattable() %>%
+  as.datatable(escape=FALSE,
+               options=list(scrollX = TRUE))
+
+```
+
 
 ### Table of Correlations
 
@@ -69,3 +89,31 @@ restricteds %>%
 
 ```
 
+## Strong Offensive Typings
+
+Another interesting thing to look at is how well each type does offensively against all the restricteds.  If we had to pick one type to attack each Pokemon in this dataset, which should it be?  We can average each types effectiveness and see:  
+
+```{r, echo=FALSE}
+
+restricteds <- read_csv(here::here('restricted-weaknesses.csv'))
+
+avg_effectiveness <-
+  restricteds %>%
+  select(starts_with('from_')) %>%
+  colMeans() %>%
+  data.frame()
+
+#avg_effectiveness$type <- rownames(avg_effectiveness)
+colnames(avg_effectiveness) <- c('avg_effectiveness')
+
+avg_effectiveness %>%
+  arrange(-avg_effectiveness) %>%
+#  select(type, avg_effectiveness) %>%
+  mutate(avg_effectiveness=round(avg_effectiveness,2)) %>%
+  rename(`Avg Effectiveness vs Restricteds`=avg_effectiveness) %>%
+  formattable() %>%
+  as.datatable(escape=FALSE, options=list( pageLength=18))
+
+```
+
+Looks like Ghost, Dark, and Ice are top choices against this pool, though that's likely to change as these won't all have equal weight in the meta.  
