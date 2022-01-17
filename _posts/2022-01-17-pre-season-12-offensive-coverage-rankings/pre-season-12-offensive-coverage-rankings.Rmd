@@ -1,0 +1,101 @@
+---
+title: "Pre-Season 12 Offensive Coverage Rankings"
+description: |
+  Sneak peek into the next meta
+author:
+  - name: melondonkey
+    url:
+      {https://pokemon-data-analysis.netlify.app}
+date: 2022-01-17
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+After a >500 person Victory Road tournament, we have some early data on the Season 12 meta, so I thought I would run the coverage type rankings against the pre-season meta.  Let's take a look first at the available usage data (top 25). 
+
+```{r, echo=FALSE}
+library(formattable)
+library(DT)
+library(readr)
+library(dplyr)
+
+meta <- read_csv(here::here('rankings-early12.csv'))
+
+meta %>%
+  
+  formattable() %>%
+  rename(
+    `Percentage Inclusion` = mon_percent
+  )  %>%
+  as.datatable(escape=FALSE) 
+  
+
+```
+
+## Offensive Type Rankings
+
+Now we can compute weighted average effectiveness for each move type.  Check out my earlier posts if you want detail on exactly how I do this, but basically the metric is exactly what it sounds like.  This time since restricteds are so important in this meta, I've broken the analysis down into effectiveness vs restricteds and non-restricteds.  
+
+Looks like you're definitely gonna want to pack some Ice for Season 12.  Ice Beam is always around, but I personally love Freeze-dry.  Don't forget this number doesn't even account for the super-effectiveness of it against Kyogre and the Water Types.  Ground has fallen a bit in effectiveness which helps explain Landorus falling out of favor in the new meta.  Those hyper-focused on restricteds may be tempted to forego grass moves but it looks like it covers the rest of the meta fairly well.  
+
+### Vs Restricteds
+
+```{r, echo=FALSE}
+library(formattable)
+library(DT)
+library(readr)
+library(dplyr)
+
+restricteds <- read_csv(here::here('offense-rankings.csv'))
+
+restricteds %>%
+  filter(restricted == "Restricted") %>%
+  mutate(wgt_avg_effectiveness = round(wgt_avg_effectiveness, 2)) %>%
+  formattable() %>%
+  as.datatable(escape=FALSE,
+               options=list(pageLength=18)) 
+
+```
+
+
+### Non-Restricted
+
+```{r, echo=FALSE}
+library(formattable)
+library(DT)
+library(readr)
+library(dplyr)
+
+restricteds <- read_csv(here::here('offense-rankings.csv'))
+
+restricteds %>%
+  filter(restricted == "Non Restricted") %>%
+  mutate(wgt_avg_effectiveness = round(wgt_avg_effectiveness, 2)) %>%
+  formattable() %>%
+  as.datatable(escape=FALSE,
+               options=list(scrollX = TRUE)) 
+
+```
+
+## Offensive Typing Correlation
+
+On a final note, I think it's also intersting to think about how correlated the typings are offensively.  In my last post I explained this in a bit more detail, but we can also look at whether Ice and Ground, for example, hit the same mons in the meta or different ones.  These correlations are empirically derived from which Pokemon are actually in the meta and takes into account their dual typings.  Note though that this is not meta-weighted on usage but just simply looks at the offensive correlation into this list of 25 mons.
+
+So for example if choosing two coverage move types you'll want to take into account not just how effective they are into the field but how much they overlap each other.  Ground and Ice are negatively correlated meaning they tend to hit different mons for supereffective damage.  On the other end of the spectrum is Ghost and Dark.  Which...well, I think Ghost just shouldn't exist because it's too similar but I'm not paid for my opinions.  
+
+```{r, echo=FALSE}
+library(formattable)
+library(DT)
+library(readr)
+library(dplyr)
+
+correlation <- read_csv(here::here('offensive-correlation.csv'))
+
+correlation %>%
+  mutate(correlation = round(correlation, 2)) %>%
+  formattable() %>%
+  as.datatable(escape=FALSE,
+               options=list(scrollX = TRUE)) 
+
+```
