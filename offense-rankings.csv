@@ -1,37 +1,37 @@
 Attacking,restricted,wgt_avg_effectiveness
-Ice,Restricted,1.4464285714285714
-Rock,Restricted,1.3133116883116882
-Fire,Non Restricted,1.2703488372093024
-Electric,Non Restricted,1.2616279069767442
-Ground,Non Restricted,1.2616279069767442
-Ghost,Non Restricted,1.197674418604651
-Fire,Restricted,1.1801948051948052
-Poison,Restricted,1.1785714285714286
-Flying,Restricted,1.1623376623376624
-Water,Restricted,1.1233766233766234
-Grass,Non Restricted,1.1075581395348837
-Ground,Restricted,1.047077922077922
-Fairy,Restricted,1.0324675324675325
-Dark,Non Restricted,1.0319767441860466
-Fighting,Restricted,1.0275974025974026
-Fairy,Non Restricted,0.9738372093023255
-Normal,Restricted,0.961038961038961
-Fighting,Non Restricted,0.9476744186046512
-Water,Non Restricted,0.9447674418604651
-Bug,Restricted,0.9366883116883117
-Rock,Non Restricted,0.9273255813953488
-Steel,Restricted,0.9172077922077922
-Ice,Non Restricted,0.8808139534883721
-Steel,Non Restricted,0.8808139534883721
-Psychic,Restricted,0.8441558441558441
-Ghost,Restricted,0.8262987012987013
-Dragon,Restricted,0.8246753246753247
-Dark,Restricted,0.8173701298701299
-Flying,Non Restricted,0.811046511627907
-Bug,Non Restricted,0.8037790697674418
-Electric,Restricted,0.7922077922077922
-Grass,Restricted,0.7840909090909091
-Normal,Non Restricted,0.7587209302325582
-Dragon,Non Restricted,0.6918604651162791
-Psychic,Non Restricted,0.6308139534883721
-Poison,Non Restricted,0.5436046511627907
+Ice,Non Restricted,1.4464285714285714
+Rock,Non Restricted,1.3133116883116882
+Fire,Restricted,1.2703488372093024
+Electric,Restricted,1.2616279069767442
+Ground,Restricted,1.2616279069767442
+Ghost,Restricted,1.197674418604651
+Fire,Non Restricted,1.1801948051948052
+Poison,Non Restricted,1.1785714285714286
+Flying,Non Restricted,1.1623376623376624
+Water,Non Restricted,1.1233766233766234
+Grass,Restricted,1.1075581395348837
+Ground,Non Restricted,1.047077922077922
+Fairy,Non Restricted,1.0324675324675325
+Dark,Restricted,1.0319767441860466
+Fighting,Non Restricted,1.0275974025974026
+Fairy,Restricted,0.9738372093023255
+Normal,Non Restricted,0.961038961038961
+Fighting,Restricted,0.9476744186046512
+Water,Restricted,0.9447674418604651
+Bug,Non Restricted,0.9366883116883117
+Rock,Restricted,0.9273255813953488
+Steel,Non Restricted,0.9172077922077922
+Ice,Restricted,0.8808139534883721
+Steel,Restricted,0.8808139534883721
+Psychic,Non Restricted,0.8441558441558441
+Ghost,Non Restricted,0.8262987012987013
+Dragon,Non Restricted,0.8246753246753247
+Dark,Non Restricted,0.8173701298701299
+Flying,Restricted,0.811046511627907
+Bug,Restricted,0.8037790697674418
+Electric,Non Restricted,0.7922077922077922
+Grass,Non Restricted,0.7840909090909091
+Normal,Restricted,0.7587209302325582
+Dragon,Restricted,0.6918604651162791
+Psychic,Restricted,0.6308139534883721
+Poison,Restricted,0.5436046511627907

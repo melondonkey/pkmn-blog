@@ -37,9 +37,9 @@ meta %>%
 
 Now we can compute weighted average effectiveness for each move type.  Check out my earlier posts if you want detail on exactly how I do this, but basically the metric is exactly what it sounds like.  This time since restricteds are so important in this meta, I've broken the analysis down into effectiveness vs restricteds and non-restricteds.  
 
-Looks like you're definitely gonna want to pack some Ice for Season 12.  Ice Beam is always around, but I personally love Freeze-dry.  Don't forget this number doesn't even account for the super-effectiveness of it against Kyogre and the Water Types.  Ground has fallen a bit in effectiveness which helps explain Landorus falling out of favor in the new meta.  Those hyper-focused on restricteds may be tempted to forego grass moves but it looks like it covers the rest of the meta fairly well.  
 
-### Vs Restricteds
+
+### Weighted Average Effectiveness Table
 
 ```{r, echo=FALSE}
 library(formattable)
@@ -50,8 +50,13 @@ library(dplyr)
 restricteds <- read_csv(here::here('offense-rankings.csv'))
 
 restricteds %>%
-  filter(restricted == "Restricted") %>%
+  #filter(restricted == "Restricted") %>%
   mutate(wgt_avg_effectiveness = round(wgt_avg_effectiveness, 2)) %>%
+  tidyr::pivot_wider(id_cols=c('Attacking'),
+                     names_from = restricted,
+                     names_prefix = "vs ",
+                     values_from= wgt_avg_effectiveness) %>%
+  arrange(-`vs Restricted`) %>%
   formattable() %>%
   as.datatable(escape=FALSE,
                options=list(pageLength=18)) 
@@ -59,24 +64,6 @@ restricteds %>%
 ```
 
 
-### Non-Restricted
-
-```{r, echo=FALSE}
-library(formattable)
-library(DT)
-library(readr)
-library(dplyr)
-
-restricteds <- read_csv(here::here('offense-rankings.csv'))
-
-restricteds %>%
-  filter(restricted == "Non Restricted") %>%
-  mutate(wgt_avg_effectiveness = round(wgt_avg_effectiveness, 2)) %>%
-  formattable() %>%
-  as.datatable(escape=FALSE,
-               options=list(scrollX = TRUE)) 
-
-```
 
 ## Offensive Typing Correlation
 
