@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-01-18T09:37:40-05:00"
+      "last_modified": "2022-01-19T20:55:02-05:00"
     },
     {
       "path": "index.html",
       "title": "Pokemon Analysis",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-01-18T09:37:40-05:00"
+      "last_modified": "2022-01-19T20:55:03-05:00"
     }
   ],
   "collections": ["posts/posts.json"]

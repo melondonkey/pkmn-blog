@@ -1,0 +1,437 @@
+Name.x,wgt_avg_damage,wgt_avg_damage_taken,offensive_percentile,defensive_percentile,avg_percentile,type,Image,meta
+Zacian Crowned Sword,0.8576361842947469,0.31022505837193126,0.9816091954022989,0.9540229885057471,0.967816091954023,Fairy/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-crowned.png,Meta
+Reshiram,0.8141352983586935,0.3014919379937958,0.9655172413793104,0.9655172413793104,0.9655172413793104,Dragon/Fire,https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png,Non-Meta
+Palkia,0.8152840377794953,0.30732958011432504,0.967816091954023,0.9586206896551724,0.9632183908045977,Dragon/Water,https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png,Non-Meta
+Calyrex Ice Rider,0.9687758994119926,0.33755793700464803,0.9908045977011494,0.9195402298850575,0.9551724137931035,Ice/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-ice-rider.png,Meta
+Eternatus,0.7167405304135932,0.2688246958552523,0.8942528735632184,0.9908045977011494,0.9425287356321839,Dragon/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png,Non-Meta
+Black Kyurem,1.009966745259287,0.36176729225918386,0.9954022988505747,0.8804597701149425,0.9379310344827586,Dragon/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-black.png,Non-Meta
+Yveltal,0.7502273307319032,0.31452405476400863,0.9241379310344827,0.9494252873563218,0.9367816091954022,Dark/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png,Non-Meta
+Rayquaza,0.8005539820818943,0.3422822463586325,0.9540229885057471,0.9080459770114943,0.9310344827586207,Dragon/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png,Non-Meta
+Dialga,0.7124885177030227,0.2891351974730333,0.8781609195402299,0.9793103448275862,0.928735632183908,Dragon/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png,Meta
+White Kyurem,1.0429524877025502,0.3732850737163998,1,0.8482758620689655,0.9241379310344828,Dragon/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem-white.png,Meta
+Dusk Mane Necrozma,0.7419955249707072,0.3263878512705331,0.9103448275862069,0.9379310344827586,0.9241379310344828,Psychic/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dusk-mane.png,Non-Meta
+Kyogre,0.7229771927938577,0.3267644572306808,0.9011494252873563,0.9356321839080459,0.9183908045977012,Water,https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png,Meta
+Darmanitan Zen Mode,0.7455899840549688,0.34131745013172915,0.9172413793103448,0.9149425287356322,0.9160919540229885,Fire/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan-zen.png,Non-Meta
+Ho-oh,0.6905809412639058,0.27959297393142507,0.832183908045977,0.9839080459770115,0.9080459770114943,Fire/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png,Non-Meta
+Zekrom,0.6924732528277118,0.2951001879833271,0.8390804597701149,0.9747126436781609,0.9068965517241379,Dragon/Electric,https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png,Non-Meta
+Xerneas,0.6860462771916976,0.2984891351272033,0.8275862068965517,0.9724137931034482,0.8999999999999999,Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png,Non-Meta
+Zamazenta Crowned Shield,0.6796926739048166,0.2939206236611363,0.8160919540229885,0.9770114942528736,0.896551724137931,Fighting/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-crowned.png,Non-Meta
+Kyurem,0.8704480281851816,0.3830368700832627,0.9839080459770115,0.8068965517241379,0.8954022988505748,Dragon/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png,Non-Meta
+Togekiss,0.7127588539367363,0.35294375410965956,0.8804597701149425,0.8896551724137931,0.8850574712643677,Fairy/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/togekiss.png,Non-Meta
+Glastrier,0.8033965545026349,0.38265741198679476,0.9563218390804598,0.8114942528735632,0.8839080459770114,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/glastrier.png,Meta
+Gyarados,0.7671135166917434,0.38089254699400105,0.9402298850574713,0.825287356321839,0.8827586206896552,Flying/Water,https://img.pokemondb.net/sprites/sword-shield/icon/gyarados.png,Non-Meta
+Primarina,0.8417587495033312,0.39497633168303803,0.9747126436781609,0.7839080459770115,0.8793103448275862,Fairy/Water,https://img.pokemondb.net/sprites/sword-shield/icon/primarina.png,Non-Meta
+Garchomp,0.7420222606721351,0.37611362061263465,0.9126436781609195,0.8413793103448276,0.8770114942528735,Dragon/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/garchomp.png,Non-Meta
+Golisopod,0.7031025214824363,0.36061936035871883,0.8620689655172413,0.8850574712643678,0.8735632183908046,Bug/Water,https://img.pokemondb.net/sprites/sword-shield/icon/golisopod.png,Non-Meta
+Zapdos,0.6765357945075274,0.33186901616160014,0.8091954022988506,0.9218390804597701,0.8655172413793104,Electric/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/zapdos.png,Meta
+Solgaleo,0.6595575677233647,0.3077715185475224,0.774712643678161,0.9563218390804598,0.8655172413793104,Psychic/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png,Non-Meta
+Groudon,0.6769793383595627,0.3416352625485379,0.8137931034482758,0.9126436781609195,0.8632183908045976,Ground,https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png,Meta
+Tapu Fini,0.6678268939144809,0.32723885785406315,0.7908045977011494,0.9310344827586207,0.860919540229885,Fairy/Water,https://img.pokemondb.net/sprites/sword-shield/icon/tapu-fini.png,Meta
+Moltres,0.7137065061815634,0.3779761377470267,0.8827586206896552,0.8344827586206897,0.8586206896551725,Fire/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/moltres.png,Non-Meta
+Dawn Wings Necrozma,0.6709930235871527,0.34926652997433016,0.7977011494252874,0.8988505747126436,0.8482758620689654,Ghost/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma-dawn-wings.png,Non-Meta
+Landorus Therian Forme,0.8949623511685219,0.41516851077626893,0.9885057471264368,0.7011494252873564,0.8448275862068966,Flying/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/landorus-therian.png,Meta
+Thundurus Therian Forme,0.7669961776630342,0.402906575547928,0.9379310344827586,0.7494252873563219,0.8436781609195403,Electric/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/thundurus-therian.png,Non-Meta
+Dragonite,0.6575777248480986,0.348932278346116,0.7701149425287356,0.9011494252873563,0.835632183908046,Dragon/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png,Non-Meta
+Slowbro,0.6117083104442055,0.27406339372717403,0.6758620689655173,0.9862068965517241,0.8310344827586207,Psychic/Water,https://img.pokemondb.net/sprites/sword-shield/icon/slowbro.png,Non-Meta
+Landorus Incarnate Forme,0.7894502524469041,0.41516851077626893,0.9517241379310345,0.7011494252873564,0.8264367816091954,Flying/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/landorus-incarnate.png,Non-Meta
+Wishiwashi School Form,0.7095655823753628,0.3976113140083606,0.871264367816092,0.774712643678161,0.8229885057471265,Water,https://img.pokemondb.net/sprites/sword-shield/icon/wishiwashi-school.png,Non-Meta
+Zacian Hero of Many Battles,0.6143319243117665,0.3112529091088581,0.6919540229885057,0.9517241379310345,0.8218390804597702,Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/zacian-hero.png,Non-Meta
+Zygarde Complete Forme,0.5969584970417079,0.20418213986763661,0.6275862068965518,0.9977011494252873,0.8126436781609195,Dragon/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-complete.png,Non-Meta
+Swampert,0.6681957641242398,0.3866829034766164,0.7931034482758621,0.7977011494252874,0.7954022988505747,Ground/Water,https://img.pokemondb.net/sprites/sword-shield/icon/swampert.png,Non-Meta
+Giratina Origin Forme,0.5704382843988749,0.23685018964951152,0.5793103448275863,0.9954022988505747,0.7873563218390804,Dragon/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-origin.png,Non-Meta
+Lapras,0.6927592641507273,0.4062878975102347,0.8413793103448276,0.7310344827586207,0.7862068965517242,Ice/Water,https://img.pokemondb.net/sprites/sword-shield/icon/lapras.png,Meta
+Zygarde 50% Forme,0.5969584970417079,0.3246830748714877,0.6275862068965518,0.9402298850574713,0.7839080459770116,Dragon/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-50.png,Non-Meta
+Walrein,0.7245272430055104,0.43027214591301516,0.903448275862069,0.6597701149425287,0.7816091954022988,Ice/Water,https://img.pokemondb.net/sprites/sword-shield/icon/walrein.png,Non-Meta
+Thundurus Incarnate Forme,0.6765357945075274,0.402906575547928,0.8091954022988506,0.7494252873563219,0.7793103448275862,Electric/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/thundurus-incarnate.png,Meta
+Salamence,0.6603596664469317,0.39713494689073237,0.7770114942528735,0.7793103448275862,0.7781609195402299,Dragon/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/salamence.png,Non-Meta
+Celesteela,0.581344437656042,0.30641483661495045,0.5954022988505747,0.960919540229885,0.7781609195402299,Flying/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/celesteela.png,Non-Meta
+Heatran,0.6832889264839526,0.4069709562262136,0.825287356321839,0.7264367816091954,0.7758620689655172,Fire/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/heatran.png,Non-Meta
+Metagross,0.6511849780195241,0.3849249572646514,0.7494252873563219,0.8,0.774712643678161,Psychic/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/metagross.png,Non-Meta
+Lunala,0.5967851573191333,0.3307539980009061,0.6252873563218391,0.9241379310344827,0.7747126436781608,Ghost/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png,Non-Meta
+Stakataka,0.7696199742950754,0.4469737410519517,0.9425287356321839,0.5839080459770115,0.7632183908045977,Rock/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/stakataka.png,Non-Meta
+Galarian Zapdos,0.6807164614455156,0.4140598551287231,0.8183908045977012,0.7080459770114943,0.7632183908045977,Fighting/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/zapdos-galarian.png,Non-Meta
+Regigigas,0.5774468117802546,0.3279278708307363,0.5862068965517241,0.9287356321839081,0.7574712643678161,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/regigigas.png,Non-Meta
+Calyrex Shadow Rider,0.7008593722823222,0.43089481648141836,0.8551724137931035,0.6551724137931034,0.7551724137931035,Ghost/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex-shadow-rider.png,Meta
+Tapu Bulu,0.699509036215913,0.4336531639905447,0.8528735632183908,0.632183908045977,0.7425287356321839,Fairy/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/tapu-bulu.png,Non-Meta
+Articuno,0.663353196115687,0.42032360650881256,0.7816091954022989,0.6919540229885057,0.7367816091954023,Flying/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/articuno.png,Non-Meta
+Urshifu Rapid Strike Style,0.7062417571510317,0.4422127482347562,0.8666666666666667,0.6045977011494252,0.735632183908046,Fighting/Water,https://img.pokemondb.net/sprites/sword-shield/icon/urshifu-rapid-strike.png,Meta
+Chandelure,0.785166272390618,0.46852997641814614,0.9494252873563218,0.5103448275862069,0.7298850574712643,Fire/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/chandelure.png,Non-Meta
+Golurk,0.743577326320555,0.4593784484669219,0.9149425287356322,0.5448275862068965,0.7298850574712643,Ghost/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/golurk.png,Non-Meta
+Fan Rotom,0.5863122657646426,0.3727925087342645,0.6045977011494252,0.8528735632183908,0.728735632183908,Electric/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-fan.png,Non-Meta
+Kingdra,0.5817390390850302,0.3713851500339336,0.5977011494252874,0.8597701149425288,0.728735632183908,Dragon/Water,https://img.pokemondb.net/sprites/sword-shield/icon/kingdra.png,Non-Meta
+Hatterene,0.7460533399717779,0.4622897996898805,0.9195402298850575,0.535632183908046,0.7275862068965517,Fairy/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/hatterene.png,Non-Meta
+Galarian Articuno,0.6321115536280838,0.40666932181584353,0.7241379310344828,0.728735632183908,0.7264367816091954,Flying/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/articuno-galarian.png,Non-Meta
+Tapu Lele,0.7183173736639303,0.4588870133527911,0.896551724137931,0.5471264367816092,0.7218390804597701,Fairy/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/tapu-lele.png,Non-Meta
+Slowking,0.6117083104442055,0.4013387645693403,0.6758620689655173,0.7632183908045977,0.7195402298850575,Psychic/Water,https://img.pokemondb.net/sprites/sword-shield/icon/slowking.png,Non-Meta
+Galarian Moltres,0.5641586833513533,0.36436391292167,0.5632183908045977,0.8758620689655172,0.7195402298850575,Dark/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/moltres-galarian.png,Meta
+Galarian Slowking,0.6072030714888218,0.39907351787792206,0.6620689655172414,0.767816091954023,0.7149425287356321,Poison/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/slowking-galarian.png,Non-Meta
+Palossand,0.6430651868885751,0.4245059000847679,0.7425287356321839,0.6758620689655173,0.7091954022988506,Ghost/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/palossand.png,Non-Meta
+Runerigus,0.5983201662649108,0.3981014392795507,0.6459770114942529,0.7701149425287356,0.7080459770114942,Ghost/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/runerigus.png,Non-Meta
+Lugia,0.5086280969576845,0.26189181141560847,0.4068965517241379,0.993103448275862,0.7,Flying/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png,Non-Meta
+Vikavolt,0.6960977100513264,0.4587630972270926,0.8482758620689655,0.5494252873563218,0.6988505747126437,Bug/Electric,https://img.pokemondb.net/sprites/sword-shield/icon/vikavolt.png,Non-Meta
+Charizard,0.6369273734255034,0.43201041841260046,0.7333333333333333,0.6482758620689655,0.6908045977011494,Fire/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/charizard.png,Meta
+Doublade,0.5407659805806113,0.3662525071805604,0.5103448275862069,0.871264367816092,0.6908045977011494,Ghost/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/doublade.png,Non-Meta
+Incineroar,0.6205778727384438,0.4238942540027094,0.7011494252873564,0.6781609195402298,0.6896551724137931,Dark/Fire,https://img.pokemondb.net/sprites/sword-shield/icon/incineroar.png,Meta
+Mantine,0.5695586237328791,0.3846625523857812,0.5770114942528736,0.8022988505747126,0.6896551724137931,Flying/Water,https://img.pokemondb.net/sprites/sword-shield/icon/mantine.png,Non-Meta
+Regirock,0.5375751830250489,0.3636536020487412,0.5011494252873563,0.8781609195402299,0.6896551724137931,Rock,https://img.pokemondb.net/sprites/sword-shield/icon/regirock.png,Non-Meta
+Zamazenta Hero of Many Battles,0.5309476785573424,0.3507114760315142,0.4827586206896552,0.8919540229885058,0.6873563218390805,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta-hero.png,Non-Meta
+Vaporeon,0.556430180222445,0.3810083150622755,0.5448275862068965,0.8229885057471265,0.6839080459770115,Water,https://img.pokemondb.net/sprites/sword-shield/icon/vaporeon.png,Non-Meta
+Gigalith,0.6885633793851715,0.4636722432601583,0.8298850574712644,0.5310344827586206,0.6804597701149425,Rock,https://img.pokemondb.net/sprites/sword-shield/icon/gigalith.png,Non-Meta
+Tyranitar,0.7516442036397328,0.4936540857797007,0.9264367816091954,0.432183908045977,0.6793103448275862,Dark/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/tyranitar.png,Non-Meta
+Nidoqueen,0.6282228450884917,0.432657038509986,0.7149425287356321,0.639080459770115,0.6770114942528735,Ground/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/nidoqueen.png,Non-Meta
+Togetic,0.513797892595373,0.3402709770127201,0.43448275862068964,0.9172413793103448,0.6758620689655173,Fairy/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/togetic.png,Non-Meta
+Jellicent,0.5365697529497491,0.37318413877945517,0.49885057471264366,0.8505747126436781,0.6747126436781609,Ghost/Water,https://img.pokemondb.net/sprites/sword-shield/icon/jellicent.png,Non-Meta
+Giratina Altered Forme,0.49207909349806916,0.2037734839262246,0.3471264367816092,1,0.6735632183908046,Dragon/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/giratina-altered.png,Non-Meta
+Kommo-o,0.5448547721838639,0.38011297107591874,0.5149425287356322,0.8298850574712644,0.6724137931034483,Dragon/Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/kommo-o.png,Non-Meta
+Arctovish,0.6649931434943037,0.45719959543784877,0.7862068965517242,0.5540229885057472,0.6701149425287356,Ice/Water,https://img.pokemondb.net/sprites/sword-shield/icon/arctovish.png,Non-Meta
+Sylveon,0.5623607171299077,0.39689639440429214,0.5586206896551724,0.7816091954022989,0.6701149425287356,Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/sylveon.png,Non-Meta
+Mudsdale,0.5795194266978269,0.403185146035091,0.5908045977011495,0.7448275862068966,0.667816091954023,Ground,https://img.pokemondb.net/sprites/sword-shield/icon/mudsdale.png,Non-Meta
+Turtonator,0.5379398612767013,0.3795834019193522,0.503448275862069,0.832183908045977,0.667816091954023,Dragon/Fire,https://img.pokemondb.net/sprites/sword-shield/icon/turtonator.png,Non-Meta
+Tapu Koko,0.6321134845483716,0.4455677688499346,0.7264367816091954,0.593103448275862,0.6597701149425288,Electric/Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/tapu-koko.png,Non-Meta
+Regice,0.6057911686657468,0.4295009221737489,0.6574712643678161,0.6620689655172414,0.6597701149425288,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/regice.png,Non-Meta
+Dracovish,0.5113623267206184,0.3470443700394503,0.4160919540229885,0.903448275862069,0.6597701149425288,Dragon/Water,https://img.pokemondb.net/sprites/sword-shield/icon/dracovish.png,Non-Meta
+Dhelmise,0.6517172797008752,0.45507466979986516,0.7540229885057471,0.5586206896551724,0.6563218390804597,Ghost/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/dhelmise.png,Non-Meta
+Gastrodon,0.6013422895863938,0.42868020414833796,0.6482758620689655,0.66436781609195406,0.6563218390804597,Ground/Water,https://img.pokemondb.net/sprites/sword-shield/icon/gastrodon.png,Meta
+Wash Rotom,0.6082174518274831,0.4323847037480095,0.6689655172413793,0.6413793103448275,0.6551724137931034,Electric/Water,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-wash.png,Non-Meta
+Volcarona,0.7010249230612949,0.49123681938095654,0.8574712643678161,0.4413793103448276,0.6494252873563218,Bug/Fire,https://img.pokemondb.net/sprites/sword-shield/icon/volcarona.png,Non-Meta
+Milotic,0.5151928814939408,0.3715619712199171,0.43908045977011495,0.8551724137931035,0.6471264367816092,Water,https://img.pokemondb.net/sprites/sword-shield/icon/milotic.png,Non-Meta
+Hippowdon,0.5295460559074149,0.3826074725900398,0.4781609195402299,0.8137931034482758,0.6459770114942529,Ground,https://img.pokemondb.net/sprites/sword-shield/icon/hippowdon.png,Non-Meta
+Cobalion,0.5487701021060442,0.4012419392448544,0.5241379310344828,0.7655172413793103,0.6448275862068966,Fighting/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/cobalion.png,Non-Meta
+Galarian Slowbro,0.5949231717053216,0.4275571694132746,0.6229885057471264,0.6666666666666666,0.6448275862068965,Poison/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/slowbro-galarian.png,Non-Meta
+Entei,0.5299796747795378,0.3841416862603005,0.4804597701149425,0.8045977011494253,0.6425287356321839,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/entei.png,Non-Meta
+Excadrill,0.8050513376967062,0.5382699850697981,0.9586206896551724,0.3218390804597701,0.6402298850574712,Ground/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/excadrill.png,Non-Meta
+Avalugg,0.6705482918105291,0.4753498249418997,0.7954022988505747,0.4827586206896552,0.639080459770115,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/avalugg.png,Non-Meta
+Armaldo,0.7149604525538605,0.5056670918266298,0.8896551724137931,0.38620689655172413,0.6379310344827587,Bug/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/armaldo.png,Non-Meta
+Buzzwole,0.654429758803631,0.4674580254289825,0.7609195402298851,0.5149425287356322,0.6379310344827587,Bug/Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/buzzwole.png,Non-Meta
+Suicune,0.47284957734622224,0.30528401779560405,0.3057471264367816,0.9632183908045977,0.6344827586206896,Water,https://img.pokemondb.net/sprites/sword-shield/icon/suicune.png,Non-Meta
+Terrakion,0.7489997252923325,0.5278881773618593,0.9218390804597701,0.3448275862068966,0.6333333333333333,Fighting/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/terrakion.png,Non-Meta
+Galarian Stunfisk,0.5322030917897732,0.3972650549165909,0.4896551724137931,0.7770114942528735,0.6333333333333333,Ground/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/stunfisk-galarian.png,Non-Meta
+Steelix,0.5544336697095293,0.40897731864022757,0.5402298850574713,0.7195402298850575,0.6298850574712644,Ground/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/steelix.png,Non-Meta
+Coalossal,0.6137330651077354,0.44825784692057363,0.6850574712643678,0.5747126436781609,0.6298850574712643,Fire/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/coalossal.png,Meta
+Rhyperior,0.8859083703285225,0.5538007340993439,0.9862068965517241,0.271264367816092,0.628735632183908,Ground/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/rhyperior.png,Non-Meta
+Braviary,0.59031523088268,0.43225753149937357,0.6137931034482759,0.6436781609195402,0.628735632183908,Flying/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/braviary.png,Non-Meta
+Seismitoad,0.5944446233999612,0.433431040902501,0.6206896551724138,0.6344827586206897,0.6275862068965518,Ground/Water,https://img.pokemondb.net/sprites/sword-shield/icon/seismitoad.png,Non-Meta
+Corviknight,0.47370392922926857,0.3233374261829695,0.31264367816091954,0.9425287356321839,0.6275862068965516,Flying/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/corviknight.png,Non-Meta
+Tentacruel,0.5666086504646398,0.42336497201534257,0.5724137931034483,0.6804597701149425,0.6264367816091954,Poison/Water,https://img.pokemondb.net/sprites/sword-shield/icon/tentacruel.png,Non-Meta
+Urshifu Single Strike Style,0.6807367308196878,0.4948139915730051,0.8206896551724138,0.42758620689655175,0.6241379310344828,Dark/Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/urshifu-single-strike.png,Meta
+Gardevoir,0.6946258888073856,0.5019010871799895,0.8436781609195402,0.40229885057471265,0.6229885057471264,Fairy/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/gardevoir.png,Non-Meta
+Magnezone,0.6565455994917975,0.476624789002189,0.7655172413793103,0.47586206896551725,0.6206896551724138,Electric/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/magnezone.png,Non-Meta
+Mewtwo,0.513151683636497,0.38226011044646524,0.42528735632183906,0.8160919540229885,0.6206896551724138,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png,Non-Meta
+Escavalier,0.6309959598503175,0.46734462789124026,0.7218390804597701,0.5172413793103449,0.6195402298850574,Bug/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/escavalier.png,Non-Meta
+Glaceon,0.753447209913231,0.5449371823325098,0.9310344827586207,0.3057471264367816,0.6183908045977011,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/glaceon.png,Non-Meta
+Arctozolt,0.7021580176885146,0.5132169532955418,0.8597701149425288,0.3701149425287356,0.6149425287356322,Electric/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/arctozolt.png,Non-Meta
+Nidoking,0.6821890526940779,0.50413027770685,0.8229885057471265,0.39770114942528734,0.6103448275862069,Ground/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/nidoking.png,Non-Meta
+Conkeldurr,0.5644109972413257,0.43159193798122075,0.5678160919540229,0.6528735632183909,0.6103448275862069,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/conkeldurr.png,Non-Meta
+Mamoswine,1.0176373282776687,0.5808089630029469,0.9977011494252873,0.21839080459770116,0.6080459770114942,Ground/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/mamoswine.png,Non-Meta
+Poliwrath,0.5459484721715713,0.41695507204312765,0.5195402298850574,0.696551724137931,0.6080459770114942,Fighting/Water,https://img.pokemondb.net/sprites/sword-shield/icon/poliwrath.png,Non-Meta
+Dragalge,0.513203076477968,0.39133958209076847,0.42758620689655175,0.7885057471264367,0.6080459770114942,Dragon/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/dragalge.png,Non-Meta
+Stunfisk,0.5157362898238401,0.3976820917181296,0.4413793103448276,0.7724137931034483,0.6068965517241379,Electric/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/stunfisk.png,Non-Meta
+Latios,0.5512134954095641,0.42283208668867683,0.5287356321839081,0.6827586206896552,0.6057471264367816,Dragon/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/latios.png,Non-Meta
+Clawitzer,0.598045942744949,0.4521567526041093,0.6436781609195402,0.5678160919540229,0.6057471264367815,Water,https://img.pokemondb.net/sprites/sword-shield/icon/clawitzer.png,Non-Meta
+Tyrantrum,0.6666120116740845,0.49537182506957567,0.7885057471264367,0.4206896551724138,0.6045977011494252,Dragon/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/tyrantrum.png,Non-Meta
+Aromatisse,0.5162687404866306,0.4015124357488709,0.4436781609195402,0.7609195402298851,0.6022988505747127,Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/aromatisse.png,Non-Meta
+Grimmsnarl,0.6552543048742069,0.4921850410488294,0.7632183908045977,0.4367816091954023,0.6000000000000001,Dark/Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/grimmsnarl.png,Meta
+Krookodile,0.7109425642471272,0.5357187028597872,0.8758620689655172,0.32413793103448274,0.6,Dark/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/krookodile.png,Non-Meta
+Naganadel,0.6400031489644482,0.4803682190750726,0.7379310344827587,0.45977011494252873,0.5988505747126437,Dragon/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/naganadel.png,Non-Meta
+Toxapex,0.45464158965127155,0.326882077526995,0.26436781609195403,0.9333333333333333,0.5988505747126437,Poison/Water,https://img.pokemondb.net/sprites/sword-shield/icon/toxapex.png,Non-Meta
+Vileplume,0.6367048193624701,0.47901362888552634,0.7310344827586207,0.46206896551724136,0.596551724137931,Grass/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/vileplume.png,Non-Meta
+Nihilego,0.8098666949456436,0.5753943637084465,0.960919540229885,0.22988505747126436,0.5954022988505747,Poison/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/nihilego.png,Non-Meta
+Duraludon,0.5898774273198774,0.4477017458694421,0.6091954022988506,0.5793103448275863,0.5942528735632184,Dragon/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/duraludon.png,Non-Meta
+Amoonguss,0.5529179534367771,0.4318411321033581,0.535632183908046,0.6505747126436782,0.5931034482758621,Grass/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/amoonguss.png,Meta
+Dragapult,0.5280392250602146,0.4100756058286461,0.47126436781609193,0.7149425287356321,0.593103448275862,Dragon/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/dragapult.png,Meta
+Gourgeist Super Size,0.5210107952190806,0.40606234205043296,0.45057471264367815,0.7333333333333333,0.5919540229885057,Ghost/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist-super.png,Non-Meta
+Beartic,0.7330835542067448,0.5536106985594115,0.9057471264367816,0.2735632183908046,0.5896551724137931,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/beartic.png,Non-Meta
+Venusaur,0.5900797930675548,0.4532048636391631,0.6114942528735632,0.5632183908045977,0.5873563218390805,Grass/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png,Meta
+Cradily,0.5755173463708202,0.44644871531112706,0.5839080459770115,0.5885057471264368,0.5862068965517242,Grass/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/cradily.png,Non-Meta
+Crobat,0.5166514002019983,0.407312173702932,0.4459770114942529,0.7241379310344828,0.5850574712643678,Flying/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/crobat.png,Non-Meta
+Frost Rotom,0.7525505127571904,0.5695437584668891,0.9287356321839081,0.23908045977011494,0.5839080459770115,Electric/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-frost.png,Non-Meta
+Alolan Exeggutor,0.6048013077935723,0.4689936291247468,0.6551724137931034,0.5080459770114942,0.5816091954022988,Dragon/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor-alolan.png,Non-Meta
+Spectrier,0.5584617524525212,0.4402118179379779,0.5494252873563218,0.6114942528735632,0.5804597701149425,Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/spectrier.png,Non-Meta
+Pelipper,0.6514368199956697,0.5007110352923848,0.7517241379310344,0.4068965517241379,0.5793103448275861,Flying/Water,https://img.pokemondb.net/sprites/sword-shield/icon/pelipper.png,Non-Meta
+Noivern,0.5273092687481203,0.4219558810714031,0.4666666666666667,0.6873563218390805,0.5770114942528736,Dragon/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/noivern.png,Non-Meta
+Latias,0.47819359634439756,0.38065420797196653,0.3264367816091954,0.8275862068965517,0.5770114942528736,Dragon/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/latias.png,Non-Meta
+Archeops,0.8532346786669455,0.608649443727042,0.9793103448275862,0.1724137931034483,0.5758620689655172,Flying/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/archeops.png,Non-Meta
+Omastar,0.7099138344457936,0.552951483411249,0.8735632183908046,0.27586206896551724,0.5747126436781609,Rock/Water,https://img.pokemondb.net/sprites/sword-shield/icon/omastar.png,Non-Meta
+Crustle,0.6193803244193529,0.486483546473335,0.6988505747126437,0.4482758620689655,0.5735632183908046,Bug/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/crustle.png,Non-Meta
+Blaziken,0.7038576732066026,0.5510294433709674,0.864367816091954,0.28045977011494255,0.5724137931034483,Fighting/Fire,https://img.pokemondb.net/sprites/sword-shield/icon/blaziken.png,Non-Meta
+Scyther,0.5320526348991808,0.43047055619282504,0.48735632183908045,0.6574712643678161,0.5724137931034483,Bug/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/scyther.png,Non-Meta
+Azumarill,0.47184727534476034,0.37709663655839987,0.30114942528735633,0.8390804597701149,0.5701149425287356,Fairy/Water,https://img.pokemondb.net/sprites/sword-shield/icon/azumarill.png,Non-Meta
+Heat Rotom,0.6327389058122873,0.5030995270425503,0.728735632183908,0.4,0.5643678160919541,Electric/Fire,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-heat.png,Meta
+Piloswine,0.8187615390653266,0.6139980466031153,0.9701149425287356,0.15402298850574714,0.5620689655172414,Ground/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/piloswine.png,Non-Meta
+Centiskorch,0.5939513510788513,0.4692198295814004,0.6183908045977011,0.5057471264367817,0.5620689655172414,Bug/Fire,https://img.pokemondb.net/sprites/sword-shield/icon/centiskorch.png,Non-Meta
+Alcremie,0.5623607171299077,0.4540171957776749,0.5586206896551724,0.5609195402298851,0.5597701149425287,Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/alcremie.png,Non-Meta
+Bewear,0.5919575464465493,0.4697471974076821,0.6160919540229886,0.5011494252873563,0.5586206896551724,Fighting/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/bewear.png,Non-Meta
+Galarian Weezing,0.5386518940755689,0.4409003507286759,0.5080459770114942,0.6091954022988506,0.5586206896551724,Fairy/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/weezing-galarian.png,Non-Meta
+Porygon2,0.4158688806249754,0.31542786012501284,0.167816091954023,0.9471264367816092,0.5574712643678161,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/porygon2.png,Meta
+Hydreigon,0.525824318476882,0.4321414765120665,0.46206896551724136,0.6459770114942529,0.5540229885057472,Dark/Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/hydreigon.png,Meta
+Relicanth,0.5668895203800953,0.46364954747060005,0.5747126436781609,0.5333333333333333,0.554022988505747,Rock/Water,https://img.pokemondb.net/sprites/sword-shield/icon/relicanth.png,Non-Meta
+Xurkitree,0.6066743584256808,0.4880467006747839,0.6597701149425287,0.4459770114942529,0.5528735632183908,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/xurkitree.png,Non-Meta
+Guzzlord,0.4334170892337471,0.3610833109180154,0.2206896551724138,0.8827586206896552,0.5517241379310345,Dark/Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/guzzlord.png,Non-Meta
+Drampa,0.5528883837278855,0.45310008201325846,0.5333333333333333,0.5655172413793104,0.5494252873563219,Dragon/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/drampa.png,Non-Meta
+Mr. Rime,0.7151957627417469,0.5897008896159173,0.8919540229885058,0.2045977011494253,0.5482758620689655,Ice/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/mr-rime.png,Non-Meta
+Dracozolt,0.493652413394598,0.40357095958195566,0.35172413793103446,0.7425287356321839,0.5471264367816092,Dragon/Electric,https://img.pokemondb.net/sprites/sword-shield/icon/dracozolt.png,Non-Meta
+Roserade,0.7091219126007418,0.5787354880052956,0.8689655172413793,0.2206896551724138,0.5448275862068965,Grass/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/roserade.png,Non-Meta
+Barbaracle,0.6428325055075568,0.5267899010793048,0.7402298850574712,0.34942528735632183,0.5448275862068965,Rock/Water,https://img.pokemondb.net/sprites/sword-shield/icon/barbaracle.png,Non-Meta
+Tornadus Therian Forme,0.5256788578339264,0.4337761828591841,0.45977011494252873,0.6298850574712643,0.5448275862068965,Flying,https://img.pokemondb.net/sprites/sword-shield/icon/tornadus-therian.png,Non-Meta
+Clefable,0.4992785031836162,0.41205591793309815,0.3793103448275862,0.7103448275862069,0.5448275862068965,Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/clefable.png,Non-Meta
+Darmanitan Galarian Zen Mode,0.9738206852565773,0.6751718464882052,0.993103448275862,0.09425287356321839,0.5436781609195402,Fire/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan-galarian-zen.png,Non-Meta
+Quagsire,0.5455168884290886,0.452136929779636,0.5172413793103449,0.5701149425287356,0.5436781609195402,Ground/Water,https://img.pokemondb.net/sprites/sword-shield/icon/quagsire.png,Non-Meta
+Rhydon,0.8332768343630946,0.6521743895257486,0.9724137931034482,0.11264367816091954,0.5425287356321838,Ground/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/rhydon.png,Non-Meta
+Gengar,0.7188066454838916,0.6049926513931837,0.8988505747126436,0.18620689655172415,0.5425287356321838,Ghost/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/gengar.png,Non-Meta
+Carracosta,0.6566371898751091,0.539065313407086,0.767816091954023,0.31494252873563217,0.5413793103448276,Rock/Water,https://img.pokemondb.net/sprites/sword-shield/icon/carracosta.png,Non-Meta
+Blacephalon,0.8135333740071126,0.6497538908078303,0.9632183908045977,0.11724137931034483,0.5402298850574713,Fire/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/blacephalon.png,Non-Meta
+Ludicolo,0.555379540237658,0.4608854963548773,0.542528735632184,0.5379310344827586,0.5402298850574713,Grass/Water,https://img.pokemondb.net/sprites/sword-shield/icon/ludicolo.png,Non-Meta
+Blastoise,0.4535418783128863,0.3821939427000151,0.2620689655172414,0.8183908045977012,0.5402298850574713,Water,https://img.pokemondb.net/sprites/sword-shield/icon/blastoise.png,Meta
+Snorlax,0.41923329732205544,0.34338244725940387,0.1724137931034483,0.9057471264367816,0.5390804597701149,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/snorlax.png,Non-Meta
+Drednaw,0.6913639474290966,0.5680892360588463,0.8344827586206897,0.2413793103448276,0.5379310344827586,Rock/Water,https://img.pokemondb.net/sprites/sword-shield/icon/drednaw.png,Non-Meta
+Gallade,0.6575938063228605,0.5469875810928042,0.7724137931034483,0.2988505747126437,0.535632183908046,Fighting/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/gallade.png,Non-Meta
+Flygon,0.5969584970417079,0.4896631951090674,0.6275862068965518,0.4436781609195402,0.535632183908046,Dragon/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/flygon.png,Non-Meta
+Aggron,0.664059335808897,0.5509206047233459,0.7839080459770115,0.2827586206896552,0.5333333333333333,Rock/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/aggron.png,Non-Meta
+Tornadus Incarnate Forme,0.5852103492817181,0.47891661682688963,0.6022988505747127,0.46436781609195404,0.5333333333333333,Flying,https://img.pokemondb.net/sprites/sword-shield/icon/tornadus-incarnate.png,Meta
+Aurorus,0.7565972144488455,0.6408731087563666,0.9333333333333333,0.12873563218390804,0.5310344827586206,Ice/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/aurorus.png,Non-Meta
+Ferrothorn,0.4900749806192171,0.40983967150265077,0.3425287356321839,0.7172413793103448,0.5298850574712644,Grass/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/ferrothorn.png,Meta
+Pangoro,0.6533901730156617,0.5464452231017974,0.7563218390804598,0.30114942528735633,0.5287356321839081,Dark/Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/pangoro.png,Non-Meta
+Drapion,0.5137248274787561,0.43577971049966635,0.432183908045977,0.6206896551724138,0.5264367816091954,Dark/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/drapion.png,Non-Meta
+Aerodactyl,0.6716433565929345,0.5622606686315513,0.8,0.25057471264367814,0.5252873563218391,Flying/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/aerodactyl.png,Non-Meta
+Drifblim,0.5264203692961169,0.44685104349043125,0.46436781609195404,0.5862068965517241,0.5252873563218391,Flying/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/drifblim.png,Non-Meta
+Lanturn,0.4713478174670786,0.40292853351501656,0.2988505747126437,0.7471264367816092,0.5229885057471264,Electric/Water,https://img.pokemondb.net/sprites/sword-shield/icon/lanturn.png,Non-Meta
+Necrozma,0.4350960725360772,0.38203284927247166,0.22298850574712645,0.8206896551724138,0.5218390804597701,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png,Non-Meta
+Mandibuzz,0.39103129672116627,0.33018793469251767,0.11724137931034483,0.9264367816091954,0.5218390804597701,Dark/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/mandibuzz.png,Non-Meta
+Cramorant,0.6238315685740533,0.5334248123864422,0.7057471264367816,0.3310344827586207,0.5183908045977011,Flying/Water,https://img.pokemondb.net/sprites/sword-shield/icon/cramorant.png,Non-Meta
+Whiscash,0.5101451941044344,0.433900957926721,0.4091954022988506,0.6275862068965518,0.5183908045977011,Ground/Water,https://img.pokemondb.net/sprites/sword-shield/icon/whiscash.png,Non-Meta
+Registeel,0.3429757750173081,0.3007341867710425,0.06436781609195402,0.9701149425287356,0.5172413793103449,Steel,https://img.pokemondb.net/sprites/sword-shield/icon/registeel.png,Non-Meta
+Bronzong,0.4641162090560643,0.4040986632957369,0.2942528735632184,0.7402298850574712,0.5172413793103448,Psychic/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/bronzong.png,Non-Meta
+Magmortar,0.5971222896796032,0.5044005376557049,0.6367816091954023,0.3954022988505747,0.5160919540229885,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/magmortar.png,Non-Meta
+Qwilfish,0.6211027289187865,0.5343575463252712,0.7034482758620689,0.3264367816091954,0.5149425287356322,Poison/Water,https://img.pokemondb.net/sprites/sword-shield/icon/qwilfish.png,Non-Meta
+Scizor,0.6135380694093605,0.5278417126452262,0.6827586206896552,0.3471264367816092,0.5149425287356322,Bug/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/scizor.png,Non-Meta
+Exeggutor,0.5976947889939305,0.5053276100619846,0.639080459770115,0.38850574712643676,0.5137931034482759,Grass/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png,Non-Meta
+Skarmory,0.44317807823430605,0.3909852318215822,0.2367816091954023,0.7908045977011494,0.5137931034482759,Flying/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/skarmory.png,Non-Meta
+Darmanitan Galarian Standard Mode,0.7793164867126476,0.6926734727470704,0.9448275862068966,0.08045977011494253,0.5126436781609195,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan-galarian-standard.png,Non-Meta
+Darmanitan Standard Mode,0.6258228137404759,0.5397988456422864,0.7080459770114943,0.31264367816091954,0.5103448275862069,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan-standard.png,Non-Meta
+Appletun,0.5032198545331108,0.4341772512369928,0.3954022988505747,0.6252873563218391,0.5103448275862069,Dragon/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/appletun.png,Non-Meta
+Gourgeist Large Size,0.49976859107003546,0.43313316485379516,0.3839080459770115,0.6367816091954023,0.5103448275862069,Ghost/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist-large.png,Non-Meta
+Starmie,0.6117083104442055,0.5296830020225173,0.6758620689655173,0.34022988505747126,0.5080459770114942,Psychic/Water,https://img.pokemondb.net/sprites/sword-shield/icon/starmie.png,Non-Meta
+Cloyster,0.6950422341209567,0.6104318093593288,0.8459770114942529,0.16551724137931034,0.5057471264367817,Ice/Water,https://img.pokemondb.net/sprites/sword-shield/icon/cloyster.png,Non-Meta
+Trevenant,0.5620950426852643,0.48154975757959867,0.5563218390804597,0.45517241379310347,0.5057471264367817,Ghost/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/trevenant.png,Non-Meta
+Kartana,0.849290508241658,0.7617352249424131,0.9770114942528736,0.03218390804597701,0.5045977011494253,Grass/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/kartana.png,Meta
+Machamp,0.5309476785573424,0.46539435567139625,0.4827586206896552,0.5264367816091954,0.5045977011494253,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/machamp.png,Non-Meta
+Arcanine,0.5111996836689431,0.44448143088053726,0.41379310344827586,0.5954022988505747,0.5045977011494253,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/arcanine.png,Non-Meta
+Altaria,0.4310250567338625,0.3894552406907133,0.21379310344827587,0.7954022988505747,0.5045977011494253,Dragon/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/altaria.png,Non-Meta
+Metang,0.40665460272820364,0.37153628867921373,0.15172413793103448,0.8574712643678161,0.5045977011494253,Psychic/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/metang.png,Non-Meta
+Cofagrigus,0.3926645406207387,0.3560435427497816,0.12183908045977011,0.8873563218390804,0.5045977011494253,Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/cofagrigus.png,Non-Meta
+Decidueye,0.5499816968822175,0.47646580900443336,0.5264367816091954,0.4804597701149425,0.503448275862069,Ghost/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/decidueye.png,Non-Meta
+Throh,0.4269615289526817,0.3827001943791537,0.19770114942528735,0.8091954022988506,0.503448275862069,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/throh.png,Non-Meta
+Regidrago,0.38811631565339816,0.3503952835332017,0.11264367816091954,0.8942528735632184,0.503448275862069,Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/regidrago.png,Non-Meta
+Dusclops,0.30243684200293475,0.2824080564311156,0.022988505747126436,0.9816091954022989,0.5022988505747127,Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/dusclops.png,Meta
+Politoed,0.47284957734622224,0.41748024422571073,0.3057471264367816,0.6942528735632184,0.5,Water,https://img.pokemondb.net/sprites/sword-shield/icon/politoed.png,Non-Meta
+Cresselia,0.2850632523182799,0.2735462545804232,0.006896551724137931,0.9885057471264368,0.49770114942528737,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/cresselia.png,Non-Meta
+Dusknoir,0.39896147160429796,0.37041025295697433,0.1310344827586207,0.8620689655172413,0.496551724137931,Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/dusknoir.png,Non-Meta
+Aegislash Shield Forme,0.3222521063071459,0.31910934122505336,0.04597701149425287,0.9448275862068966,0.49540229885057474,Ghost/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/aegislash-shield.png,Non-Meta
+Galarian Corsola,0.2935829001479572,0.30120473726199914,0.011494252873563218,0.967816091954023,0.4896551724137931,Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/corsola-galarian.png,Non-Meta
+Magmar,0.49760022384693514,0.44098772166697414,0.3701149425287356,0.6068965517241379,0.4885057471264368,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/magmar.png,Non-Meta
+Copperajah,0.4979040070984174,0.4429715878479988,0.3724137931034483,0.6022988505747127,0.4873563218390805,Steel,https://img.pokemondb.net/sprites/sword-shield/icon/copperajah.png,Non-Meta
+Toxtricity Amped Form,0.6273937960316613,0.5555677205880412,0.7103448275862069,0.26436781609195403,0.48735632183908045,Electric/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/toxtricity-amped.png,Non-Meta
+Toxtricity Low Key Form,0.6273937960316613,0.5555677205880412,0.7103448275862069,0.26436781609195403,0.48735632183908045,Electric/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/toxtricity-low-key.png,Non-Meta
+Araquanid,0.4444381161922206,0.40543053166342957,0.23908045977011494,0.735632183908046,0.48735632183908045,Bug/Water,https://img.pokemondb.net/sprites/sword-shield/icon/araquanid.png,Non-Meta
+Musharna,0.3775116991891346,0.3659348525968569,0.09655172413793103,0.8735632183908046,0.4850574712643678,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/musharna.png,Non-Meta
+Mimikyu,0.5236441690330348,0.46794529513678346,0.45517241379310347,0.5126436781609195,0.4839080459770115,Fairy/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/mimikyu.png,Meta
+Frosmoth,0.7822985331401385,0.8368450599262467,0.9471264367816092,0.01839080459770115,0.4827586206896552,Bug/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/frosmoth.png,Non-Meta
+Octillery,0.5588441510356633,0.49989606027236644,0.5540229885057472,0.4091954022988506,0.48160919540229885,Water,https://img.pokemondb.net/sprites/sword-shield/icon/octillery.png,Non-Meta
+Torkoal,0.4599640426330817,0.42243194594959327,0.27816091954022987,0.6850574712643678,0.48160919540229885,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/torkoal.png,Meta
+Spiritomb,0.4371297729842916,0.4053120806166668,0.22528735632183908,0.7379310344827587,0.48160919540229885,Dark/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/spiritomb.png,Non-Meta
+Goodra,0.3963568657378011,0.3776158440865675,0.12643678160919541,0.8367816091954023,0.48160919540229885,Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/goodra.png,Non-Meta
+Kabutops,0.6913639474290966,0.6417132684825018,0.8344827586206897,0.12413793103448276,0.4793103448275862,Rock/Water,https://img.pokemondb.net/sprites/sword-shield/icon/kabutops.png,Non-Meta
+Skuntank,0.527608704489347,0.473662884674596,0.4689655172413793,0.4896551724137931,0.47931034482758617,Dark/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/skuntank.png,Non-Meta
+Vanilluxe,0.6541481370977129,0.5962662287804825,0.7586206896551724,0.19770114942528735,0.4781609195402299,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/vanilluxe.png,Non-Meta
+Weavile,0.7624366591881305,0.8370459568871953,0.9356321839080459,0.016091954022988506,0.4758620689655172,Dark/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/weavile.png,Non-Meta
+Wailord,0.4924716970158409,0.443543871318323,0.34942528735632183,0.6,0.4747126436781609,Water,https://img.pokemondb.net/sprites/sword-shield/icon/wailord.png,Non-Meta
+Crawdaunt,0.6751238039155767,0.6218381813395076,0.8045977011494253,0.1425287356321839,0.4735632183908046,Dark/Water,https://img.pokemondb.net/sprites/sword-shield/icon/crawdaunt.png,Non-Meta
+Abomasnow,0.6966101426743282,0.6786790320756905,0.8505747126436781,0.09195402298850575,0.47126436781609193,Grass/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/abomasnow.png,Non-Meta
+Aegislash Blade Forme,0.7140069753524552,0.7118487592459088,0.8850574712643678,0.05517241379310345,0.47011494252873565,Ghost/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/aegislash-blade.png,Non-Meta
+Haxorus,0.48903210362155997,0.44410645238786406,0.34022988505747126,0.5977011494252874,0.46896551724137936,Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/haxorus.png,Non-Meta
+Toxicroak,0.6159400416393405,0.5680228196479058,0.6942528735632184,0.24367816091954023,0.4689655172413793,Fighting/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/toxicroak.png,Non-Meta
+Kingler,0.6114843813442858,0.5573858085951378,0.6735632183908046,0.2597701149425287,0.4666666666666667,Water,https://img.pokemondb.net/sprites/sword-shield/icon/kingler.png,Non-Meta
+Uxie,0.3023457946310371,0.34210092399671493,0.020689655172413793,0.9103448275862069,0.4655172413793104,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/uxie.png,Non-Meta
+Lickilicky,0.34367278482269786,0.3690936470310138,0.06666666666666667,0.864367816091954,0.46551724137931033,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/lickilicky.png,Non-Meta
+Bouffalant,0.41923329732205544,0.40166073353375037,0.1724137931034483,0.7540229885057471,0.4632183908045977,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/bouffalant.png,Non-Meta
+Greedent,0.3733305332823288,0.37562563822238854,0.08275862068965517,0.8436781609195402,0.4632183908045977,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/greedent.png,Non-Meta
+Inteleon,0.6185006020005829,0.5767067158428042,0.696551724137931,0.22528735632183908,0.460919540229885,Water,https://img.pokemondb.net/sprites/sword-shield/icon/inteleon.png,Non-Meta
+Claydol,0.5134871801585444,0.47529961453923836,0.4298850574712644,0.4850574712643678,0.4574712643678161,Ground/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/claydol.png,Non-Meta
+Raikou,0.4278569669550211,0.41120919478640094,0.20229885057471264,0.7126436781609196,0.4574712643678161,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/raikou.png,Non-Meta
+Jynx,0.7417125455925718,0.9759922882697725,0.9080459770114943,0.004597701149425287,0.45632183908045976,Ice/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/jynx.png,Non-Meta
+Reuniclus,0.4299742760570026,0.41472049818441636,0.20689655172413793,0.7057471264367816,0.45632183908045976,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/reuniclus.png,Non-Meta
+Cinderace,0.5348348076908727,0.4976081749290896,0.4942528735632184,0.4160919540229885,0.45517241379310347,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/cinderace.png,Non-Meta
+Sandaconda,0.5102115471049182,0.4713082235120196,0.4114942528735632,0.49885057471264366,0.45517241379310347,Ground,https://img.pokemondb.net/sprites/sword-shield/icon/sandaconda.png,Non-Meta
+Mesprit,0.39466213825346685,0.39437582624442347,0.12413793103448276,0.7862068965517242,0.45517241379310347,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/mesprit.png,Non-Meta
+Alolan Ninetales,0.6490700542773944,0.611142431299767,0.7471264367816092,0.16091954022988506,0.4540229885057471,Fairy/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/ninetales-alolan.png,Non-Meta
+Lucario,0.6378248010121771,0.6093127788660986,0.735632183908046,0.17011494252873563,0.4528735632183908,Fighting/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/lucario.png,Non-Meta
+Flareon,0.5888794430502571,0.5480602972649048,0.6068965517241379,0.2942528735632184,0.45057471264367815,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/flareon.png,Non-Meta
+Klang,0.33566023809149637,0.3752238838377303,0.05517241379310345,0.8459770114942529,0.45057471264367815,Steel,https://img.pokemondb.net/sprites/sword-shield/icon/klang.png,Non-Meta
+Umbreon,0.27711049614353006,0.349368667745644,0.004597701149425287,0.896551724137931,0.45057471264367815,Dark,https://img.pokemondb.net/sprites/sword-shield/icon/umbreon.png,Non-Meta
+Silvally,0.4047107808136481,0.40166073353375037,0.1425287356321839,0.7540229885057471,0.4482758620689655,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/silvally.png,Non-Meta
+Type: Null,0.4047107808136481,0.40166073353375037,0.1425287356321839,0.7540229885057471,0.4482758620689655,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/type-null.png,Non-Meta
+Unfezant,0.5569265792145265,0.5293283452213716,0.5471264367816092,0.3425287356321839,0.44482758620689655,Flying/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/unfezant.png,Non-Meta
+Sigilyph,0.5383351683216987,0.5060530997793684,0.5057471264367817,0.3839080459770115,0.44482758620689655,Flying/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/sigilyph.png,Non-Meta
+Slurpuff,0.45819892405425905,0.4372471412967004,0.271264367816092,0.6160919540229886,0.44367816091954027,Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/slurpuff.png,Non-Meta
+Dartrix,0.4327733125208329,0.4271280949338548,0.21839080459770116,0.6689655172413793,0.44367816091954027,Flying/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/dartrix.png,Non-Meta
+Pheromosa,0.7149076375916057,1.0830127631552244,0.8873563218390804,0,0.4436781609195402,Bug/Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/pheromosa.png,Non-Meta
+Passimian,0.4959841740440787,0.4668542048395804,0.36551724137931035,0.5195402298850574,0.44252873563218387,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/passimian.png,Non-Meta
+Alolan Sandslash,0.6632374508310813,0.6607219268988939,0.7793103448275862,0.10344827586206896,0.4413793103448276,Ice/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/sandslash-alolan.png,Non-Meta
+Druddigon,0.41182768756219434,0.4080198247684935,0.16091954022988506,0.7218390804597701,0.4413793103448276,Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/druddigon.png,Non-Meta
+Dunsparce,0.2947948323703856,0.36876335038122926,0.013793103448275862,0.8666666666666667,0.4402298850574713,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/dunsparce.png,Non-Meta
+Golduck,0.49388611263500987,0.4657188265789462,0.35402298850574715,0.5241379310344828,0.439080459770115,Water,https://img.pokemondb.net/sprites/sword-shield/icon/golduck.png,Non-Meta
+Scrafty,0.5028692859812469,0.47464330135391,0.39080459770114945,0.48735632183908045,0.43908045977011495,Dark/Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/scrafty.png,Non-Meta
+Bisharp,0.6137677543413894,0.6033773055119518,0.6873563218390805,0.18850574712643678,0.4379310344827586,Dark/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/bisharp.png,Non-Meta
+Sirfetch'd,0.5467536252254993,0.5234090199795884,0.5218390804597701,0.35172413793103446,0.4367816091954023,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/sirfetchd.png,Non-Meta
+Mow Rotom,0.49951116261404077,0.4726127373699763,0.3816091954022989,0.49195402298850577,0.4367816091954023,Electric/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/rotom-mow.png,Non-Meta
+Polteageist,0.5221659338280601,0.4970478523553539,0.4528735632183908,0.41839080459770117,0.435632183908046,Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/polteageist.png,Non-Meta
+Heracross,0.5979753275516304,0.5760052869420862,0.6413793103448275,0.22758620689655173,0.43448275862068964,Bug/Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/heracross.png,Non-Meta
+Virizion,0.5438997737822753,0.5212672407646541,0.5126436781609195,0.3563218390804598,0.43448275862068964,Fighting/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/virizion.png,Non-Meta
+Shuckle,0.1762501994315293,0.36812851366773225,0,0.8689655172413793,0.43448275862068964,Bug/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/shuckle.png,Non-Meta
+Salazzle,0.6745364715078349,0.7023206775716143,0.8022988505747126,0.06436781609195402,0.43333333333333335,Fire/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/salazzle.png,Non-Meta
+Alolan Marowak,0.4636680423006344,0.45142733740418867,0.29195402298850576,0.5724137931034483,0.43218390804597706,Fire/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/marowak-alolan.png,Non-Meta
+Klefki,0.5078096764954577,0.4812351653142451,0.40229885057471265,0.4574712643678161,0.4298850574712644,Fairy/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/klefki.png,Non-Meta
+Munchlax,0.34367278482269786,0.38953597204129975,0.06666666666666667,0.7931034482758621,0.4298850574712644,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/munchlax.png,Non-Meta
+Oranguru,0.4199500690369408,0.42608139112531995,0.18620689655172415,0.671264367816092,0.4287356321839081,Normal/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/oranguru.png,Non-Meta
+Gourgeist Average Size,0.47792341660449,0.46407124805763766,0.32413793103448274,0.5287356321839081,0.4264367816091954,Ghost/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist-average.png,Non-Meta
+Carbink,0.4374839829292161,0.43871659787525646,0.22758620689655173,0.6137931034482759,0.4206896551724138,Fairy/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/carbink.png,Non-Meta
+Cursola,0.5584617524525212,0.5493676442411658,0.5494252873563218,0.28735632183908044,0.4183908045977011,Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/cursola.png,Non-Meta
+Galarian Rapidash,0.5520814638963075,0.5453864862509605,0.5310344827586206,0.30344827586206896,0.4172413793103448,Fairy/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/rapidash-galarian.png,Non-Meta
+Rillaboom,0.4618987386962525,0.4604227531125897,0.28735632183908044,0.5402298850574713,0.41379310344827586,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/rillaboom.png,Meta
+Sharpedo,0.6751238039155767,0.9015340452600037,0.8045977011494253,0.011494252873563218,0.40804597701149425,Dark/Water,https://img.pokemondb.net/sprites/sword-shield/icon/sharpedo.png,Non-Meta
+Garbodor,0.4404614835138588,0.4469989422538044,0.23218390804597702,0.5816091954022988,0.4068965517241379,Poison,https://img.pokemondb.net/sprites/sword-shield/icon/garbodor.png,Non-Meta
+Lycanroc Midnight Form,0.6021382393288527,0.6127460349212134,0.6505747126436782,0.15632183908045977,0.403448275862069,Rock,https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc-midnight.png,Non-Meta
+Golbat,0.4720314139364789,0.46961204813550195,0.30344827586206896,0.503448275862069,0.403448275862069,Flying/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/golbat.png,Non-Meta
+Stonjourner,0.6465535550980805,0.7037848592501716,0.7448275862068966,0.059770114942528735,0.40229885057471265,Rock,https://img.pokemondb.net/sprites/sword-shield/icon/stonjourner.png,Non-Meta
+Grapploct,0.48882064226327593,0.47823018284774715,0.33793103448275863,0.4666666666666667,0.40229885057471265,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/grapploct.png,Non-Meta
+Magneton,0.6139207830577099,0.6562839329145111,0.6896551724137931,0.10804597701149425,0.3988505747126437,Electric/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/magneton.png,Non-Meta
+Froslass,0.608117514003303,0.6287013298154965,0.66436781609195406,0.13333333333333333,0.3988505747126437,Ghost/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/froslass.png,Non-Meta
+Zygarde 10% Forme,0.5969584970417079,0.6109138433570184,0.6275862068965518,0.1632183908045977,0.39540229885057476,Dragon/Ground,https://img.pokemondb.net/sprites/sword-shield/icon/zygarde-10.png,Non-Meta
+Heatmor,0.5178794657668429,0.5311273538941748,0.4482758620689655,0.33793103448275863,0.3931034482758621,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/heatmor.png,Non-Meta
+Luxray,0.44095944844684526,0.45796638263323347,0.23448275862068965,0.5517241379310345,0.3931034482758621,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/luxray.png,Non-Meta
+Solrock,0.5641718511453232,0.5859083599028302,0.5655172413793104,0.21149425287356322,0.3885057471264368,Psychic/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/solrock.png,Non-Meta
+Hawlucha,0.5294604819977364,0.5477256427379431,0.47586206896551725,0.296551724137931,0.38620689655172413,Fighting/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/hawlucha.png,Non-Meta
+Weezing,0.42088129576851924,0.4478285152938753,0.19080459770114944,0.5770114942528736,0.3839080459770115,Poison,https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png,Non-Meta
+Wigglytuff,0.48460290871718426,0.494809701458852,0.335632183908046,0.4298850574712644,0.38275862068965516,Fairy/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/wigglytuff.png,Non-Meta
+Stoutland,0.41923329732205544,0.44602486987728457,0.1724137931034483,0.5908045977011495,0.3816091954022989,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/stoutland.png,Non-Meta
+Porygon-Z,0.5116036507772804,0.531991026087921,0.41839080459770117,0.335632183908046,0.3770114942528736,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/porygon-z.png,Non-Meta
+Electabuzz,0.3662684475811499,0.42492753984035564,0.08045977011494253,0.6735632183908046,0.37701149425287356,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/electabuzz.png,Non-Meta
+Talonflame,0.46998535912762707,0.48416622175289453,0.296551724137931,0.4528735632183908,0.37471264367816093,Fire/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/talonflame.png,Non-Meta
+Tsareena,0.4468774217151741,0.4720675724637974,0.2482758620689655,0.496551724137931,0.37241379310344824,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/tsareena.png,Non-Meta
+Noctowl,0.46277411553472303,0.48442875590348,0.2896551724137931,0.45057471264367815,0.37011494252873567,Flying/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/noctowl.png,Non-Meta
+Comfey,0.44513417369452835,0.4722597270903101,0.24597701149425288,0.4942528735632184,0.37011494252873567,Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/comfey.png,Non-Meta
+Miltank,0.32603128482696986,0.42051383618401766,0.05057471264367816,0.6896551724137931,0.37011494252873567,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/miltank.png,Non-Meta
+Mr. Mime,0.5779888090600606,0.6173691909778828,0.5885057471264368,0.1471264367816092,0.367816091954023,Fairy/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/mr-mime.png,Non-Meta
+Tangrowth,0.41947478902903507,0.4560059484669909,0.1793103448275862,0.5563218390804597,0.367816091954023,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/tangrowth.png,Non-Meta
+Alolan Dugtrio,0.6291286470492473,0.8861940645172441,0.7172413793103448,0.013793103448275862,0.36551724137931035,Ground/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio-alolan.png,Non-Meta
+Lunatone,0.5727131436824391,0.6141482480696754,0.5816091954022988,0.14942528735632185,0.36551724137931035,Psychic/Rock,https://img.pokemondb.net/sprites/sword-shield/icon/lunatone.png,Non-Meta
+Eiscue Ice Face,0.49463298772039443,0.517200493291187,0.36091954022988504,0.36551724137931035,0.3632183908045977,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/eiscue-ice.png,Non-Meta
+Sneasel,0.6304736406959535,1.0487962163404025,0.7195402298850575,0.0022988505747126436,0.3609195402298851,Dark/Ice,https://img.pokemondb.net/sprites/sword-shield/icon/sneasel.png,Non-Meta
+Lycanroc Dusk Form,0.6114288503784068,0.7286449016454483,0.671264367816092,0.04827586206896552,0.35977011494252875,Rock,https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc-dusk.png,Non-Meta
+Vespiquen,0.4584882712810198,0.49146400996781114,0.2735632183908046,0.43908045977011495,0.3563218390804598,Bug/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/vespiquen.png,Non-Meta
+Sawk,0.5131156553341485,0.5485149769859063,0.4206896551724138,0.2896551724137931,0.3551724137931035,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/sawk.png,Non-Meta
+Rotom,0.5053634633448235,0.5428581840652158,0.4,0.3103448275862069,0.3551724137931035,Electric/Ghost,https://img.pokemondb.net/sprites/sword-shield/icon/rotom.png,Non-Meta
+Audino,0.28654006838267476,0.4152926558297015,0.009195402298850575,0.6988505747126437,0.3540229885057471,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/audino.png,Non-Meta
+Kangaskhan,0.3733305332823288,0.4342916597347108,0.08275862068965517,0.6229885057471264,0.3528735632183908,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/kangaskhan.png,Non-Meta
+Lycanroc Midday Form,0.6021382393288527,0.7286449016454483,0.6505747126436782,0.04827586206896552,0.34942528735632183,Rock,https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc-midday.png,Non-Meta
+Galarian Mr. Mime,0.6081713714389444,0.8093069153192265,0.6666666666666666,0.022988505747126436,0.3448275862068965,Ice/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/mr-mime-galarian.png,Non-Meta
+Gourgeist Small Size,0.45919520662764407,0.49976903636976366,0.27586206896551724,0.4114942528735632,0.34367816091954023,Ghost/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist-small.png,Non-Meta
+Barraskewda,0.5834519804009066,0.6880508574887725,0.6,0.08275862068965517,0.3413793103448276,Water,https://img.pokemondb.net/sprites/sword-shield/icon/barraskewda.png,Non-Meta
+Gothitelle,0.34233773554969943,0.436383384832416,0.06206896551724138,0.6183908045977011,0.34022988505747126,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/gothitelle.png,Non-Meta
+Calyrex,0.44788803329403165,0.4952052141889498,0.25057471264367814,0.42528735632183906,0.33793103448275863,Grass/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/calyrex.png,Non-Meta
+Flapple,0.5363543167587941,0.6068326821164826,0.496551724137931,0.17701149425287357,0.3367816091954023,Dragon/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/flapple.png,Non-Meta
+Glalie,0.5341454511316877,0.6071859274522577,0.49195402298850577,0.17471264367816092,0.33333333333333337,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/glalie.png,Non-Meta
+Orbeetle,0.4262853053068922,0.47798865594582834,0.19540229885057472,0.47126436781609193,0.3333333333333333,Bug/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/orbeetle.png,Non-Meta
+Ninetales,0.42042190934261353,0.4765459011103762,0.18850574712643678,0.4781609195402299,0.3333333333333333,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/ninetales.png,Non-Meta
+Cryogonal,0.5812056702455771,0.6962827594014572,0.593103448275862,0.07126436781609195,0.33218390804597697,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/cryogonal.png,Non-Meta
+Sandslash,0.48262879272772036,0.5338182797658187,0.3310344827586207,0.32873563218390806,0.3298850574712644,Ground,https://img.pokemondb.net/sprites/sword-shield/icon/sandslash.png,Non-Meta
+Seaking,0.46009118972432034,0.5079112208752434,0.28045977011494255,0.3793103448275862,0.3298850574712644,Water,https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png,Non-Meta
+Electivire,0.4499067128679757,0.5008381724987523,0.25287356321839083,0.4045977011494253,0.32873563218390806,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/electivire.png,Non-Meta
+Lairon,0.5652557294400066,0.7007671364552223,0.5701149425287356,0.06666666666666667,0.31839080459770114,Rock/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/lairon.png,Non-Meta
+Beheeyem,0.4299742760570026,0.49530380452148376,0.20689655172413793,0.42298850574712643,0.31494252873563217,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/beheeyem.png,Non-Meta
+Obstagoon,0.4213847662796089,0.49308681223208223,0.19310344827586207,0.43448275862068964,0.3137931034482758,Dark/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/obstagoon.png,Non-Meta
+Dedenne,0.49922348248613946,0.5628334242902653,0.37701149425287356,0.2482758620689655,0.31264367816091954,Electric/Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/dedenne.png,Non-Meta
+Malamar,0.40908687648350833,0.4780998169176334,0.15402298850574714,0.4689655172413793,0.31149425287356325,Dark/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/malamar.png,Non-Meta
+Ribombee,0.5533536186064199,0.6960857408859817,0.5379310344827586,0.0735632183908046,0.3057471264367816,Bug/Fairy,https://img.pokemondb.net/sprites/sword-shield/icon/ribombee.png,Non-Meta
+Klinklang,0.40024805458682194,0.476766108325125,0.135632183908046,0.4735632183908046,0.3045977011494253,Steel,https://img.pokemondb.net/sprites/sword-shield/icon/klinklang.png,Non-Meta
+Scolipede,0.5029348722528614,0.5851375344067081,0.3931034482758621,0.21379310344827587,0.30344827586206896,Bug/Poison,https://img.pokemondb.net/sprites/sword-shield/icon/scolipede.png,Non-Meta
+Xatu,0.503915719674174,0.5891438779794678,0.39770114942528734,0.20689655172413793,0.3022988505747126,Flying/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/xatu.png,Non-Meta
+Bellossom,0.35560383628436193,0.4668257979671544,0.07816091954022988,0.5218390804597701,0.3,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/bellossom.png,Non-Meta
+Dubwool,0.32603128482696986,0.45998352282835225,0.05057471264367816,0.542528735632184,0.29655172413793107,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/dubwool.png,Non-Meta
+Emolga,0.4774795872502619,0.560890971150266,0.3195402298850575,0.25287356321839083,0.28620689655172415,Electric/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/emolga.png,Non-Meta
+Rapidash,0.47337125736597313,0.5569421416518313,0.3103448275862069,0.2620689655172414,0.28620689655172415,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/rapidash.png,Non-Meta
+Brionne,0.47765777988608643,0.5644193632341968,0.3218390804597701,0.24597701149425288,0.28390804597701147,Water,https://img.pokemondb.net/sprites/sword-shield/icon/brionne.png,Non-Meta
+Pinsir,0.4506882777555537,0.5439358683731916,0.2574712643678161,0.3080459770114943,0.2827586206896552,Bug,https://img.pokemondb.net/sprites/sword-shield/icon/pinsir.png,Non-Meta
+Durant,0.529222895774895,0.6790917496709443,0.4735632183908046,0.0896551724137931,0.28160919540229884,Bug/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/durant.png,Non-Meta
+Heliolisk,0.5243216251589521,0.6685635697800608,0.4574712643678161,0.10114942528735632,0.2793103448275862,Electric/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/heliolisk.png,Non-Meta
+Perrserker,0.4319248213831201,0.5331246416212936,0.2160919540229885,0.3333333333333333,0.2747126436781609,Steel,https://img.pokemondb.net/sprites/sword-shield/icon/perrserker.png,Non-Meta
+Leafeon,0.41461854639751605,0.5067077566606193,0.16551724137931034,0.3816091954022989,0.2735632183908046,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/leafeon.png,Non-Meta
+Whimsicott,0.47456103928133236,0.5784629044264463,0.31494252873563217,0.22298850574712645,0.2689655172413793,Fairy/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/whimsicott.png,Meta
+Tauros,0.38899258743405285,0.4988184250067999,0.11494252873563218,0.41379310344827586,0.26436781609195403,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/tauros.png,Non-Meta
+Galvantula,0.49844930188153047,0.614113872025303,0.37471264367816093,0.15172413793103448,0.2632183908045977,Bug/Electric,https://img.pokemondb.net/sprites/sword-shield/icon/galvantula.png,Non-Meta
+Duosion,0.4299742760570026,0.5389503490876414,0.20689655172413793,0.3195402298850575,0.2632183908045977,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/duosion.png,Non-Meta
+Azelf,0.45623912869393013,0.5602928058180896,0.26666666666666666,0.25517241379310346,0.26091954022988506,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/azelf.png,Non-Meta
+Indeedee Female,0.43823319040460557,0.5484691372931579,0.22988505747126436,0.29195402298850576,0.26091954022988506,Normal/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/indeedee-female.png,Meta
+Marowak,0.4051177264492103,0.5129450792502279,0.1471264367816092,0.37471264367816093,0.26091954022988506,Ground,https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png,Non-Meta
+Exploud,0.3920401699561236,0.5049306178153016,0.11954022988505747,0.3931034482758621,0.2563218390804598,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/exploud.png,Non-Meta
+Hitmontop,0.4102306764642193,0.5224207816077384,0.15632183908045977,0.35402298850574715,0.25517241379310346,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/hitmontop.png,Non-Meta
+Lurantis,0.40002102897016145,0.5123458749603547,0.13333333333333333,0.37701149425287356,0.25517241379310346,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/lurantis.png,Non-Meta
+Togedemaru,0.5146752143998712,0.702517516628206,0.4367816091954023,0.06206896551724138,0.24942528735632186,Electric/Steel,https://img.pokemondb.net/sprites/sword-shield/icon/togedemaru.png,Non-Meta
+Mienshao,0.5131156553341485,0.6947975246409812,0.4206896551724138,0.07586206896551724,0.2482758620689655,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/mienshao.png,Non-Meta
+Seadra,0.49388611263500987,0.6218381901714312,0.35402298850574715,0.14022988505747128,0.24712643678160923,Water,https://img.pokemondb.net/sprites/sword-shield/icon/seadra.png,Non-Meta
+Shiftry,0.508124656122644,0.6854845203122513,0.4045977011494253,0.08505747126436781,0.24482758620689654,Dark/Grass,https://img.pokemondb.net/sprites/sword-shield/icon/shiftry.png,Non-Meta
+Hitmonchan,0.4445408702407142,0.573900924524864,0.24367816091954023,0.23448275862068965,0.23908045977011494,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/hitmonchan.png,Non-Meta
+Pincurchin,0.3816415682221195,0.5169576091492415,0.10574712643678161,0.367816091954023,0.2367816091954023,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/pincurchin.png,Non-Meta
+Basculin Blue-Striped Form,0.46009118972432034,0.6065903163512478,0.28045977011494255,0.18160919540229886,0.2310344827586207,Water,https://img.pokemondb.net/sprites/sword-shield/icon/basculin-blue-striped.png,Non-Meta
+Basculin Red-Striped Form,0.46009118972432034,0.6065903163512478,0.28045977011494255,0.18160919540229886,0.2310344827586207,Water,https://img.pokemondb.net/sprites/sword-shield/icon/basculin-red-striped.png,Non-Meta
+Falinks,0.4269615289526817,0.5587055180632624,0.19770114942528735,0.2574712643678161,0.22758620689655173,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/falinks.png,Non-Meta
+Drizzile,0.49388611263500987,0.6747937672379353,0.35402298850574715,0.09655172413793103,0.2252873563218391,Water,https://img.pokemondb.net/sprites/sword-shield/icon/drizzile.png,Non-Meta
+Jolteon,0.41259637068860594,0.5494053796504935,0.1632183908045977,0.2850574712643678,0.22413793103448276,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/jolteon.png,Non-Meta
+Alolan Raichu,0.491809877955842,0.6740494271196894,0.3448275862068966,0.09885057471264368,0.22183908045977013,Electric/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/raichu-alolan.png,Non-Meta
+Espeon,0.4444829346418941,0.5934654573563047,0.2413793103448276,0.2,0.2206896551724138,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/espeon.png,Non-Meta
+Eldegoss,0.32514785705090515,0.5051694346076689,0.04827586206896552,0.39080459770114945,0.21954022988505748,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/eldegoss.png,Non-Meta
+Shelgon,0.3401677779824617,0.5129659830532068,0.059770114942528735,0.3724137931034483,0.21609195402298853,Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/shelgon.png,Non-Meta
+Morpeko Full Belly Mode,0.501891830101042,0.7502404517556418,0.38620689655172413,0.0367816091954023,0.21149425287356322,Dark/Electric,https://img.pokemondb.net/sprites/sword-shield/icon/morpeko-full-belly.png,Non-Meta
+Morpeko Hangry Mode,0.501891830101042,0.7502404517556418,0.38620689655172413,0.0367816091954023,0.21149425287356322,Dark/Electric,https://img.pokemondb.net/sprites/sword-shield/icon/morpeko-hangry.png,Non-Meta
+Hitmonlee,0.4959841740440787,0.7055994676257853,0.36551724137931035,0.05747126436781609,0.21149425287356322,Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/hitmonlee.png,Non-Meta
+Indeedee Male,0.4765324340684516,0.657875802236359,0.31724137931034485,0.10574712643678161,0.21149425287356322,Normal/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/indeedee-male.png,Non-Meta
+Lopunny,0.3141437194632285,0.5181342230380868,0.0367816091954023,0.3632183908045977,0.2,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/lopunny.png,Non-Meta
+Eiscue Noice Face,0.49463298772039443,0.7641328717310876,0.36091954022988504,0.027586206896551724,0.19425287356321838,Ice,https://img.pokemondb.net/sprites/sword-shield/icon/eiscue-noice.png,Non-Meta
+Meowstic Female,0.3079926898340541,0.5195693834421985,0.02528735632183908,0.3586206896551724,0.19195402298850575,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/meowstic-female.png,Non-Meta
+Meowstic Male,0.3079926898340541,0.5195693834421985,0.02528735632183908,0.3586206896551724,0.19195402298850575,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/meowstic-male.png,Non-Meta
+Absol,0.4818985623628167,0.7118595297134753,0.32873563218390806,0.052873563218390804,0.19080459770114944,Dark,https://img.pokemondb.net/sprites/sword-shield/icon/absol.png,Non-Meta
+Lilligant,0.41947478902903507,0.590310177367922,0.1793103448275862,0.20229885057471264,0.19080459770114944,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/lilligant.png,Non-Meta
+Diggersby,0.3807664924929995,0.5513835688877974,0.10114942528735632,0.27816091954022987,0.1896551724137931,Ground/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/diggersby.png,Non-Meta
+Hakamo-o,0.4046077241046777,0.5851328894037665,0.14022988505747128,0.2160919540229885,0.1781609195402299,Dragon/Fighting,https://img.pokemondb.net/sprites/sword-shield/icon/hakamo-o.png,Non-Meta
+Sliggoo,0.3166131772880276,0.5389567612705294,0.03908045977011494,0.31724137931034485,0.1781609195402299,Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/sliggoo.png,Non-Meta
+Poipole,0.3871312437926822,0.5698388561541876,0.10804597701149425,0.2367816091954023,0.1724137931034483,Poison,https://img.pokemondb.net/sprites/sword-shield/icon/poipole.png,Non-Meta
+Dugtrio,0.48262879272772036,0.931486996370896,0.3310344827586207,0.009195402298850575,0.17011494252873563,Ground,https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio.png,Non-Meta
+Manectric,0.39795725481960914,0.6024498829831204,0.12873563218390804,0.19310344827586207,0.16091954022988506,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/manectric.png,Non-Meta
+Alakazam,0.4580520415395103,0.7374406060875675,0.2689655172413793,0.04597701149425287,0.15747126436781608,Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/alakazam.png,Non-Meta
+Blissey,0.318327693299388,0.5548648646702153,0.04367816091954023,0.2689655172413793,0.15632183908045977,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/blissey.png,Non-Meta
+Sceptile,0.4038202764632405,0.6103580768418582,0.13793103448275862,0.167816091954023,0.1528735632183908,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/sceptile.png,Non-Meta
+Zoroark,0.4499952307917458,0.7382246974806411,0.25517241379310346,0.04367816091954023,0.14942528735632185,Dark,https://img.pokemondb.net/sprites/sword-shield/icon/zoroark.png,Non-Meta
+Raboot,0.4195935160121692,0.6514128174977281,0.1839080459770115,0.11494252873563218,0.14942528735632182,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/raboot.png,Non-Meta
+Zweilous,0.38029673086983773,0.5966996937651846,0.09885057471264368,0.19540229885057472,0.1471264367816092,Dark/Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/zweilous.png,Non-Meta
+Maractus,0.40602110624178867,0.6218437682376459,0.14942528735632185,0.13793103448275862,0.14367816091954022,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/maractus.png,Non-Meta
+Swoobat,0.4282075203297532,0.6936187063837708,0.2045977011494253,0.07816091954022988,0.1413793103448276,Flying/Psychic,https://img.pokemondb.net/sprites/sword-shield/icon/swoobat.png,Non-Meta
+Regieleki,0.41071207198658194,0.6426579150669927,0.15862068965517243,0.12183908045977011,0.14022988505747128,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/regieleki.png,Meta
+Boltund,0.37654144277834345,0.6066335627260587,0.09195402298850575,0.1793103448275862,0.135632183908046,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/boltund.png,Non-Meta
+Ninjask,0.4528020092089091,0.9364492261607124,0.2597701149425287,0.006896551724137931,0.13333333333333333,Bug/Flying,https://img.pokemondb.net/sprites/sword-shield/icon/ninjask.png,Non-Meta
+Cherrim,0.34832043388847284,0.6033637811244821,0.07586206896551724,0.19080459770114944,0.13333333333333333,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/cherrim.png,Non-Meta
+Dragonair,0.3089074187439449,0.5742851114635212,0.03218390804597701,0.23218390804597702,0.13218390804597702,Dragon,https://img.pokemondb.net/sprites/sword-shield/icon/dragonair.png,Non-Meta
+Partner Eevee,0.3113496800437778,0.5885038745389543,0.034482758620689655,0.20919540229885059,0.12183908045977013,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/eevee-lets-go.png,Non-Meta
+Tangela,0.38811595658249337,0.640935265151558,0.1103448275862069,0.12643678160919541,0.11839080459770115,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/tangela.png,Non-Meta
+Raichu,0.37654144277834345,0.6215920230718966,0.09195402298850575,0.14482758620689656,0.11839080459770115,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/raichu.png,Non-Meta
+Torracat,0.4173200465801581,0.742486155893747,0.17011494252873563,0.041379310344827586,0.10574712643678161,Fire,https://img.pokemondb.net/sprites/sword-shield/icon/torracat.png,Non-Meta
+Cinccino,0.3733305332823288,0.6480911902102297,0.08275862068965517,0.11954022988505747,0.10114942528735632,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/cinccino.png,Non-Meta
+Thievul,0.34708003377226077,0.6322141036004374,0.07126436781609195,0.1310344827586207,0.10114942528735632,Dark,https://img.pokemondb.net/sprites/sword-shield/icon/thievul.png,Non-Meta
+Thwackey,0.33860217060059783,0.6523954790807913,0.05747126436781609,0.1103448275862069,0.08390804597701149,Grass,https://img.pokemondb.net/sprites/sword-shield/icon/thwackey.png,Non-Meta
+Chansey,0.18979053973125606,0.6126514929452495,0.0022988505747126436,0.15862068965517243,0.08045977011494254,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/chansey.png,Non-Meta
+Linoone,0.2947948323703856,0.6276834695207012,0.013793103448275862,0.135632183908046,0.07471264367816093,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/linoone.png,Non-Meta
+Accelgor,0.38159811502123003,0.7629879809467685,0.10344827586206896,0.029885057471264367,0.06666666666666667,Bug,https://img.pokemondb.net/sprites/sword-shield/icon/accelgor.png,Non-Meta
+Liepard,0.3757024226400561,0.8170913165290373,0.0896551724137931,0.020689655172413793,0.05517241379310345,Dark,https://img.pokemondb.net/sprites/sword-shield/icon/liepard.png,Non-Meta
+Galarian Linoone,0.34808876326266064,0.7575520002841649,0.0735632183908046,0.034482758620689655,0.054022988505747126,Dark/Normal,https://img.pokemondb.net/sprites/sword-shield/icon/linoone-galarian.png,Non-Meta
+Persian,0.2947948323703856,0.680476103708851,0.013793103448275862,0.08735632183908046,0.05057471264367816,Normal,https://img.pokemondb.net/sprites/sword-shield/icon/persian.png,Non-Meta
+Alolan Persian,0.3080409169438914,0.6979654567904309,0.029885057471264367,0.06896551724137931,0.04942528735632184,Dark,https://img.pokemondb.net/sprites/sword-shield/icon/persian-alolan.png,Non-Meta
+Partner Pikachu,0.3180615670135833,0.789206284445219,0.041379310344827586,0.02528735632183908,0.03333333333333333,Electric,https://img.pokemondb.net/sprites/sword-shield/icon/pikachu-lets-go.png,Non-Meta

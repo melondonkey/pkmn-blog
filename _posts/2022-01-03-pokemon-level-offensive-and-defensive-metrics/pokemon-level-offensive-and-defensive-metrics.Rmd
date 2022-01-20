@@ -1,15 +1,15 @@
 ---
 title: "Pokemon-Level Offensive and Defensive Metrics"
 description: |
-  A short description of the post.
+  I finally tackle Pokemon-level metrics.  See why Kyurem White is the hardest hitting in the current metagame.  
 author:
   - name: melondonkey
     url:
-      https://pokemon-data-analysis.netlify.app: {}
-date: 2022-01-03
+      {https://pokemon-data-analysis.netlify.app}
+date: 2022-01-19
 output:
   distill::distill_article:
-    self_contained: false
+    self_contained: true
 ---
 
 
@@ -20,7 +20,7 @@ In previous articles I laid some groundwork for evaluating types offensively and
 First, we need to understand the damage formula.  Here's a quick refresher.
 
 $$(((2*Level)/5 + 2) * Power * A/D)/50 + 2 )*STAB*Type*random*Critical*Targets*Weather*Badge*Burn*other $$
-I'm not accounting for some factors, but what I have now simplifies to:
+I'm not accounting for some factors, but what I have now simplifies to this, averaging out the random modifier:
 
 $$(22*Power*(A/D)/50 + 2) * STAB * Type *.925)$$
 
@@ -29,17 +29,19 @@ $$(22*Power*(A/D)/50 + 2) * STAB * Type *.925)$$
 
 For defensive typing, we first derived which offensive moves we were expecting to defend against by combining Pokemon usage, move usage, STAB bonuses, relevant attack stat, and then the type modifier.  We just need to add a couple pieces to make this work at the Pokemon level:
 
-* Instead of meta-weighted type adjustment factor, we'll derive meta-weighted percentage of HP depleted
-* We will use the defending Pokemon's relevant defense stat as a denominator for the relevant attack stat and include it as part of the damage formula
+* Instead of meta-weighted type adjustment factor, we'll derive **meta-weighted percentage of HP depleted**
+* We will use the defending Pokemon's relevant defense stat as a denominator for the relevant attack stat and include it as part of the damage formula (using stat calculations for level 50 and max IV investment but assuming zero EV)
 * Weight = Pokemon Usage * Move Usage
 * HP Depleted = (22* BasePower*(att/def)/50 + 2) * STAB * Type Modifier *.925
     * Where att = Attack or Special Attack
     * def = Matching defense stat
     * Type Modifier in [0, .25, .5, 1, 2, 4]
     * .925 representing the expecation of the random compoment (.85, 1). This is just a scalar on the damage and doesn't affect the rankings but I wanted to scale as closely to real damage as possible
-    * We then divide HP depleted by Base HP for the Percent HP depleted
+    * We then divide HP depleted by HP at level 50 for the Percent HP depleted
 * Aggregate for each Pokemon it's weighted average defense against all moves in the meta
 * Voila!  We have our number.
+
+One tricky thing here: we are averaging for each Pokemon how effective each move from a meta Pokemon is into it.  Note though that the max may seem to make more sense since in every case they will hit you with the hardest move they can.  However, given that movesets vary and have probabilities associated with them, there wasn't a great way to always use the strongest move and account for the fact that they may not carry the move.  So all in all, I think using the weighted averages for this is a good compromise.
 
 
 
@@ -53,15 +55,89 @@ First, we won't use specific moves for our offense.  I just don't have this data
 We'll do calculations for all Pokemon in the format and again use our usage data to provide weights on the defensive side of things.  So we're basically asking: how much offensive potential does this Pokemon have against the current meta? Our answer is returned to us in the same units previously, percentage of defender's HP depleted by best attack.  
 
 
+### Plotting the Results
 
-### Combined Power Rankings
+Before we look at who is the best, I'd you to just think about the overall distribution of offense and defense by looking at this plot.  Think about where you would want your Pokemon to be.  It certainly doesn't look like the classic efficiency frontier curve from an econ textbook.   
 
-I'm kind of tired and getting lazy at this point.  I think a good way to combine these initially at least is to just convert them to percentiles and then take the average of the two percentiles.  I'll think in the coming days whether I like this metric or not.  
+```{r, echo=FALSE}
+library(readr)
+library(formattable)
+library(DT)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(here)
+
+
+power_rankings <- read_csv(here('power-rankings.csv'))
+
+power_rankings %>%
+  ggplot(aes(x=wgt_avg_damage_taken, y=wgt_avg_damage)) + 
+  #geom_text(aes(label=Name.x)) +
+  geom_point() +
+  scale_x_continuous(labels=scales::percent_format(2)) +
+  scale_y_continuous(labels=scales::percent_format(2)) +
+  xlab('Meta-Weighted Average Damage Taken') +
+  ylab('Meta-Weighted Average \nDamage Potential') +
+  theme_gray(base_size = 15)
+
+```
+
+Ok, are you ready to see?   
+
+```{r, echo=FALSE, fig.width=15, fig.height = 12}
+
+power_rankings %>%
+  ggplot(aes(x=wgt_avg_damage_taken, y=wgt_avg_damage, color=meta)) + 
+  geom_text(aes(label=Name.x), size=5, alpha = .75) +
+  geom_point(alpha=.25) +
+  scale_x_continuous(labels=scales::percent_format(2)) +
+  scale_y_continuous(labels=scales::percent_format(2)) +
+  xlab('Meta-Weighted Average Damage Taken') +
+  ylab('Meta-Weighted Average \nDamage Potential') +
+  theme_gray(base_size = 15) + 
+  ggtitle('Meta-Adjusted Offense and Defense Ratings')
+
+```
+
+### Table of Results
+
+And now a table of results, just so you can really dive in if you want.  Here I've also added percentile rankings for offense and defense and avereaged the two of those into an overall rating.
+
+```{r, echo=F}
+power_rankings %>%
+  
+  formattable() %>%
+  mutate(
+    wgt_avg_damage = round(wgt_avg_damage, 3),
+    wgt_avg_damage_taken = round(wgt_avg_damage_taken, 3),
+    offensive_percentile = round(offensive_percentile, 3), 
+    defensive_percentile = round(defensive_percentile, 3),
+    avg_percentile = round(avg_percentile, 3),
+    picture = ifelse(!is.na(Image), 
+                          paste0("<img src=\"",Image, 
+                                 "\" height=\"30\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"","\"></img>") )) %>%
+  select(
+    picture, Name.x, type, wgt_avg_damage, wgt_avg_damage_taken,
+    offensive_percentile, defensive_percentile, 
+    avg_percentile
+  ) %>%
+  rename(Name=Name.x) %>%
+  as.datatable(escape=FALSE) 
+  
+
+```
 
 
 
-### Next Steps
+### But What About This Exception and That Exception?
 
-Next time, we'll talk about the efficiency frontier and how to put these rankings together.  Eventually we're going to need to factor in Speed as well.  
+So what about the fact that Zacian gets a free attack boost and hits dynamax for double damage?  What about Incineroar effectively lowering damage taken with Intimidate?  Yes and yes.  Just remember this is an analysis of base value.  If there's a cool combo or ability, think about what you're giving up in base value to get it and decide for yourself if it's worth it.  Just be rational about your value choices.  Don't pay something for nothing.
+
+
+
+
+
+
 
 
