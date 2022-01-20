@@ -83,7 +83,9 @@ power_rankings %>%
 
 ```
 
-Ok, are you ready to see?   
+Call me superstitious but I think I see the spape of Arceus in that plot.  
+
+Ok, are you ready to see the names revealed?   
 
 ```{r, echo=FALSE, fig.width=15, fig.height = 12}
 
