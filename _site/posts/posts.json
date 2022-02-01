@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-01-24-the-payback-ratio-even-deeper-down-the-damage-calc-rabbit-hole/",
+    "title": "The Payback Ratio:  Even Deeper Down the Damage Calc Rabbit Hole",
+    "description": "An app to find checks and counters.",
+    "author": [
+      {
+        "name": "melondonkey",
+        "url": {
+          "https://pokemon-data-analysis.netlify.app": {}
+        }
+      }
+    ],
+    "date": "2022-02-01",
+    "categories": [],
+    "contents": "\nFor my last post, I had to do a lot of damage calculations. While online calculators are great for a specific situation, they don’t really help you get the big picture of who can do the most damage to whom.\nChecks and Counters Search\nMy first idea was to simply expose all the damage calcs and create a search tool for finding counters to Pokemon. The idea is to select a Pokemon like Zacian and it will give you a dataset of what each Pokemon could do to him with a 100-power STAB move. For dual-types I take their best move since that’s what anyone would use. Calculating coverage moves is much too complicated for this exercise, though I included those as well in my defensive rankings with meta adjustment.\nThis was pretty cool, but after looking at the initial list I saw a lot of unrealistic matchups. What was missing was not just how much damage you can do to the Pokemon but how much damage you do relative to what it can do to you. Thus was born the payback ratio, which is just the max 100 base power STAB damage a Pokemon can inflict relative to what would be inflicted upon it.\nLink to the App\nSo here it is. This is hosted for free by RStudio, so if it gets too popular I may have to come up with another hosting solution. Enjoy!\nPokemon Checks and Counters Search\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-02-01T12:10:08-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-01-03-pokemon-level-offensive-and-defensive-metrics/",
     "title": "Pokemon-Level Offensive and Defensive Metrics",
     "description": "I finally tackle Pokemon-level metrics.  See why Kyurem White is the hardest hitting in the current metagame.",
