@@ -10,6 +10,7 @@ date: 2022-01-04
 output:
   distill::distill_article:
     self_contained: true
+    code_folding: hide
 ---
 
 I've posted a bit about offense and defense.  Speed is supposedly straightforward, but if you're like me, the numerous combinations of speed affected by EVs, natures, and trick room can make it pretty confusing to understand just how much you need.  
