@@ -1,0 +1,246 @@
+---
+title: "Statistically Analyzing a Teambuild With Regression"
+description: |
+  Making use of downloaded games in Showdown!
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-03-26
+output:
+  distill::distill_article:
+    self_contained: true
+    code_folding: hide
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Post Summary
+
+In this post, I'm going to talk about parsing Showdown! data and using it to do an analysis on a team's matchup weaknesses and strengths. 
+
+
+## My Journey to Showdown!
+
+I haven't posted in quite a while.  My data sources dried up and I hit a bit of a wall with analysis.  Over that period, I continued on my obsession with Kyurem and finally learned to appreciate the merits of Pokemon Showdown!  I had been turned off initially by the hyper-fast matches, the lack of animations, chat, etc.  But just as an alcoholic may begin his night with top-shelf liquor and end it behind a gas station with an MD20, I eventually found myself mashing buttons and forfeiting matches after two moves so I could move on to my next dopamine hit of ohko-ing a Lando-T through protect.
+
+Then I discovered that Showdown! had what I was looking for all along--data.  By simply clicking "download replay" I could store up all my play data and eventually get around to doing something with it.  
+
+
+## Extracting Showdown Data
+
+The first step was to turn all these html files into useable data.  I like my data flat and tidy rather than buried in html tags, so I got to work writing a script to extract key matchup data.  I won't bore you with the details but I've included my R code below so anyone can copy and paste it if they like.  I probably won't do a github repo yet, but the idea is to eventually create an R package that will be a collection of Showdown! parsing functions.  If anyone is interested in collaborating on that, hit me up.  
+
+Right now, I'm extracting:
+* The player handles
+* Who won and pre-post elos
+* All mons at preview
+
+Again, this code is really unoptimized but if anyone wants to give it a shot, feel free
+
+```{r, eval=FALSE}
+library(here)
+library(stringr)
+library(rvest)
+library(dplyr)
+library(logger)
+
+
+
+#' Convenience function for pulling an element from a match
+#' @param i The line number to extract from
+#' @param j The element to pull from that line (pipe-delimited)
+#' @param data html text element from the match
+extract_element <- function(i, j, data = game_string){
+  str_split(data[[i]], "\\|", simplify = TRUE)[[j]]
+}
+
+
+#Create a subdirectory battles in the project that contains all match data in html files
+files <- list.files(path=here('battles'), pattern="*.html", full.names=TRUE, recursive=FALSE)
+
+
+
+#convenience/debugging function for viewing a match file 
+view_file <- function(file_path){
+  game <- rvest::read_html(file_path)
+  
+  game_data <- game %>%
+    html_element('script') %>%
+    html_text() 
+  
+  game_string_view <- str_split(game_data, "\n")
+  return(game_string_view)
+
+}
+
+ 
+# This will fail now if any files have matchups where a player has less than 6 pokemon.
+# I show it in logs so you can delete it but will add some checks here later
+for (file_path in files){
+  
+  logger::log_info('starting file {file_path}')
+  game <- rvest::read_html(file_path)
+  
+  g1 <- html_element( game, 'script')
+  g2 <- html_text(g1)
+  
+  game_string <-  str_split(g2, "\n", simplify = TRUE) 
+  
+  id_loc <- which(str_detect(game_string, "t:"))[1]
+  game_id <- extract_element(id_loc, 3, data = game_string)
+  log_info('game id is {game_id}')
+  
+  
+  player_loc <-which(str_detect(game_string, "player"))
+  p1 <- extract_element(player_loc[1], 4)
+  p1_rating_start <- extract_element(player_loc[1], 6)
+  p2 <- extract_element(player_loc[2],4)
+  p2_rating_start <- extract_element(player_loc[2],6)
+  
+  log_info('{p1}: {p1_rating_start} vs {p2}:{p2_rating_start}')
+  
+  
+  poke_loc <- which(str_detect(game_string, "\\|poke"))[c(1:12)]
+  
+  if(sum(is.na(poke_loc)) > 0){
+    log_error('team with 5 pokemon.  delete file {file_path}')
+  }
+  for (line in poke_loc){
+    if(line %in% poke_loc[c(1:6)]){
+      assign(paste0('p1_mon', match(line, poke_loc) ), 
+             str_split(extract_element(line, 4), ",", simplify = TRUE)[[1]]   )
+    }
+    else if(line %in% poke_loc[c(7:12)]){
+      idx <- poke_loc[c(7:12)]
+      assign(paste0('p2_mon', match(line, idx) ), str_split(extract_element(line, 4), ",", simplify = TRUE)[[1]]   )
+    }
+  }
+  
+  
+  
+  ## Extract results and rating updates
+  new_rating_ind <- which(str_detect(game_string, "rating: "))
+  p <- 1
+  for( line in new_rating_ind){
+    
+    string <- game_string[line] 
+    string_start <- str_locate(game_string[line], "<strong>")[[2]] +1
+    new_string <- substr(string, string_start, string_start + 3)
+    assign(paste0('p', p, '_newrating'),  gsub("[^0-9]", "", new_string))
+    
+    #Extract the player name
+    string <- str_split(game_string[line], "\\|", simplify= TRUE)[[3]]
+    string_end <- str_locate(string, "'s")[1] -1
+    assign(paste0('endp', p),  substr(string, 1, string_end) )
+    
+    p <- p+1
+  }
+  
+match_start_data <-   
+  data.frame(
+    match_id = game_id,
+    player_id = p1,
+    elo_start = p1_rating_start,
+    mon1 = p1_mon1,
+    mon2 = p1_mon2,
+    mon3 = p1_mon3,
+    mon4 = p1_mon4,
+    mon5 = p1_mon5,
+    mon6 = p1_mon6 
+  ) %>%
+    union_all(
+      (
+        data.frame(
+          match_id = game_id,
+          player_id = p2,
+          elo_start = p2_rating_start,
+          mon1 = p2_mon1,
+          mon2 = p2_mon2,
+          mon3 = p2_mon3,
+          mon4 = p2_mon4,
+          mon5 = p2_mon5,
+          mon6 = p2_mon6 
+        )
+      )
+    )
+
+result_data <-
+  data.frame(
+    player_id = endp1,
+    elo_end = p1_newrating
+  ) %>%
+  union_all(
+    data.frame(
+      player_id = endp2,
+      elo_end = p2_newrating
+    ) 
+  )
+
+final_data <- 
+  match_start_data %>%
+  inner_join(result_data, by='player_id') %>%
+  mutate(
+    win_flag = ifelse(elo_end > elo_start, 1, 0)
+  )
+
+
+readr::write_csv(final_data, here('processed', paste0('match-', game_id, '.csv')))
+
+}
+
+
+
+
+data_all <- list.files(path = "/Users/joedean/showdown/processed",  # Identify all CSV files
+                       pattern = "*.csv", full.names = TRUE) %>% 
+  lapply(read_csv) %>%                              # Store all files in list
+  bind_rows                                         # Combine data sets into one data set 
+```
+
+
+## Yo-Yo-ing on the Ladder
+
+So with my core of Kyurem-W, Sableye, Regieleki, Zacian, and revolving guests I mindlessly clicked Quash and Max Quake hundreds of times and gathered my data from the scattered corpses of slain Zacians.  Although I know I'm supposed to really analyze my games, sometimes I have to admit I'm really just smashing my head against the ladder as I procrastinate at work or am distracted with other things.  So I think it's good to just let yourself play and come back to analyze later.  
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(here)
+
+match_data <- read_csv(here('match-data.csv'))
+
+match_data %>%
+  filter(player_id == 'melondonkey')%>%
+  arrange(match_id) %>%
+  mutate(
+    match_order = row_number()
+  ) %>%
+  ggplot(aes(x=match_order, y=elo_end)) + geom_point(alpha =.6) + geom_line() +
+  ggtitle('My Mediocrity on Full Display') + 
+  ylab('Elo') +
+  xlab('Match Number')
+
+```
+
+
+## Analyzing the Matchups
+
+The next step is to understand what exactly is correlated with going up and down the ladder.  Given the data I've extracted, I can't look at every possible set of a Pokemon, but I can at least maybe get a sense of which Pokemon are problematic for me and which team changes have been beneficial.  
+
+I won't go into the details of this model build here, but I make a few brief points for those interested.  One is that I had only 188 matches, which seems like a lot but for data analysis really isn't. We'll be painting with broad strokes and in a technical sense will be using a horseshoe prior on the logistic regression coefficients which will give us [good regularization ](https://arxiv.org/abs/1707.01694).  I also did a lot of hand-wringing over whether or not to adjust for opponent difficulty.  I tried a model using the log-odds of the [elo-implied win probability](https://www.cantorsparadise.com/the-mathematics-of-elo-ratings-b6bfc9ca1dba) but at the end of the day it just didn't make a difference empirically.   
+
+Sorry I got a bit lazy with polishing this graphic, so hope you can read it: 
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('team-matchups.png'))
+```
+With so few matches, there's not really publishable statistical evidence here, but I did highlight some extremes in the graphic above.  The coefficient represents the effect on the log-odds of my win probability, so greater than zero means more likely to win and negative more likely to lose.  The strongest matchups in favor of my team were opponents having Thundurus, Landorus, or Dialga.  Me adding Kartana to my team also increased my win probability.  On the other hand, I have negative matchups into Palkia and Reshiram as well as some trick room teams (not shown).  One noteable zero coefficient here is Zacian.  There's just no evidence that Zacian makes a matchup harder for my Kyurem team and I have indeed found that to be the case.  He definitely needs to be respected, but he does not shut down the team as many think (at least not directly as there are costs in preparing for him).  
+
+My conclusions are to keep Kartana on the team and to find something to help in my dragon matchups.  This was probably because I had been running Protect/Freeze-Dry/Blizzard/Earth Power on Kyurem.  In theory I thought Freeze-dry would give me a strong matchup into Palkia since it's 4x, but the reality is it's hard to position that move out of dynamax, especially with all the redirection Palkia now gets.  Probably I should start running Draco Meteor instead so I can have a good move into the dragons.  
+
+
