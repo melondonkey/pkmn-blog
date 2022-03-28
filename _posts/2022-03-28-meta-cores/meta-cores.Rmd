@@ -28,7 +28,7 @@ Sites like Pikalytics and usage data from Showdown! and Pokemon Home are very us
 
 Many data scientists and computer scientists will be familiar with clustering algorithms like k-means, but these algorithms will not work here as we are looking at simple binary data of whether a mon was included or not on a team.  I won't go into too much detail on the statistics, but I formulated the problem as a mixture model with each team as a vector of bernoulli random variables.  We can then find a parameter matrix that maximizes the likelihood of the data via expectation-maximization. 
 
-If I've lost you at this point, I think you'll get it when you see the results.  And by the way, this is posted on my last 200 or so Showdown! matches so take it represents a fairly small sample.  
+If I've lost you at this point, I think you'll get it when you see the results.  And by the way, this is posted on my last 200 or so Showdown! matches so take it represents a fairly small sample (I excluded mons with < 3% inclusion).  
 
 
 ## The Five Current Team Archetypes
