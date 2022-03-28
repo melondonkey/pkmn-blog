@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/about.html</loc>
+    <lastmod>2021-12-28T13:36:15-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/</loc>
+    <lastmod>2022-03-28T13:14:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/2022-03-26-statistically-analyzing-a-teambuild-with-regression/</loc>
+    <lastmod>2022-03-26T19:47:55-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/2022-01-24-the-payback-ratio-even-deeper-down-the-damage-calc-rabbit-hole/</loc>
+    <lastmod>2022-02-01T12:10:08-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/2022-01-03-pokemon-level-offensive-and-defensive-metrics/</loc>
+    <lastmod>2022-01-19T21:04:38-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/2022-01-17-pre-season-12-offensive-coverage-rankings/</loc>
+    <lastmod>2022-01-18T09:36:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/2022-01-14-assessing-typing-correlation-in-vgc12-restricteds/</loc>
+    <lastmod>2022-01-14T12:10:48-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/2022-01-04-a-quick-look-at-speed/</loc>
+    <lastmod>2022-03-26T19:37:53-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/2021-12-31-vgc11-defensive-typing-ranks/</loc>
+    <lastmod>2022-01-01T12:11:02-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/2021-12-29-beyond-usage-defining-meta-metrics/</loc>
+    <lastmod>2021-12-31T14:08:01-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pokemon-data-analysis.netlify.app/posts/welcome/</loc>
+    <lastmod>2021-12-28T14:04:41-05:00</lastmod>
+  </url>
+</urlset>

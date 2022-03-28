@@ -1,5 +1,13 @@
 ---
+name: 'pokemon-analysis'
 title: "Pokemon Analysis"
 site: distill::distill_website
 listing: posts
+base_url: https://pokemon-data-analysis.netlify.app
+collections:
+  posts:
+    disqus: 
+        hidden: false
+        shortname: pokemon-analysis
+    share: [twitter, linkedin]
 ---

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Pokemon Analysis</title>
+    <link>https://pokemon-data-analysis.netlify.app</link>
+    <atom:link href="https://pokemon-data-analysis.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Pokemon Analysis Usually VGC
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Statistically Analyzing a Teambuild With Regression</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-03-26-statistically-analyzing-a-teambuild-with-regression</link>
+      <description>Making use of downloaded games in Showdown!</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-03-26-statistically-analyzing-a-teambuild-with-regression</guid>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://pokemon-data-analysis.netlify.app/posts/2022-03-26-statistically-analyzing-a-teambuild-with-regression/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>The Payback Ratio:  Even Deeper Down the Damage Calc Rabbit Hole</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-01-24-the-payback-ratio-even-deeper-down-the-damage-calc-rabbit-hole</link>
+      <description>An app to find checks and counters.</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-01-24-the-payback-ratio-even-deeper-down-the-damage-calc-rabbit-hole</guid>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pokemon-Level Offensive and Defensive Metrics</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-01-03-pokemon-level-offensive-and-defensive-metrics</link>
+      <description>I finally tackle Pokemon-level metrics.  See why Kyurem White is the hardest hitting in the current metagame.</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-01-03-pokemon-level-offensive-and-defensive-metrics</guid>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://pokemon-data-analysis.netlify.app/posts/2022-01-03-pokemon-level-offensive-and-defensive-metrics/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Pre-Season 12 Offensive Coverage Rankings</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-01-17-pre-season-12-offensive-coverage-rankings</link>
+      <description>Sneak peek into the next meta</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-01-17-pre-season-12-offensive-coverage-rankings</guid>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Assessing Typing Correlation in VGC12 Restricteds</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-01-14-assessing-typing-correlation-in-vgc12-restricteds</link>
+      <description>A way to quantify typing</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-01-14-assessing-typing-correlation-in-vgc12-restricteds</guid>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Quick Look at Speed</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-01-04-a-quick-look-at-speed</link>
+      <description>Visualizing speed tiers.</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-01-04-a-quick-look-at-speed</guid>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://pokemon-data-analysis.netlify.app/posts/2022-01-04-a-quick-look-at-speed/distill-preview.png" medium="image" type="image/png" width="3362" height="2500"/>
+    </item>
+    <item>
+      <title>VGC11 Defensive Typing Ranks</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2021-12-31-vgc11-defensive-typing-ranks</link>
+      <description>What are the best defensive typings in the VGC11 meta?</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2021-12-31-vgc11-defensive-typing-ranks</guid>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VGC11 Offensive Power Rankings: Coverage Move Types</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2021-12-29-beyond-usage-defining-meta-metrics</link>
+      <description>Let's measure coverage effectiveness for each type and evaluate the current VGC11 meta.</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2021-12-29-beyond-usage-defining-meta-metrics</guid>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Pokemon Data Analysis, Statistics, and Probability</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/welcome</link>
+      <description>What can data teach us about Pokemon?</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/welcome</guid>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
