@@ -7,7 +7,16 @@
     <description>Pokemon Analysis Usually VGC
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Meta Cores</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-03-28-meta-cores</link>
+      <description>Clustering the mons in the current meta</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-03-28-meta-cores</guid>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://pokemon-data-analysis.netlify.app/posts/2022-03-28-meta-cores/distill-preview.png" medium="image" type="image/png" width="1000" height="786"/>
+    </item>
     <item>
       <title>Statistically Analyzing a Teambuild With Regression</title>
       <dc:creator>melondonkey</dc:creator>

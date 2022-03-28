@@ -1,0 +1,48 @@
+---
+title: "Meta Cores"
+description: |
+  Clustering the mons in the current meta
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-03-28
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Post Summary
+
+In this post I lay out a statistical methodology for clustering Pokemon and use it to define the current meta landscape and describe the 5 core archetypes currently in use.
+
+
+## Getting the Bigger Picture
+
+Sites like Pikalytics and usage data from Showdown! and Pokemon Home are very useful for understanding popular Pokemon, but I've often found them to be lacking in getting a big-picture view of the meta.  I don't just want to know which Pokemon are used, but which groups of Pokemon are used.  There are some statistics that help with this but I was motivated to try something I did long ago in a previous life when I was more interested in statistics and less in VGC--run a clustering algorithm on the current meta data.
+
+Many data scientists and computer scientists will be familiar with clustering algorithms like k-means, but these algorithms will not work here as we are looking at simple binary data of whether a mon was included or not on a team.  I won't go into too much detail on the statistics, but I formulated the problem as a mixture model with each team as a vector of bernoulli random variables.  We can then find a parameter matrix that maximizes the likelihood of the data via expectation-maximization. 
+
+If I've lost you at this point, I think you'll get it when you see the results.  And by the way, this is posted on my last 200 or so Showdown! matches so take it represents a fairly small sample.  
+
+
+## The Five Current Team Archetypes
+
+The graphic below shows the results of the model.  Each column represents a "core" and each row a Pokemon.  The darker the cell the higher the inclusion probability of that Pokemon. At the bottom of the columns, you can see what percentage of teams that core is:
+
+
+1.  **Trick Room** (16% of teams):  Calyrex/Palkia but also sometimes Kyogre.  Almost always Incin.  Then Eleki, Indeedee, Torkoal, Mimikyu, Dusclops
+2.  **Swordfish** (20% of teams):   I think we know the basics here but the chart shows which mons are variable in the lighter blue.
+3.  **Random Stuff** (22% of teams).  I set the model to 5 cores so it put all the more weakly defined cores here.  Zacian/Grimm/Rillaboom/and Yveltal are not a core in themselves but will appear on lots of off-meta teams so good to be prepared.
+4.  **Zacian/Calyrex-Shadow** (21% of teams).  Incin will be here too and often Thundurus or Blastoise.  Some Kyogre variants here
+5.  **Sun teams** (21% of teams).  Very strongly defined core here as seen by the almost 100% inclusion of Groudon/Charizard.  Note Gastrodon is more prevalent than he looks as he's split East/West here.  
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('meta-cores.png'))
+```
+
