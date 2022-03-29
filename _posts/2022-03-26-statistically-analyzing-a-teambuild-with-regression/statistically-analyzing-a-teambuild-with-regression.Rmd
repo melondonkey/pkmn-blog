@@ -196,7 +196,7 @@ readr::write_csv(final_data, here('processed', paste0('match-', game_id, '.csv')
 
 
 
-data_all <- list.files(path = "/Users/joedean/showdown/processed",  # Identify all CSV files
+data_all <- list.files(path = "/Users/***/showdown/processed",  # Identify all CSV files written out in last step
                        pattern = "*.csv", full.names = TRUE) %>% 
   lapply(read_csv) %>%                              # Store all files in list
   bind_rows                                         # Combine data sets into one data set 
