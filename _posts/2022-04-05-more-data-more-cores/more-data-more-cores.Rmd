@@ -1,0 +1,69 @@
+---
+title: "More Data, More Cores"
+description: |
+  Revisiting the cores in the current meta
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-04-05
+output:
+  distill::distill_article:
+    self_contained: false
+    code_folding: hide
+---
+
+
+So I've now collected data from about 500 matches on the mid-ladder and updated the core results.  I've converted it into a table so it's a bit more interactive and gives more detail on the cores.  You can click on the headers to sort and reverse sort the table to see the top used mons in each core.  
+
+Here's the breakdown.  I don't have a lot of commentary as the table kind of explains itself.  
+
+1. **Sun Canon (10% of teams)**  The most established core in the meta.  You can expect about 1 in 10 opponents to have this exact lineup
+2. **Sun Variants (15% of teams)**  A lot of experimentation with the previous core is happening.  The main idea seems to be to replace Zacian with Solgaleo
+3. **Swordfish (22% of teams)**  
+4. **Shadow Rider (20% of teams)**
+5. **Trick Room (16% of teams)**
+6. **Random Stuff (17% of teams)**
+
+```{r results='asis'}
+library(DT)
+library(readr)
+library(formattable)
+library(dplyr)
+
+df <- read_csv(here::here('output.csv'))
+
+df %>%
+  select(pokemon, everything()) %>%
+  mutate(
+    X1 = round(X1*100),
+    X2 = round(X2*100),
+    X3 = round(X3*100),
+    X4 = round(X4*100),
+    X5 = round(X5*100),
+    X6 = round(X6*100)
+  ) %>%
+  
+  select(pokemon, X5, X2, X3, X1, X6, X4) %>%
+  rename(
+    `Shadow Rider` = X1,
+    `Sun Variants` = X2,
+    `Swordfish` = X3,
+    `Random Stuff` = X4,
+    `Sun Canon` = X5,
+    `Trick Room` = X6
+      ) %>%
+  arrange(-`Sun Canon`) %>%
+  formattable(
+    list(`Shadow Rider` = color_tile('transparent', '#695bb7'),
+         `Sun Canon` = color_tile('transparent', '#c54228'),
+         `Sun Variants` = color_tile('transparent', '#f9e251'),
+         `Swordfish` = color_tile('transparent', '#1763ae'),
+         `Random Stuff` = color_tile('transparent', '#dd1c77'),#31a354
+         `Trick Room` = color_tile('transparent', '#6bb9ab')#6bb9ab
+         )
+  ) %>%
+  as.datatable(options = list(pageLength=50)) 
+  
+
+```
