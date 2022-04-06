@@ -1,0 +1,47 @@
+---
+title: "Does Elo Mean Anything?"
+description: |
+  An analysis of elo in Showdown!
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-04-06
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+## Elo: The Basics
+
+When we talk about climbing the ladder, whether in Showdown! or on cart, what we generally mean is having a highly ranked team.  Both Showdown! and cart VGC use a widely-adopted ranking system known as Elo. I think most players are at least familiar in passing with this rating system, so I won't go into its history right now because I want to get to the question at hand which is does this rating mean anything in Pokemon?
+
+The purpose of elo is to quantify how much better one player is than another.  Specifically, elo is designed to be able to produce the odds or probability that one player will beat another.  There's certainly reason to be skeptical that elo would work in Pokemon.  In a game like chess (which elo was developed for), there is basically zero chance that a player like me would ever beat Magnus Carlsen.  However, it's not impossible to imagine a world where Cybertron VGC would lose to an inferior player because hax, bad rng, or even just normal variability in the game.  
+
+
+## How to Test It
+
+First let's look at the data.  Here I have about 500 matches in Showdown! where I have recorded the difference in elo between me and my opponent.  As we can see in the distribution, it seems that the matchmaking algorithm in Showdown! is probably looking for an opponent within 100 points difference.  This means we will only be able to evaluate the difference in this range, which will probably make elo look a little worse (imagine for example, a 1000-rated player vs a 1900-rated player).  
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('elodiff-dist.png'))
+```
+
+The next thing we can do is look at the elo difference vs the actual win rate.  Here I use a smooth plot to show the win rate with confidence interval.  
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('elodiff-winrate.png'))
+```
+
+At first glance, this may look bad.  What we would want to see is a monotonic relationship at least, meaning the lower the difference, the lower the chance of winning.  However, remember back from our histogram that we have very few datapoints beyond -100 and 100, so I would argue that in the region where it matters, there does seem to be a consistent relationship.  I wouldn't read much into what's going on in the tails of this distribution.  
+
+## Converting to Win Probabilities
+
+
+Remember we said that elo difference can be converted to a win probability?  Let's do that and then check if the actual results empirically validate those theoretical probabilities:
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('elo-vs-actual.png'))
+```
+
+I actually think this looks pretty decent in the 75-point range (going from 40-60%).  So while elo may not be perfect, I think it's probably a good system overall.  Its ease of implementation and universality make a good option.  However, players should recognize just how much variation exists within this game and not take minor differences in elo too seriously.  

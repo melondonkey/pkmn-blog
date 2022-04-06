@@ -2,7 +2,7 @@
 title: "More Data, More Cores"
 description: |
   Revisiting the cores in the current meta
-author:
+author:c
   - name: melondonkey
     url:
       https://pokemon-data-analysis.netlify.app: {}

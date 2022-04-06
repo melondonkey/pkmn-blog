@@ -7,7 +7,16 @@
     <description>Pokemon Analysis Usually VGC
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Does Elo Mean Anything?</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-04-06-does-elo-mean-anything</link>
+      <description>An analysis of elo in Showdown!</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-04-06-does-elo-mean-anything</guid>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://pokemon-data-analysis.netlify.app/posts/2022-04-06-does-elo-mean-anything/distill-preview.png" medium="image" type="image/png" width="1000" height="813"/>
+    </item>
     <item>
       <title>More Data, More Cores</title>
       <dc:creator>melondonkey</dc:creator>
