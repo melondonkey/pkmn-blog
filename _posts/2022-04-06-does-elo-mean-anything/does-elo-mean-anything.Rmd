@@ -45,3 +45,11 @@ knitr::include_graphics(here::here('elo-vs-actual.png'))
 ```
 
 I actually think this looks pretty decent in the 75-point range (going from 40-60%).  So while elo may not be perfect, I think it's probably a good system overall.  Its ease of implementation and universality make a good option.  However, players should recognize just how much variation exists within this game and not take minor differences in elo too seriously.  
+
+## EDIT
+
+Some would like to see the graph excluding the ends of the distribution.  Here it is.   
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('drd.png'))
+```
