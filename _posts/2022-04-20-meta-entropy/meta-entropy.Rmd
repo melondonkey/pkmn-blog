@@ -1,0 +1,45 @@
+---
+title: "Meta Entropy"
+description: |
+  A way to measure meta consolidation
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-04-20
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+There are often debates and discussions about how "centralized" the meta is at a given moment.  People will complain that Zacian or Incineroar is overused, there's not enough variety, etc.  Many VGC players have made content discussing why this isn't necessarily a bad thing, so I won't go into too much detail here on the pros and cons of meta centralization.  What I'm more interested in is how do we measure it in a way where we can meaningfully compare metas over time?  
+
+
+## Entropy
+
+There is a concept from physics and probability theory that can help us here called **entropy.**  I'm not well educated in physics enough to explain the thermodynamic aspects of entropy, but it is essentially a measure of the disorder or randomness of a system.  This concept is also used in probability and information theory to measure how much surprise there is in a random variable or probability distribution.  In terms of Pokemon we can think of **meta entropy** as how surprised you are likely to be by a random team in the game.  
+
+Basing our definition of meta entropy on the formula for entropy, we can use:
+
+
+$H = - \sum(\pi log(\pi))$ where $\pi$ is the usage frequency of each Pokemon
+
+
+The units this returns to us depends on the base of the logarithm we use (2 = bits, e = nats, 10 = hartleys ), but I think these units are not so important or interpretable themselves.  Rather, they just provide us a way to quantify the entropy in a given meta and then make comparisons.  For that matter, we can even compare metas across formats.  For example, OU singles vs VGC.    
+
+## Where are we now?
+
+Unfortunately I don't have usage statistics from past metas like 2015, 2019, etc.  If anyone does have some historical usage data they would like me to look at though, feel free to hit me up.  
+
+
+*  Series 11 VGC: **24.45** (near season end, Pikalytics)
+*  Series 12 VGC: **13.40** (mid-March Pikalytics)
+*  Series 12 VGC: **10.66** (mid-April Showdown ladder)
+
+
+In a future post, I'll pull usage statistics and compare entropy across different formats in Showdown.  For now we can see that Series 12 is more consolidated than series 11 and seems to have consolidated more over the past month, which is not surprising.  

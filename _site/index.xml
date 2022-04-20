@@ -7,7 +7,15 @@
     <description>Pokemon Analysis Usually VGC
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Meta Entropy</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-04-20-meta-entropy</link>
+      <description>A way to measure meta consolidation</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-04-20-meta-entropy</guid>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Does Elo Mean Anything?</title>
       <dc:creator>melondonkey</dc:creator>

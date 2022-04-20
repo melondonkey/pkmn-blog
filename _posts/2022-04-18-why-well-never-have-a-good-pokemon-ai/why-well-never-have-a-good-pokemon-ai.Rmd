@@ -1,0 +1,45 @@
+---
+title: "Why We'll Never Have a Good Pokemon AI"
+description: |
+  A short description of the post.
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-04-18
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Although no one has ever asked me, I like to imagine that people often ask me "why don't you build a Pokemon AI"?
+
+
+## There is not enough interest
+
+I think for a research group that actually had the ability to execute on something like a Pokemon AI, it would be very unlikely that they would choose this particular game to work on, even if it were the pet interest of some of the researchers.  Something like Chess or Go has universal appeal.  Likely such a group would want to choose a game that would make a splash in the media and promote general interest in their research.  Competitive Pokemon would be a somewhat confusing choice for the public in this regard as even the majority of those familiar with Pokemon would have little or no understanding of what VGC is.  
+
+## There is not enough data
+
+
+## Lots of Hard Problems
+
+### Team Selection
+
+Team selection is probably one of the most difficult sub-problems to tackle.  
+
+It's said that the number of possible Pokemon teams is more than the number of atoms in the universe.  While this is (probably) technically true it's a bit like Subway saying they have 37 million possible sandwich combinations (could I get a footlong on white with just onions and mayonnaise, please?).  I think how these calculations are done is not totally clear to people.  Formally this concept is a !(combination)[https://en.wikipedia.org/wiki/Combination].  You can calculate these yourself as easily as you can do other calculator operations by simply Googling for example "40 choose 6" to get the number of possible teams you could build from a set of 40 Pokemon (about what is in a meta at given time).  This number is only 3,838,380.  That's small enough where you could analyze a dataset of those teams on your PC.  Allowing 100 Pokemon would push us over a billion possible teams.    
+
+If I were building an algorithm like this I would probably start by seeding it with the current usage statistics in the meta.  This is data anyway and we're building an algorithm that learns from data, so I see no point in handicapping it.  This also makes a solution space that is literally bigger than the entire universe a lot more tractable while still allowing the system to discover something new and interesting.  We're just talking about Pokemon combinations, though, so we're still in astronomical territory with items, abilities, and movesets, although we could apply the same concepts of meta-weighting to start the algorithm off in a nice spot.
+
+This problem could be treated as a linear programming problem, which is an implementation of a math problem that has selection variables (the Pokemon), a set of constraints (e.g. no two of same Pokemon) and optimizes an objective function (win rate, damage dealt to opposing Pokemon, etc).  Designing this objective function would be quite a bit of work alone, and doing this much work would pretty much pull us out of AI territory into more traditional analytics.  An AI would be expected to do this part itself based on whether or not it was winning games.  The downside of that is that it would need to play a lot of games to find optimal values for all the possible things it could tweak.  
+
+It's likely some kind of embedding layers would be needed for the moves so that the neural network could recognize similar moves.  
+
+### Play
+
