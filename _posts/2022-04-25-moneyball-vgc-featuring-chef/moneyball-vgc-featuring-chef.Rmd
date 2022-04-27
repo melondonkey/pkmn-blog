@@ -1,0 +1,294 @@
+---
+title: "Moneyball VGC Featuring Chef"
+description: |
+  A case study in using data analysis in competition prep
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-04-25
+output:
+  distill::distill_article:
+    self_contained: true
+    toc: true
+    toc_float: true
+    code_folding: 'See some code'
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+A few weeks ago I put out a call to all 10 of my readers if anyone was interested in doing analysis on their Showdown! data.  I received a reply from a user named chef_17.  Thankfully I was too new to the VGC community to understand the caliber of player I was working with, as I may have been a bit more nervous, but chef generously agreed to share his ladder matches with me in exchange for some data and possibly insights on his team.  
+
+Thus was born an experiment with a data-based approach to event prep.  In this article, I'll go over exactly what we did, some of the how, and talk about further honing the craft.  At the end I'll also share some insights from the famous chef himself on whether and how the approach helped him. 
+
+
+
+```{r}
+knitr::include_graphics(here::here('pokeyball.png'))
+```
+
+
+## The Team
+
+Let's start by saying the team is 100% chef's creation.  This was not really a collaboration as much as chef sharing his game data and getting some feedback on it.  Of course we discussed the results and questions to analyze but I don't want to overstate my role here.  I do believe there is some room for data analysis in teambuilding, but in this case, chef already had the team and the ladder data ready to go when we consulted.  
+
+
+```{r}
+knitr::include_graphics(here::here('theteam.png'))
+```
+
+
+## Getting the Data
+
+Getting the data into a useable format was most of the work.  After each Showdown match, you've probably noticed buttons to either download or upload a replay.  This saves an html file that recreates the match either on your local machine (download) or the Showdown server (upload).  These files can be parsed for any **revealed** information from the match, including the mons brought to preview, the leads, and who won or lost along with their ratings.  Concealed information-- such as moves not used, EV spreads and natures, and items with no explicitly revealed effects cannot be parsed.  For that reason (and laziness) I did not try to parse items, abilities, moves, or even brought mons at all, since the data would be biased to revealed information.  For each match, I simply pulled out the following:
+
+* Players
+* Winner
+* Elos (before and after match)
+* Team Preview Pokemon
+* Lead Pokemon (this was added toward the end)
+
+To pull this data from the replays I wrote the parsing script in R.  It takes as input a directory of Showdown match files and outputs a csv dataset with the above match information.  If there is enough interest (which I judge by comments and people saying "yes, I want that"), then I could release a web app for any player to upload a directory of Showdown files and then be able to download their team statistics and raw data.
+
+### Table 1:  The Raw Data
+
+```{r}
+library(readr)
+library(here)
+library(dplyr)
+library(ggplot2)
+library(DT)
+library(tidyr)
+
+#parsing script is too long to post.  I hope to turn it into an app soon
+
+df <- read_csv(here('chef-data-anon.csv'))
+
+df %>%
+  datatable()
+
+
+```
+
+## Analysis
+
+In this section we'll look at descriptive statistics and plots of chef's team.  
+
+
+### Figure 1:  Topping the Ladder
+
+It's easy to see from the graph below why this team was so exciting.  In the first hundred or so matches you can see two runs up to the top of the ladder (these were on two alt accounts hence the sudden drops).  This was followed by a somewhat random walk around 1750.  These matches only go to 4/11 so not really sure on the performance after that.  
+
+```{r}
+df %>%
+  filter(player_id == 'chef') %>%
+  arrange(match_id) %>%
+  mutate(
+    match_number = row_number()
+  ) %>%
+  ggplot(aes(x=match_number, y = elo_end)) + geom_point()
+
+
+```
+
+
+### Table 2:  Win Rate by Pokemon
+
+Another good basic view is just the win rate by individual Pokemon to see some problem matchups.  Here I filtered out matchups that didn't have enough data to estimate based on [relative standard error](https://www.investopedia.com/ask/answers/040915/what-relative-standard-error.asp) of the win rate.  
+
+```{r}
+long_mon <- 
+  df %>%
+  pivot_longer(
+    cols = c('mon1', 'mon2', 'mon3', 'mon4', 'mon5', 'mon6'),
+    values_to = 'pokemon'
+  ) %>%
+  mutate(
+    player = ifelse(player_id == 'chef', 'p1', 'p2')
+  ) %>%
+  distinct()
+
+result <-
+  df %>%
+  select(match_id, player_id, win_flag) %>%
+  filter(player_id == 'chef')
+
+ 
+long_mon %>%
+  left_join(result, by='match_id') %>%
+  filter(player == 'p2') %>%
+  group_by(pokemon) %>%
+  summarize(
+    num_matches = n(),
+    win_rate = round(1 - mean(win_flag.x), 2),
+    std_err = round(sqrt(win_rate/(1-win_rate)/num_matches), 2),
+    rse = round(std_err/win_rate, 3),
+    is_reliable = rse < .3,
+    lower_95ci = win_rate -1.96*std_err,
+    upper_95ci = win_rate + 1.96*std_err
+  ) %>%
+  filter(is_reliable) %>%
+  arrange(win_rate)  %>%
+  datatable()
+
+
+```
+
+
+### Table 3:  Win Rate by Lead
+
+Here we can really get a sense for how good the Calyrex-Kyogre lead is.  One thing to keep in mind here though is that correlation is not causation.  The very fact that a team is off its main lead usually indicates an especially troublesome matchup.  
+
+```{r}
+leads <- 
+  df %>%
+  mutate(
+    player = ifelse(player_id =='chef', 'p1', 'p2')
+  ) %>%
+  pivot_longer(
+    cols = c('lead1', 'lead2'),
+    values_to = 'lead'
+  ) %>%
+  select(match_id, player, lead) %>%
+  arrange(match_id, lead) %>%
+  distinct()
+
+my_leads <- 
+  leads %>%
+  filter(player == 'p1') %>%
+  group_by(match_id) %>%
+  summarize(
+    lead = paste0(lead, collapse = "_")
+  ) %>%
+  mutate(
+    value = 1
+  ) %>%
+  pivot_wider(
+    id_cols = match_id,
+    names_from = lead,
+    names_prefix = 'p1_lead_',
+    values_from = value,
+    values_fill = 0,
+    values_fn = max  
+  ) %>%
+  left_join(result, by = 'match_id' )
+
+
+leads %>%
+  filter(player == 'p1') %>%
+  group_by(match_id) %>%
+  summarize(
+    lead = paste0(lead, collapse = "_")
+  ) %>%
+  left_join(result, by = 'match_id' ) %>%
+  group_by(lead) %>%
+  summarize(
+    N = n(), 
+    winrate = round(mean(win_flag), 2)
+  ) %>%
+  arrange(-N) %>%
+  datatable()
+
+```
+
+### The Competitive Landscape
+
+Looking at victory by a single mon is nice, but we would rather have a big picture view of how the team does into certain archetypes.  For this, I ran the data through my meta profiling algorithm, which is a Bernoulli mixture model I coded in R.  The presence of each Pokemon is represented as a Bernoulli distribution with some probability p for each cluster.  
+
+
+![Figure 2: Chef's Showdown Opponent Archetypes](`r here('chef-opponent-profile.png')`)
+
+
+### Table 1:  Win Rate vs Archetype
+
+Looking at the win rate by archetype helps us better see the matchup strength of the team.  It also helps us reason about tradeoffs in the team adjustments.  For example, a one percent increase in win rate against a Sun team would correspond to a 1.25% increase in the overall win rate.  That's good value.  Of course, all this assumes that future matchups match the distribution of past matchups.  This is almost certainly not true going from the Showdown ladder into a tournament.  However, an analysis like this can help even in that situation by allowing you to reason on your assumptions about the tournament meta.  
+
+```{r}
+
+archetype <- c('Sun', 'Swordfish', 'Calyrex/Zacian', 'Trick Room', 'Other')
+win_rate <- c(.61, .7, .72, .66, .48)*100
+pct_field <- c(.25, .22, .17, .17, .19)*100
+impact <- c(1.25, 1.1, .85, .85, .95)
+
+meta_df <- bind_cols(archetype, win_rate, pct_field, impact)
+colnames(meta_df) <- c('Archetype', 'Win Rate', '% of Field', 'Impact of 1% increase in WR on Overall WR')
+
+knitr::kable(meta_df)
+
+```
+
+
+
+## Creating a Model
+
+I think there is a lot of value in just having basic stats like we see above.  This is already more than most players know even about their own teams.  However, we'll need to dig a little deeper to get the insights we're really after.  To do this, we'll need to build a model that can see which opponent Pokemon are really correlated with losing.  Ideally we could even know which pairs or even cores of Pokemon cause issues.  Let's not get too excited though because we only have a little over 300 data points.  This means models like xgboost or neural networks will not help us much.  
+
+So what can we account for in the model?  We can include relative player strength, or the difference in elo, the Pokemon the opponent used, and maybe a few interaction terms to account for prevalent pairs of Pokemon.  I'm going to leave out interactions though as the interpretation gets somewhat more complex and I don't want to lose everyone. 
+
+Our model is a logistic regression model, the output of which will tell us what a unit increase in a variable's effect is on the log of the odds (win rate/ (1 - win rate)) is.  If this is somewhat confusing, just know for now that higher coefficient values mean chef is more likely to win against that Pokemon and lower values mean he is more likely to lose against it.  
+
+I fit this model using R and Stan with the brms package.  I used a Normal(0,1) prior on the coefficients which is essentially L2 regularization.
+
+
+![](`r here('chef-model.png')`)
+
+### Using the Model to Forecast the JoeUX9 Match
+
+The model coefficients let us forecast chef's win probability against many theoretical matchups.  Of course our model is not complete and lacks terms for the synergistic effects of Pokemon (we don't have enough data to measure that well, anyway), but let's work through an example to see how it works.  
+
+I was so excited to see that chef was going to play on stream.  And who could be a more exciting opponent than JoeUX9, currently one of the best and most consistent players.  Let's look at Joe's team and the corresponding coefficients
+
+* Groudon +.05 (slightly favors Chef)
+* Yveltal -.60 (one of chef's worst matchups)
+* Porygon2 -1.05 (literally chef's worst possible matchup)
+* Regieleki +.26 (good for chef)
+* Incineroar -.34
+* Venusaur .01
+
+Now we take the coefficients and add them to the intercept: $.13 + .05 - .6 - 1.05 + .26 -.34 + .01 = -1.54$
+
+Then we reverse the logistic function on -1.54 we arrive at a **win probability for chef of 18%.**  A very tough matchup indeed! Props to chef for winning what was already a bad matchup for him against a top-tier opponent. 
+
+If you haven't seen the match yet, I highly recommend it.  [chef vs joeux9](https://www.youtube.com/watch?v=iX7wMYKqKEI&t=33630s)
+
+
+## The Future of Prepping with Data
+
+I'd like to say that one day every trainer will have to team up with a data analyst to get the edge they need to win.  However, I highly doubt that will be the case.  Data analysis can definitely identify what is good on average but at the top cut of an international championship, average does not really begin to describe the field.  While there is some room to improve and go deeper on analyses, I think it will be a tall order for most players to even produce 300 match files with a consistent team as was done here.  Here are some ideas of things I think could be worth trying:
+
+* A/B testing team compositions
+* Testing in Bo3 environment
+* Creating an app for players to upload their match data and get summary statistics (basically automating this analysis)
+
+There are certainly advantages to using data, though.  I think it can be difficult for players to judge small effects in the 5-10% range accurately, so having an empirical view of your performance can bring you back to reality on your conception of certain matchups.  
+
+
+## Thoughts From Chef
+
+To conclude, I asked chef about his experience supplementing his prep with data analysis.  Here is the Q&A:  
+
+
+**Q: How did including data analysis affect your usual prep, if at all?**
+
+_Any time you’re building a team or preparing one for an event, you’re constantly thinking about what matchups are good/bad and what Pokemon are problematic for your team. Of course, you don’t remember the details from every game, and you end up with more of an educated guess and gut feeling. Having the actual data was really helpful to see where my instincts deviated from reality. For example, I felt like the Calyrex-S Zacian matchup was a little iffy, but the numbers said it was my best matchup, and my focus was more useful elsewhere. _
+
+**Did you make any changes to your team or gameplay based on what you saw in the data?**
+
+_I didn’t make any changes to my team, but I think that was mostly because the team was already built and each part relied on the others so heavily. It would be very difficult to change one slot without the whole thing falling apart. It did help me adjust how I play sometimes, specifically in the Rinya sun matchup. I overestimated how strong the Weezing Kyogre lead would be into it. After seeing the lackluster performance, I came up with a new strategy of leading Calyrex Barreskewda which turned the matchup into the near autowin I expected it to be previously._
+
+**Was there anything in the data or analysis that you feel either misled you, made you complacent to a certain threat, or otherwise adversely impacted your performance?**
+
+_No, I don’t think so. But I felt it was important for me to treat the data as a tool to see where I might want to take a second look at things, and to not let it simply override my own knowledge of my team and change how I play._
+
+**Do you plan to use data analysis in future prep?  What potential do you see for a “moneyball” approach to VGC?**
+
+_Yes, even just the raw data on its own is incredibly helpful to aid in understanding your team. I also imagine the deeper analysis can be a useful tool particularly in the earlier stages of teambuilding when things are a little more malleable. However, I do think there is a limit to how much it can help in VGC. There are only so many games you can play and data points you can collect, which seems like it is necessary to get actually useful information, like you said. I also think it is not as useful for the majority of top players who run more standard teams, which can be more consistent and less susceptible to really bad matchups._
+
+**Any other comments or remarks**
+
+_Just to say thanks for working with me, it was super fun and interesting!_ 
+
+

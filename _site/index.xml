@@ -7,7 +7,16 @@
     <description>Pokemon Analysis Usually VGC
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Moneyball VGC Featuring Chef</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-04-25-moneyball-vgc-featuring-chef</link>
+      <description>A case study in using data analysis in competition prep</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-04-25-moneyball-vgc-featuring-chef</guid>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://pokemon-data-analysis.netlify.app/posts/2022-04-25-moneyball-vgc-featuring-chef/distill-preview.png" medium="image" type="image/png" width="1645" height="904"/>
+    </item>
     <item>
       <title>Meta Entropy</title>
       <dc:creator>melondonkey</dc:creator>
