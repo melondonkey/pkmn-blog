@@ -1,5 +1,26 @@
 [
   {
+    "path": "posts/2022-04-30-the-history-of-modern-vgc-consolidation-in-one-chart/",
+    "title": "The History of Modern VGC Consolidation in One Chart",
+    "description": "Scientifically proving our VGC elders right.",
+    "author": [
+      {
+        "name": "melondonkey",
+        "url": {
+          "https://pokemon-data-analysis.netlify.app": {}
+        }
+      }
+    ],
+    "date": "2022-04-30",
+    "categories": [],
+    "contents": "\nCreating the Graph\nIn a previous post, I outlined a way to measure how much a meta has centralized using a concept from information theory called entropy. The lower the entropy of a meta, the more centralized it is and the higher the entropy, the more chaotic and random-seeming. I talked a bit about hos this measure could be used to quantify metas. This can help us understand historical context before simply griping that the current meta doesn’t use enough Pokemon.\nI went to Showdown and pulled the entire usage history of every format, but the data is a bit messy and chaotic, so instead of starting from comparing formats (which I plan to do some in the future), I wanted to look at the history of my personal favorite: VGC. Showdown! (PS!) data goes back to 2015, so we could call this the “modern” era of VGC. Within all of these VGC formats, I filtered down to only those used for World Championships, so you’ll see each line leading up Championships. In many cases the formats continue after World Championships, but this data tends to be noisy so I exclded it. PS! also reports usage by elo tier. I only used the 1760+ elo tier as this gives the best subset of what is actually viable competitively. There tends to be more variation by elo in terms of entropy than there is format.\nNow onto the graph. There’s a lot going on here, so you may be thinking, like one of my clients always says, “tell me what I’m looking at.” This is essentially just a line graph of entropy for VGC over time with some reference points added in and some graphics of top-used mons for splash. The vertical lines represent world championship dates and I added two horizontal lines to have a better contextual understanding of what the numbers mean. Many of the random metas I looked at had an entropy around 25, so we can think of this as a world in which every mon gets a fair shot. On the other extreme, gen1ubers is generally considered to be a terrible meta where you have almost no choice but to play the 6 best Pokemon.\n\n\n\nSome Commentary\nWhen I first talked about entropy, many chimed in that 2016 was the worst VGC meta of all time. Wolfe has also mentioned in his videos how Xerneas was the worst Pokemon ever. We can see from the entropy graph that indeed 2016 was very centralized and much worse than our present situation. 2022 doesn’t seem to be on track to be that bad but it’s really hard to say at this point. It certainly does seem to be the case that restricted formats have significantly lower entropy.\nIf we think of entropy as a kind of objective function, and the meta itself as a giant complicated optimization algorithm (like ant colony optimization ), it is interesting to think about whether the metas really converged or if they just happened to be stuck in some local minima at the time of Worlds. I think it’s somewhat debatable which metas can be “solved”.\nMy overall take is that the current meta isn’t all that bad, especially for a restricted format.\n\n\n\n",
+    "preview": "posts/2022-04-30-the-history-of-modern-vgc-consolidation-in-one-chart/distill-preview.png",
+    "last_modified": "2022-05-03T12:42:15-04:00",
+    "input_file": {},
+    "preview_width": 2000,
+    "preview_height": 1088
+  },
+  {
     "path": "posts/2022-04-25-moneyball-vgc-featuring-chef/",
     "title": "Moneyball VGC Featuring Chef",
     "description": "A case study in using data analysis in competition prep",
