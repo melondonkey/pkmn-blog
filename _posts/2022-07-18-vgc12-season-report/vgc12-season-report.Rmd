@@ -1,0 +1,99 @@
+---
+title: "VGC12 Season Report: Beginner's Perspective"
+description: |
+  I tried the same thing 2,000 times and it finally started working.
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-07-18
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In this post I'm going to talk about my own journey as a new VGG player this season.  While I didn't play in any events, I had a lot of fun learning this game.  In this post, I'll focus less on team specifics and more on my general approach to play.  
+
+
+## How I Found VGC
+
+Series 12 was my first real competitive season of Pokemon, though I did begin to dabble a bit in series 11.  I had played the game off and on mainly for dex-filling over the years, but competitive always seemed way too complicated and time consuming to get into.  However, my favorite TCG and three-year obsession, **Star Wars: Destiny** had just been canceled and I was looking for a new deck-building game to scratch that itch.  I didn't really give the Pokemon TCG a fair try, probably, but I didn't find it to be a very interactive or fun game compared to Destiny.  Strangely enough, VGC ended up being a better "card game" in my mind than the TCG.  Choosing your moves, Pokemon, items, spreads, etc has all the fun of putting a deck together, but you also have the added benefits of a perfectly-controlled board state, simultaneous move-selection, and all the other benefits of electronic gaming: cheaper costs, easier to find opponents, etc.  Pokemon VGC also has a stable and established competitive scene, which was important for me after sinking so much time and money into SW Destiny only to see it die out.
+
+My one criticism of the video game is that it makes VGC way too hard to find.  Competitive doubles feels buried in the game and if it weren't for the reddit VGC community and Showdown I'm not sure I would have ever found it (although I had discovered Showdown and Smogon in 2018 but was not at all drawn to singles).  I think the game could highlight doubles battling more in-game by having doubles gyms and more in-game tutorials.  Little tweaks like that could have a big impact on the size of the community IMHO.  
+
+I remember being filled with dread every single match in those early days, as each time I would encounter a Pokemon I knew very little about.  There were so many moves I had never even heard of like Quash and despite years of playing Pokemon, I had a very poor understanding of abilities, damage, and even the type chart.  The learning curve was going to be steep.  
+
+
+## My Approach to Teambuilding
+
+### Finding Intent
+
+While trying some Cybertron rental teams was fun early on, I really wanted to feel some ownership of my team as I felt I wasn't understanding all the tech on my teams or the intent behind the builds.  This is when I turned to data analysis and starting this blog.  I've talked about this before, but I was under no illusion that data analysis would unlock some great secret or give me an edge.  My goal instead was to use it to climb the learning curve quicker than using experience alone.  
+
+Unless you're using data to just pick what's most popular, I would describe the analytical team-building approach as inherently anti-meta.  Without much knowledge of all the mons and their sets, I had no idea where to start.  Picking the most popular mons seemed bound to frustrate me as I knew my play abilities were not able to match the competition.  So early in the season, I did an analysis on meta-weighted damage calculations for all Pokemon (you can read that [here](https://pokemon-data-analysis.netlify.app/posts/2022-01-03-pokemon-level-offensive-and-defensive-metrics/) ).  The basic idea was given the distribution of Pokemon in the meta, which mons can do the most damage on average into that meta, taking into account not just the typing but also the defense/special defense distribution?  I also did the same defensively to make sure I wasn't getting a glass cannon.  The answer was clear, and it wasn't even all that close: **Kyurem White**.  KW does on average over 100% damage to meta mons thanks mostly to it's strong STAB Ice attacks (this figure does not even account for freeze-dry) and on average takes less than 40% damage thanks to its secondary dragon typing.  Other ice pokemon were less attractive options--Kyurem Black because of Intimidate, Mamoswine and Darmanitan Galar due to their poor defense, and Caly-Ice due to his speed (at that point in time the Caly-Ice/Palkia patterns had not been worked out).  
+
+So I had my core thesis or intent, as the [VGC guide](https://www.vgcguide.com) calls it: support Kyurem White to deal massive damage into meta mons.       
+
+### A Helping Hand
+
+Of course, there's one very big problem with Kyurem: Zacian.  It is such a big problem that most players dismiss Kyurem as a possibility immediately.  I won't go into all the details of how every member came to the team since it's not like I won a championship or something, but the key support mon has always been Sableye with pretty much all the other slots rotating.  
+
+A big piece of the puzzle was solved after I was using Zacian as my second legendary but switched to Calyrex after seeing Cortex make a great run with him.  In fact, I took many elements from Cortex's team including adding a tailwind setter and using Ditto.  While I run fairly different item and movesets, 5/6 mons are now the same and I'm only now realizing he was probably right about Talonflame over Whimsicott.  His run really inspired me to stick with the central Kyurem thesis when I was a bit in the slumps. Also big thanks to chef for being an inspiration in hyper offense and NeilVGC for incredible tech that he armed me with early on (helping hand on Kyurem and Iron Ball/Foul Play Sableye). 
+
+
+## Adamant Nature
+
+For some reason the team stuck and I just kept playing it over and over instead of trying new things.  The main reason being that there are so many variables in Pokemon--your team, the movesets and build, the meta--that I wanted to reduce as much of that noise as possible to focus on tracking my skill as a player.  
+
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('elo-by-match.png'))
+```
+
+As you can see, the season was a bit of a rollercoaster.  There were times when I dipped down pretty low for what felt like forever.  Looking back, it looks like short blips, but at the time it felt like forever and some of those low points were times I thought about giving up or trying a new concept.  While I can't say that stubbornly sticking to an idea for such a long time is the best approach, I think there's a lot to be said for it.  
+
+The argument could be made that I didn't get better but just that the meta became more favorable to my team.  For example, Indeedee-F usage fell over the season, making Sableye a much stronger opener than he was originally.  I ran an additive-regression analysis to adjust my win rate for the opponent Pokemon and the opponent elo and the curve for the marginal effect of time looks much like this one, though, so this leads me to conclude that my skill really did improve over time, though this is a pretty difficult concept to measure.  While still noisy, I do think ladder ranking can be a pretty good rough guide to progress.  
+
+## Climb to the Showdown top 50
+
+From my experience, the number one differentiating skill in opponents in the 1700+ bracket is that they manage switches very effectively.  This does not mean they will always do it on the first round, though.  My team is especially vulnerable to switches because if Kyurem's max gets wasted then the game is over.  Baiting and switching is a special skill of top players and it's an added mind game of knowing on what level these switches are being calculated.  There's just a certain type of switch you expect from a 1300 player vs 1500 vs 1900.  I recall a match against **itachi's retina** where I got so thoroughly outpositioned I spent the whole match just marveling at the technique.  
+
+I think at the end of the day this is why top players don't especially like Kyurem.  I could look back on the season and say I wasted a lot of time backing the wrong horse, but that would be a pretty pessimistic view of what's been a great season of growing and learning.  
+
+
+## The 7th Pokemon
+
+One of my big takeaways this season is that the player should think of himself as the seventh Pokemon on the team.  This helps keep your ego in check when you are doing well and helps you to stay positive when you're not.  Just like your Pokemon, you have your abilities, base stats, and play style.  You may fit well in a supporting role for some Pokemon and do poorly with others.  The way you train and play will build out your own "EVs" in whichever specialty you like--hyper offense, stall teams, etc.  You will have to accept that sometimes the meta will be more or less favorable for who you are as a player.  
+
+Don't get me wrong, though, I'm not making an "everyone is the same" argument here.  Some players are definitely Incineroars--good on every team.  It's just that you will always get a very noisy reading of your skill if you track too hard to specific goals like winning a tournament.
+
+
+## What's Next
+
+Overall I've exceeded my goals for this season: make Masterball, learn the fundamentals and "get comfortable" with the game.  Next season I hope to attend an event but probably won't travel to several or go very far for one.  
+
+I'm sure I'll play S12 until world's.  Right now some of the greatest players in the world are prepping on ladder and it is an excellent opportunity to get good experience, but mentally I'm mostly done with it.  I'm not very invested in S13 but I would like to kick my analysis back into gear when SV comes out.  In the meantime, I'll probably work on building my code base and toolkit so I'll be ready for it.  
+
+Thanks everyone in the VGC community for the discussion and matches!  Below I've put a table of my entire match history this season.  You can search for your username to see if you played me at some point on ladder.  Overall I went up against over 2,000 different players (or player IDs at least) and averaged about 17 games a day.  gg's everyone!
+
+
+```{r}
+library(readr)
+library(here)
+library(dplyr)
+library(DT)
+
+#parsing script is too long to post.  I hope to turn it into an app soon
+
+df <- read_csv(here('blog-data.csv'))
+
+df %>%
+  datatable()
+
+
+```

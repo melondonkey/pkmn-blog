@@ -7,7 +7,16 @@
     <description>Pokemon Analysis Usually VGC
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 30 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>VGC12 Season Report: Beginner's Perspective</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-07-18-vgc12-season-report</link>
+      <description>I tried the same thing 2,000 times and it finally started working.</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-07-18-vgc12-season-report</guid>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://pokemon-data-analysis.netlify.app/posts/2022-07-18-vgc12-season-report/distill-preview.png" medium="image" type="image/png" width="1000" height="492"/>
+    </item>
     <item>
       <title>The History of Modern VGC Consolidation in One Chart</title>
       <dc:creator>melondonkey</dc:creator>
