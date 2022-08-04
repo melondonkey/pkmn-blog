@@ -93,7 +93,9 @@ library(DT)
 df <- read_csv(here('blog-data.csv'))
 
 df %>%
-  datatable()
+  datatable(
+    options = list(scrollX = TRUE)
+  ) 
 
 
 ```
