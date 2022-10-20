@@ -1,0 +1,56 @@
+---
+title: "Offensive Type Rankings: Scarlet/Violet Preview"
+description: |
+  Terastal 
+author:
+  - name: melondonkey
+    url:
+      https://pokemon-data-analysis.netlify.app: {}
+date: 2022-10-20
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Welcome back, everyone!  I've had a nice break from VGC since August and like everyone, I'm biding my time until the Generation 9 games release. We've learned a lot about the new games to where I finally decided it would be worth looking into some data. 
+
+# The Multiplicative Meta
+
+The terastal phenomenon has made typing more important than ever.  Many feel that this will primarily be a benefit offensively, as terastal*STAB could be 3x base power before we even start with typing multipliers.  This means 4x moves delivered by a terastal-stab mon will do 12x damage!  Helping Hand?  Life orb? The multipliers this generation are going to are going to get pretty crazy.  
+
+So many are naturally are beginning to ask the question of what terastal combinations will be best?  I think a good place to start for this is to look at how good move types are offensively in general.  To answer this question, I revisited my methodology for creating coverage move type rankings in previous metas.  I encourage you to look at that methodology [here](https://pokemon-data-analysis.netlify.app/posts/2021-12-29-beyond-usage-defining-meta-metrics/)
+
+# Offensive Type Rankings
+
+So which mons did I use?  Basically all the returning mons from the serebii Paldea pokedex.  I excluded mons with a base stat total less than 350 to get rid of the babies.  In place of meta usage for weighting, I tried to weight based on the base stat totals of the mons but this did not yield anything interesting so I stuck with the more basic version.  
+
+I've also included Freeze-Dry and Flying Press as separate offensive typings due to their special nature.  Freeze-dry is my favorite move in the game and I believe the terastal ice version of this move is going to going to be an absolute wrecking ball, but we'll see if a viable mon gets the move. 
+
+Otherwise, rankings seem pretty consistent with where they were in Series 11 and 12, so traditional wisdom on typing should hold up well going into SV.  Once we get the full Pokedex and an established meta I'll update to see if there's any changes in the meta skew (meta skew is what I call the difference between simple average effectiveness and the meta-weighted average effectiveness).  
+
+
+```{r}
+library(readr)
+library(here)
+library(dplyr)
+library(DT)
+
+#parsing script is too long to post.  I hope to turn it into an app soon
+
+df <- read_csv(here('avg-effectivness.csv'))
+
+df %>%
+  mutate(avg_effectiveness = round(avg_effectiveness, 2)) %>%
+  arrange(-avg_effectiveness) %>%
+  datatable(
+    options = list(scrollX = TRUE, pageLength = 20)
+  ) 
+
+
+```
+
