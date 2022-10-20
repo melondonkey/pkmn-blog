@@ -33,6 +33,10 @@ I've also included Freeze-Dry and Flying Press as separate offensive typings due
 
 Otherwise, rankings seem pretty consistent with where they were in Series 11 and 12, so traditional wisdom on typing should hold up well going into SV.  Once we get the full Pokedex and an established meta I'll update to see if there's any changes in the meta skew (meta skew is what I call the difference between simple average effectiveness and the meta-weighted average effectiveness).  
 
+# Bonus: Evaluating Wolfey's Bug Fix
+
+Wolfe Glicke has a video on how to fix bug in which he proposes a simple fix: just make Bug supereffective into Fairy.  I decided to go ahead and add that typing so we can see how much that helps Bug offensively.  I think the 0.1 bump is a nice modest benefit!
+
 
 ```{r}
 library(readr)
