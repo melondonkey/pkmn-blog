@@ -1,5 +1,43 @@
 [
   {
+    "path": "posts/2022-10-20-offensive-type-rankings-scarletviolet-preview/",
+    "title": "Offensive Type Rankings: Scarlet/Violet Preview",
+    "description": "An early look into offensive coverage and terastal options",
+    "author": [
+      {
+        "name": "melondonkey",
+        "url": {
+          "https://pokemon-data-analysis.netlify.app": {}
+        }
+      }
+    ],
+    "date": "2022-10-20",
+    "categories": [],
+    "contents": "\nWelcome back, everyone! I’ve had a nice break from VGC since August and like everyone, I’m biding my time until the Generation 9 games release. We’ve learned a lot about the new games to where I finally decided it would be worth looking into some data.\nThe Multiplicative Meta\nThe terastal phenomenon has made typing more important than ever. Many feel that this will primarily be a benefit offensively, as terastal*STAB could be 3x base power before we even start with typing multipliers. This means 4x moves delivered by a terastal-stab mon will do 12x damage! Helping Hand? Life orb? The multipliers this generation are going to are going to get pretty crazy.\nSo many are naturally are beginning to ask the question of what terastal combinations will be best? I think a good place to start for this is to look at how good move types are offensively in general. To answer this question, I revisited my methodology for creating coverage move type rankings in previous metas. I encourage you to look at that methodology here\nOffensive Type Rankings\nSo which mons did I use? Basically all the returning mons from the serebii Paldea pokedex. I excluded mons with a base stat total less than 350 to get rid of the babies. In place of meta usage for weighting, I tried to weight based on the base stat totals of the mons but this did not yield anything interesting so I stuck with the more basic version.\nI’ve also included Freeze-Dry and Flying Press as separate offensive typings due to their special nature. Freeze-dry is my favorite move in the game and I believe the terastal ice version of this move is going to going to be an absolute wrecking ball, but we’ll see if a viable mon gets the move.\nOtherwise, rankings seem pretty consistent with where they were in Series 11 and 12, so traditional wisdom on typing should hold up well going into SV. Once we get the full Pokedex and an established meta I’ll update to see if there’s any changes in the meta skew (meta skew is what I call the difference between simple average effectiveness and the meta-weighted average effectiveness).\n\n\n{\"x\":{\"filter\":\"none\",\"vertical\":false,\"data\":[[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\",\"17\",\"18\",\"19\",\"20\"],[\"Freeze-Dry\",\"Ice\",\"Rock\",\"Ground\",\"Flying Press\",\"Fairy\",\"Fire\",\"Fighting\",\"Water\",\"Flying\",\"Dark\",\"Dragon\",\"Bug\",\"Electric\",\"Ghost\",\"Poison\",\"Grass\",\"Psychic\",\"Steel\",\"Normal\"],[1.46,1.35,1.31,1.17,1.16,1.15,1.15,1.13,1.1,1.09,1.04,1.03,1,1,0.97,0.95,0.94,0.94,0.93,0.86]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th> <\\/th>\\n      <th>attacking_type<\\/th>\\n      <th>avg_effectiveness<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"scrollX\":true,\"pageLength\":20,\"columnDefs\":[{\"className\":\"dt-right\",\"targets\":2},{\"orderable\":false,\"targets\":0}],\"order\":[],\"autoWidth\":false,\"orderClasses\":false,\"lengthMenu\":[10,20,25,50,100]}},\"evals\":[],\"jsHooks\":[]}\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-10-20T15:29:59-04:00",
+    "input_file": "offensive-type-rankings-scarletviolet-preview.knit.md"
+  },
+  {
+    "path": "posts/2022-08-08-team-report-2022/",
+    "title": "Team Report 2022",
+    "description": "Eating the dog food.  Way more than you ever wanted to know about Kyurem.",
+    "author": [
+      {
+        "name": "melondonkey",
+        "url": {
+          "https://pokemon-data-analysis.netlify.app": {}
+        }
+      }
+    ],
+    "date": "2022-08-08",
+    "categories": [],
+    "contents": "\nFinal Final Really (2).xlsx\nDespite having written up a “final” report for 2022, I realized it was really short on a lot of the technicals of both my team and some of the analysis I do. So I decided to do a “final final” post where I dive in a bit more detail on all the mons and moves I ran and why and break down how this fared against the field. I’ll put my own team through the ringer like I did with chef’s earlier this season.\nTeam Composition\nSo when\n\n\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-08-08T12:55:12-04:00",
+    "input_file": "team-report-2022.knit.md"
+  },
+  {
     "path": "posts/2022-07-18-vgc12-season-report/",
     "title": "VGC12 Season Report: Beginner's Perspective",
     "description": "I tried the same thing 2,000 times and it finally started working.",

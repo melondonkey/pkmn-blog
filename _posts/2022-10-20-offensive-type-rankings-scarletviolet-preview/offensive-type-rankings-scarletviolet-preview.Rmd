@@ -1,7 +1,7 @@
 ---
 title: "Offensive Type Rankings: Scarlet/Violet Preview"
 description: |
-  Terastal 
+  An early look into offensive coverage and terastal options
 author:
   - name: melondonkey
     url:
