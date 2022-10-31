@@ -7,7 +7,15 @@
     <description>Pokemon Analysis Usually VGC
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Every Tera Damage Calc</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2022-10-31-every-tera-damage-calc</link>
+      <description>Looking for offensive tera options based on the current movepool</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2022-10-31-every-tera-damage-calc</guid>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Offensive Type Rankings: Scarlet/Violet Preview</title>
       <dc:creator>melondonkey</dc:creator>
