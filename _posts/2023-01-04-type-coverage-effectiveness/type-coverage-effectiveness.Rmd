@@ -1,0 +1,75 @@
+---
+title: "Type Coverage Effectiveness"
+description: |
+  Ranking offensive typing for the early SV meta
+author:
+  - name: melondonkey
+    url:
+      {https://pokemon-data-analysis.netlify.app}
+date: 2023-01-04
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Welcome back, readers!  I'd been waiting for the first drop of data from smogon.com/stats for the S/V meta to get back into data analysis.  With that data now available I decided to go ahead and run the coverage ranking report.  For first time readers, here's how it works:  
+
+1.  We enumerate all the possible attacking types.  There are 20 of them because it is easiest to just consider Freeze-Dry and Flying Press their own types.
+
+2.  For all the Pokemon that are in the format, we compute the type damage multiplier into that Pokemon.  This is in (0, .25, .5, 1, 2, 4).
+
+3.  We then aggregate the average effectiveness by type.  This is the "Average Effectiveness" statistic.
+
+4.  We pull in usage data from Smogon.  This is the probability you will face a given Pokemon in a new match.  I use the 1760+ tier for this.  
+
+5.  We also perform a weighted average effectiveness using the usage stats.  This is computed as sum(effectiveness*usage)/sum(usage).  This is how I sort the list as it represents the overall offensive power of a type into the current meta.  
+
+6.  Skew is a simple subtraction of average from weighted average.  This is a measure of how much the meta has adapted from the theoretical baseline of the format.  
+
+## Some Insights
+
+The most unusual thing that sticks out to me in this data is seeing how strong Fairy has become. I've been doing these calcs for about a year in various formats and I don't think I've ever seen Fairy at the top.  This explains the rise of Sylveon and the prevalence of Steel tera-types.  Dark types have punished Psychic even more than usual in this meta.  I think much of this is adaptation to Indeedee-Armarouge core, which is not as prevalent now but had to be respected in the meta.  Ice seems to hold its traditional place near the top fairly well, and Rock is still a top choice even with a slight hit in the skew. Ground and Fire stock is down a little as these types can sometimes be breakout offensive choices.  
+
+With the specialty moves we see Flying Press is not really a value-add on flying.  However, Freeze-Dry is the best coverage move in the game typing-wise.  It's a shame that the only mon that can really run it right now is Glaceon.  I actually think Glaceon is pretty good but my battle record with her says otherwise.  I'm a little too lazy to do the math right now on whether 20 points of extra base power with Ice Beam offsets the .23 difference in average effectiveness, though that would be a fun homework problem.  I'll say from my experience though that usually Freeze-Dry is enough to KO what you would be KO-ing with Ice Beam while giving you a very potent threat into Water mons.  
+
+
+## What About Terastal?
+
+It's definitely hard to try and sell a credible analysis of typing without considering terastal changes. Unfortunately, this data is not available in a useable format.  I've seen that Pikalytics is tracking it, but there's no easy way to incorporate it into this analysis.  In theory though the usage weights would simply be spread out over the terastal weights when doing the calcs, so the bottleneck here is more in the data than in the analysis.
+
+
+
+## Other Technical Notes
+
+ * I did not include ability-related immunities.  This probably has the biggest impact on Ground, which is showing a little higher than it should be due to Levitate. 
+
+```{r}
+library(readr)
+library(here)
+library(dplyr)
+library(DT)
+
+#parsing script is too long to post.  I hope to turn it into an app soon
+
+df <- read_csv(here('s9-type-effectiveness_202212.csv'))
+
+df %>%
+  mutate(avg_effectiveness = round(avg_effectiveness, 2),
+         wgt_avg = round(wgt_avg, 2),
+         skew = round(skew, 2)) %>%
+  filter(attacking_type.x != 'Wolfey Bug') %>%
+  arrange(-wgt_avg) %>%
+  rename(
+     `Attacking Type`=attacking_type.x,
+     `Average Effectiveness (Entire Format)` = avg_effectiveness,
+     `Usage-Adjusted Avg Effectiveness` = wgt_avg,
+     `Meta Skew` = skew
+  ) %>%
+  datatable(
+    options = list(scrollX = TRUE, pageLength = 20)
+  ) 
+
+
+```
+
+

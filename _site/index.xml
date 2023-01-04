@@ -7,7 +7,15 @@
     <description>Pokemon Analysis Usually VGC
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 31 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Type Coverage Effectiveness</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2023-01-04-type-coverage-effectiveness</link>
+      <description>Ranking offensive typing for the early SV meta</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2023-01-04-type-coverage-effectiveness</guid>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Every Tera Damage Calc</title>
       <dc:creator>melondonkey</dc:creator>
