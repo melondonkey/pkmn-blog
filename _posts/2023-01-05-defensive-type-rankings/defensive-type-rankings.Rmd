@@ -1,0 +1,63 @@
+---
+title: "Defensive Type Rankings"
+description: |
+  What are the best defensive typings in the current meta?
+author:
+  - name: melondonkey
+    url:
+      {https://pokemon-data-analysis.netlify.app}
+date: 2023-01-05
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Yesterday we looked at the top offensive types based on how well they hit the most common Pokemon.  Today I'm going to do the same analysis but in reverse--we're going to look at what the best defensive typings are given the current meta.  
+
+Let's look at the steps for how to do this:
+
+* In addition to pulling the usage weights from Smogon, we also pull the move distributions for each Pokemon as well.  We can then begin to create weights for the moves by multiplying the pokemon usage by the move usage and then aggregating over the moves
+
+* We apply some logic to get typing (more) right.  For example classifying Hyper Voice as Fairy instead of normal.  We remove Tera Blast from the normal grouping as well.
+
+* We then merge in data on each move's base power and typing
+
+* We then incorporate base power into our weights.  This prevents weak moves from getting equal weight from strong ones in the calculation.
+
+* Now we merge in all the Pokemon in the meta (I included any with over .5% usage)
+
+* Next, aggregate over each Pokemon the average effectiveness of a meta move into it.  The lower this number, the more the Pokemon resists moves on average due to its typing.  The higher this number, the more effective commonly used moves are into it.
+
+## Analysis
+
+Remember this does not take the full damage calculation into account--this is just a look at typing.  I did it this way first so it could also serve as a guide for good defensive terastal options.  Fairy is looking great right now because in addition to being a top offensive choice, it's not bad defensively (if you can manage Gholdengo).  
+
+Reverse sorting the list and looking at the highest damage factors shows Pokemon that want to tera defensively like Abomasnow.  A high number here means that many mons in the meta have strong super effective moves into that Pokemon.  If you're using Pokemon with values here, you may want to consider a defensive tera type for them.  I've been using Ground on Abomasnow and it really makes it a completely different Pokemon.  
+
+I also think the list can be used to see how typing synergies work defensively.  The extent to which a typing gets better when another type is added to it can be seen by the change in average resistance.  I find it kind of interesting that in Baxcalibur's case adding Dragon actually makes it worse off defensively as normally adding the dragon type--especially to Ice--is a boon, but I guess that's just the meta right now.  Of course I'm not suggesting you would want to tera Baxcalibur to Ice.  
+
+
+```{r}
+library(readr)
+library(here)
+library(dplyr)
+library(DT)
+
+#parsing script is too long to post.  I hope to turn it into an app soon
+
+df <- read_csv(here('defensive-typing-ranks.csv'))
+
+df %>%
+ select(pokemon, type_1, type_2, effect) %>%
+  mutate(effect=round(effect, 2)) %>%
+  arrange(effect) %>%
+  datatable(
+    options = list(scrollX = TRUE, pageLength = 100)
+  ) 
+
+
+```
