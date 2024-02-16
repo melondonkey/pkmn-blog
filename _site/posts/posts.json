@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2024-02-16-a-meta-network-diagram/",
+    "title": "A Network Map of the Current Meta",
+    "description": "Sneak peek into the next meta",
+    "author": [
+      {
+        "name": "melondonkey",
+        "url": {
+          "https://pokemon-data-analysis.netlify.app": {}
+        }
+      }
+    ],
+    "date": "2024-02-16",
+    "categories": [],
+    "contents": "\nIt’s been a while.\nThe gen 9 meta has seen balanced, open play that favors good, consistent players over cheap gimmicks, which has not exactly been my cup of tea. Terastalization has made data analysis difficult as well, so I just haven’t felt like I’ve had much to contribute here. Then I remembered, though, that I never really had that much to contribute to begin with–that I was just doing this for fun. So in that spirit I bring you another fun project–a network diagram of the current meta.\nI like to go a bit beyond usage statistics and look at how mons are used together. The best way to do this, I believe, is by looking at match-level data and clustering the results. I’ve done this before in previous posts using a Bernouli mixture model. There’s an example here from the Gen8 restricted meta.\nI haven’t racked up as many Showdown! games in this meta though (for one the format changes almost every month). The next best thing, then, is to look at the usage and co-occurrence statistics from smogon. Using these, we can at least map the associations of which mons are used with which.\nSo here it is. You should be able to zoom in, select nodes to highlight with the drop-down, or just click and drag and have fun with it. The nodes are obviously Pokemon (I filtered to those with at least 1% usage, I think). The vertices are the conditional probability the less-used Pokemon is used with the greater-used. Probably not what I’d use for a vertex in an ideal world but that’s pretty much the only data to work with. I’m open to suggestions for more useful ways to lay this out in the future.\n\n\n\n\n\n  \n\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2024-02-16T14:18:24-05:00",
+    "input_file": "a-meta-network-diagram.knit.md"
+  },
+  {
     "path": "posts/2023-01-05-defensive-type-rankings/",
     "title": "Defensive Type Rankings",
     "description": "What are the best defensive typings in the current meta?",
