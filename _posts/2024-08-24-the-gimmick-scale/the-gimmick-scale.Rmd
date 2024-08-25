@@ -29,7 +29,7 @@ To measure a Pokemon's "gimmickiness", I propose we look at the relative likelih
 
 So are you ready to see the results?  The table below is fairly straightforward.  A gimmick-factor of 1 means that the mon is equally likely to be encountered in Bo1 and Bo3.  Values high above 1 mean the mon is more likely to be a Bo1 mon, and values below 1 indicate more likely to be Bo3.
 
-```{r}
+```{r, echo=FALSE}
 library(DT)
 library(dplyr)
 df <- readr::read_csv('~/Desktop/rrr/alola/gimmick-mons.csv')
