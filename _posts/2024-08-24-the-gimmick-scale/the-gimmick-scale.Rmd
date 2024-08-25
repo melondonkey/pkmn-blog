@@ -9,7 +9,7 @@ author:
 date: 2024-08-24
 output:
   distill::distill_article:
-    self_contained: false
+    self_contained: true
 ---
 
 If you've played VGC for a while, you probably already have an intrinsic understanding that some Pokemon are good only because of their surprise factor in closed team sheet, best-of-one ladder play.  Other Pokemon shine in best-of-three formats, which are the staple of most competitive tournaments (online tournaments excluded).  
