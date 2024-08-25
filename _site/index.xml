@@ -7,7 +7,15 @@
     <description>Pokemon Analysis Usually VGC
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The Gimmick Scale</title>
+      <dc:creator>melondonkey</dc:creator>
+      <link>https://pokemon-data-analysis.netlify.app/posts/2024-08-24-the-gimmick-scale</link>
+      <description>Quantifying the Consistency of Pokemon: Best of 3 vs Best of 1</description>
+      <guid>https://pokemon-data-analysis.netlify.app/posts/2024-08-24-the-gimmick-scale</guid>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A Network Map of the Current Meta</title>
       <dc:creator>melondonkey</dc:creator>
